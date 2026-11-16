@@ -1,0 +1,38 @@
+ANÁLOGOS TIERRA · LUNA · MARTE — NASA Space Apps 2026 (equipo J4Ks)
+====================================================================
+
+QUÉ ES ESTO
+  El visor del proyecto ya compilado. Corre en tu PC, sin internet y sin
+  instalar nada.
+
+CÓMO SE ABRE
+  1. Doble clic en ABRIR.bat
+  2. Se abre el navegador en http://127.0.0.1:8123/
+  3. Para cerrar: cerrá la ventana negra.
+
+  Si Windows pregunta por el firewall, no hace falta permitir nada: el
+  servidor solo escucha en 127.0.0.1 (esta misma PC).
+
+QUÉ NECESITA
+  Windows 10 u 11 y nada más. No hace falta Node, ni Python, ni Rust, ni
+  permisos de administrador.
+
+QUÉ VAS A VER
+  El globo 3D (CesiumJS) con las capas de cuevas y cráteres, la interfaz
+  del motor y la ficha de cada área.
+
+  El catálogo de los 43 análogos documentados, los 110 candidatos de los
+  barridos y la búsqueda en vivo necesitan el motor y la tabla de datos
+  (23 GB), que no vienen en este ZIP: están en el repositorio, con las
+  instrucciones del README.
+
+POR QUÉ HACE FALTA EL .BAT
+  Abriendo index.html a doble clic no funciona: el navegador en file://
+  no ejecuta módulos ES ni carga WebAssembly, y Cesium no puede pedir sus
+  recursos. servidor.ps1 es un servidor de archivos de 4 KB en PowerShell
+  (sin admin, sin instalación) que los sirve con el tipo correcto. No
+  calcula nada.
+
+LICENCIA
+  Apache-2.0. Los datos y las librerías usadas están citados con su
+  licencia en el README del repositorio.

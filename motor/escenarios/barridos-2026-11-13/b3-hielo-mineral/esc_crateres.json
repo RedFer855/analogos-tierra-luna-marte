@@ -1,0 +1,1347 @@
+{
+ "escenarios": [
+  {
+   "id": "CRA-001",
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "arcilla_gkg",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 0.75,
+   "pesos": {
+    "permafrost_prob": 4.0,
+    "hielo_suelo_gam": 2.0,
+    "arcilla_gkg": 2.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "CRA-002",
+   "objetivo": "SL-20",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 3.0,
+    "aster_ci": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "CRA-003",
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "arcilla_gkg",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 3.0,
+    "aster_ci": 2.0,
+    "arcilla_gkg": 4.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "CRA-004",
+   "objetivo": "SL-20",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "arcilla_gkg",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "permafrost_prob": 4.0,
+    "hielo_suelo_gam": 3.0,
+    "aster_ci": 3.0,
+    "arcilla_gkg": 2.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "CRA-005",
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "arcilla_gkg",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 0.75,
+   "pesos": {
+    "permafrost_prob": 4.0,
+    "hielo_suelo_gam": 3.0,
+    "aster_ci": 4.0,
+    "arcilla_gkg": 4.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "CRA-006",
+   "objetivo": "SL-20",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 2.0,
+    "aster_ci": 4.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "CRA-007",
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "arcilla_gkg",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_ci": 4.0,
+    "arcilla_gkg": 2.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "CRA-008",
+   "objetivo": "SL-20",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "permafrost_prob": 4.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_ci": 2.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "CRA-009",
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "arcilla_gkg",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_ci": 3.0,
+    "arcilla_gkg": 4.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "CRA-010",
+   "objetivo": "SL-20",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 0.75,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_ci": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "CRA-011",
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "arcilla_gkg",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_ci": 4.0,
+    "arcilla_gkg": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "CRA-012",
+   "objetivo": "SL-20",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "arcilla_gkg",
+    "aster_ci",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 4.0,
+    "arcilla_gkg": 3.0,
+    "aster_ci": 2.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "CRA-013",
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "arcilla_gkg",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 0.75,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 3.0,
+    "aster_ci": 4.0,
+    "arcilla_gkg": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "CRA-014",
+   "objetivo": "SL-20",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "arcilla_gkg",
+    "aster_ci",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 4.0,
+    "hielo_suelo_gam": 2.0,
+    "arcilla_gkg": 4.0,
+    "aster_ci": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "CRA-015",
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "arcilla_gkg",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 2.0,
+    "aster_ci": 3.0,
+    "arcilla_gkg": 3.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "CRA-016",
+   "objetivo": "SL-20",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "arcilla_gkg",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 2.0,
+    "aster_ci": 3.0,
+    "arcilla_gkg": 3.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "CRA-017",
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "arcilla_gkg",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 0.75,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 2.0,
+    "aster_ci": 4.0,
+    "arcilla_gkg": 4.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "CRA-018",
+   "objetivo": "SL-20",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 3.0,
+    "aster_ci": 3.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "CRA-019",
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "arcilla_gkg",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 0.75,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 3.0,
+    "arcilla_gkg": 2.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "CRA-020",
+   "objetivo": "SL-20",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_ci": 2.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "CRA-021",
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "arcilla_gkg",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 3.0,
+    "arcilla_gkg": 2.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "CRA-022",
+   "objetivo": "SL-20",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 3.0,
+    "aster_ci": 4.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "CRA-023",
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "arcilla_gkg",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_ci": 2.0,
+    "arcilla_gkg": 3.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "CRA-024",
+   "objetivo": "SL-20",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "arcilla_gkg",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 4.0,
+    "hielo_suelo_gam": 3.0,
+    "arcilla_gkg": 2.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "CRA-025",
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "arcilla_gkg",
+    "aster_ci",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 3.0,
+    "arcilla_gkg": 3.0,
+    "aster_ci": 4.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "CRA-026",
+   "objetivo": "SL-20",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "arcilla_gkg",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 0.75,
+   "pesos": {
+    "permafrost_prob": 4.0,
+    "hielo_suelo_gam": 2.0,
+    "aster_ci": 4.0,
+    "arcilla_gkg": 3.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "CRA-027",
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "arcilla_gkg",
+    "aster_ci",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 4.0,
+    "arcilla_gkg": 2.0,
+    "aster_ci": 2.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "CRA-028",
+   "objetivo": "SL-20",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 4.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_ci": 3.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "CRA-029",
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "arcilla_gkg",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 3.0,
+    "arcilla_gkg": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "CRA-030",
+   "objetivo": "SL-20",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "arcilla_gkg",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 3.0,
+    "aster_ci": 3.0,
+    "arcilla_gkg": 4.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "CRA-031",
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "arcilla_gkg",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 3.0,
+    "aster_ci": 2.0,
+    "arcilla_gkg": 2.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "CRA-032",
+   "objetivo": "SL-20",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "arcilla_gkg",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_ci": 4.0,
+    "arcilla_gkg": 2.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "CRA-033",
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "arcilla_gkg",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 3.0,
+    "aster_ci": 4.0,
+    "arcilla_gkg": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "CRA-034",
+   "objetivo": "SL-20",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "arcilla_gkg",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 2.0,
+    "arcilla_gkg": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "CRA-035",
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_ci": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "CRA-036",
+   "objetivo": "SL-20",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 3.0,
+    "aster_ci": 4.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "CRA-037",
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "arcilla_gkg",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 2.0,
+    "arcilla_gkg": 4.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "CRA-038",
+   "objetivo": "SL-20",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "arcilla_gkg",
+    "aster_ci",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 4.0,
+    "hielo_suelo_gam": 3.0,
+    "arcilla_gkg": 2.0,
+    "aster_ci": 4.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "CRA-039",
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "arcilla_gkg",
+    "aster_ci",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 0.75,
+   "pesos": {
+    "permafrost_prob": 4.0,
+    "hielo_suelo_gam": 2.0,
+    "arcilla_gkg": 2.0,
+    "aster_ci": 4.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "CRA-040",
+   "objetivo": "SL-20",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "arcilla_gkg",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 3.0,
+    "aster_ci": 3.0,
+    "arcilla_gkg": 2.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "CRA-041",
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 0.75,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 2.0,
+    "aster_ci": 4.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "CRA-042",
+   "objetivo": "SL-20",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "arcilla_gkg",
+    "aster_ci",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 3.0,
+    "arcilla_gkg": 3.0,
+    "aster_ci": 2.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "CRA-043",
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_ci": 2.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "CRA-044",
+   "objetivo": "SL-20",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "arcilla_gkg",
+    "aster_ci",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 0.75,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 3.0,
+    "arcilla_gkg": 3.0,
+    "aster_ci": 4.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "CRA-045",
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 4.0,
+    "hielo_suelo_gam": 2.0,
+    "aster_ci": 2.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "CRA-046",
+   "objetivo": "SL-20",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "arcilla_gkg",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "permafrost_prob": 4.0,
+    "hielo_suelo_gam": 4.0,
+    "arcilla_gkg": 2.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "CRA-047",
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "arcilla_gkg",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_ci": 4.0,
+    "arcilla_gkg": 4.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "CRA-048",
+   "objetivo": "SL-20",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 0.75,
+   "pesos": {
+    "permafrost_prob": 4.0,
+    "hielo_suelo_gam": 2.0,
+    "aster_ci": 3.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "CRA-049",
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "arcilla_gkg",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 4.0,
+    "hielo_suelo_gam": 3.0,
+    "aster_ci": 2.0,
+    "arcilla_gkg": 2.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "CRA-050",
+   "objetivo": "SL-20",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "arcilla_gkg",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "permafrost_prob": 4.0,
+    "hielo_suelo_gam": 3.0,
+    "arcilla_gkg": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "CRA-051",
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_ci": 2.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "CRA-052",
+   "objetivo": "SL-20",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "arcilla_gkg",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 2.0,
+    "aster_ci": 2.0,
+    "arcilla_gkg": 3.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "CRA-053",
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "arcilla_gkg",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 0.75,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 2.0,
+    "arcilla_gkg": 3.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "CRA-054",
+   "objetivo": "SL-20",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 4.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_ci": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "CRA-055",
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "arcilla_gkg",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 2.0,
+    "arcilla_gkg": 3.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "CRA-056",
+   "objetivo": "SL-20",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "arcilla_gkg",
+    "aster_ci",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 0.75,
+   "pesos": {
+    "permafrost_prob": 4.0,
+    "hielo_suelo_gam": 4.0,
+    "arcilla_gkg": 3.0,
+    "aster_ci": 2.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "CRA-057",
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 0.75,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 2.0,
+    "aster_ci": 2.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "CRA-058",
+   "objetivo": "SL-20",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "arcilla_gkg",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "permafrost_prob": 4.0,
+    "hielo_suelo_gam": 3.0,
+    "aster_ci": 3.0,
+    "arcilla_gkg": 3.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "CRA-059",
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "arcilla_gkg",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 4.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_ci": 3.0,
+    "arcilla_gkg": 2.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "CRA-060",
+   "objetivo": "SL-20",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 0.75,
+   "pesos": {
+    "permafrost_prob": 4.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_ci": 3.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "CRA-061",
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "arcilla_gkg",
+    "aster_ci",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 3.0,
+    "arcilla_gkg": 3.0,
+    "aster_ci": 3.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "CRA-062",
+   "objetivo": "SL-20",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "arcilla_gkg",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 2.0,
+    "aster_ci": 4.0,
+    "arcilla_gkg": 3.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "CRA-063",
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "arcilla_gkg",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 2.0,
+    "aster_ci": 3.0,
+    "arcilla_gkg": 2.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "CRA-064",
+   "objetivo": "SL-20",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "arcilla_gkg",
+    "aster_ci",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 3.0,
+    "arcilla_gkg": 4.0,
+    "aster_ci": 3.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "CRA-065",
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "arcilla_gkg",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 4.0,
+    "arcilla_gkg": 4.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "CRA-066",
+   "objetivo": "SL-20",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_ci",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 3.0,
+    "aster_ci": 2.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "CRA-067",
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "arcilla_gkg",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "permafrost_prob": 4.0,
+    "hielo_suelo_gam": 4.0,
+    "arcilla_gkg": 3.0
+   },
+   "ndvi_max": 0.45
+  }
+ ]
+}

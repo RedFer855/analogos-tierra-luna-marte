@@ -1,0 +1,3273 @@
+{
+ "escenarios": [
+  {
+   "id": "N200-001",
+   "objetivo": "SL-01",
+   "perfil": "terreno_termico",
+   "variables": [
+    "slope_mean_deg",
+    "slope_std_deg",
+    "relieve_mean_m",
+    "dtr_k"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "slope_std_deg": 2.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-002",
+   "objetivo": "SL-02",
+   "perfil": "terreno_termico",
+   "variables": [
+    "dtr_k",
+    "slope_mean_deg",
+    "rug_rms_mean_m",
+    "slope_std_deg"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "slope_std_deg": 2.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-003",
+   "objetivo": "SL-03",
+   "perfil": "terreno_termico",
+   "variables": [
+    "rug_rms_mean_m",
+    "slope_mean_deg",
+    "slope_std_deg",
+    "dtr_k",
+    "relieve_mean_m"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-004",
+   "objetivo": "SL-04",
+   "perfil": "terreno_termico",
+   "variables": [
+    "slope_mean_deg",
+    "rug_rms_mean_m",
+    "slope_std_deg",
+    "relieve_mean_m"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "relieve_mean_m": 3.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-005",
+   "objetivo": "SL-05",
+   "perfil": "terreno_termico",
+   "variables": [
+    "relieve_mean_m",
+    "rug_rms_mean_m",
+    "dtr_k",
+    "slope_std_deg",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "dtr_k": 2.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-006",
+   "objetivo": "SL-05",
+   "perfil": "caso_A-02",
+   "variables": [
+    "relieve_p90_m",
+    "aridez_ai",
+    "slope_mean_deg",
+    "factor_cielo_visible"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {},
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-007",
+   "objetivo": "SL-06",
+   "perfil": "terreno_termico",
+   "variables": [
+    "relieve_mean_m",
+    "rug_rms_mean_m",
+    "dtr_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "dtr_k": 2.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-008",
+   "objetivo": "SL-07",
+   "perfil": "terreno_termico",
+   "variables": [
+    "dtr_k",
+    "slope_std_deg",
+    "rug_rms_mean_m",
+    "relieve_mean_m"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-009",
+   "objetivo": "SL-08",
+   "perfil": "terreno_termico",
+   "variables": [
+    "dtr_k",
+    "slope_mean_deg",
+    "relieve_mean_m",
+    "slope_std_deg"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {},
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-010",
+   "objetivo": "SL-09",
+   "perfil": "terreno_termico",
+   "variables": [
+    "relieve_mean_m",
+    "rug_rms_mean_m",
+    "dtr_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-011",
+   "objetivo": "SL-10",
+   "perfil": "terreno_termico",
+   "variables": [
+    "dtr_k",
+    "slope_std_deg",
+    "relieve_mean_m",
+    "amp_anual_k",
+    "rug_rms_mean_m",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-012",
+   "objetivo": "SL-10",
+   "perfil": "caso_A-09",
+   "variables": [
+    "relieve_mean_m",
+    "aridez_ai",
+    "aster_qi",
+    "dtr_k",
+    "aster_ci"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "relieve_mean_m": 2.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-013",
+   "objetivo": "SL-10",
+   "perfil": "caso_C-02",
+   "variables": [
+    "relieve_p90_m",
+    "slope_p90_deg",
+    "dtr_k",
+    "rug_rms_p90_m",
+    "amp_anual_k",
+    "rug_rms_mean_m",
+    "slope_frac_gt15"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "rug_rms_p90_m": 2.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-014",
+   "objetivo": "SL-11",
+   "perfil": "terreno_termico",
+   "variables": [
+    "dtr_k",
+    "slope_std_deg",
+    "rug_rms_mean_m",
+    "relieve_mean_m"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {},
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-015",
+   "objetivo": "SL-11",
+   "perfil": "caso_C-01",
+   "variables": [
+    "slope_p99_deg",
+    "relieve_p90_m",
+    "amp_anual_k",
+    "slope_p90_deg",
+    "rug_rms_p90_m",
+    "slope_mean_deg",
+    "rug_rms_mean_m",
+    "slope_frac_gt15"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "amp_anual_k": 2.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-016",
+   "objetivo": "SL-12",
+   "perfil": "terreno_termico",
+   "variables": [
+    "amp_anual_k",
+    "rug_rms_mean_m",
+    "relieve_mean_m",
+    "slope_std_deg"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "amp_anual_k": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-017",
+   "objetivo": "SL-12",
+   "perfil": "caso_C-03",
+   "variables": [
+    "slope_p90_deg",
+    "dtr_k",
+    "slope_std_deg",
+    "aridez_ai",
+    "slope_frac_gt15",
+    "amp_anual_k",
+    "rug_rms_mean_m",
+    "slope_p99_deg",
+    "slope_mean_deg",
+    "rug_rms_p90_m",
+    "relieve_mean_m"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "slope_p90_deg": 2.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-018",
+   "objetivo": "SL-13",
+   "perfil": "terreno_termico",
+   "variables": [
+    "amp_anual_k",
+    "rug_rms_mean_m",
+    "dtr_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {},
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-019",
+   "objetivo": "SL-13",
+   "perfil": "caso_C-04",
+   "variables": [
+    "aridez_ai",
+    "dtr_k",
+    "slope_p90_deg",
+    "rug_rms_p90_m",
+    "slope_frac_gt15",
+    "amp_anual_k",
+    "relieve_mean_m"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "rug_rms_p90_m": 2.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-020",
+   "objetivo": "SL-13",
+   "perfil": "caso_C-06",
+   "variables": [
+    "dtr_k",
+    "rug_rms_p90_m",
+    "permafrost_prob",
+    "amp_anual_k",
+    "slope_frac_gt15",
+    "slope_mean_deg",
+    "relieve_mean_m",
+    "slope_std_deg",
+    "slope_p90_deg",
+    "relieve_p90_m",
+    "slope_p99_deg",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {},
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-021",
+   "objetivo": "SL-14",
+   "perfil": "terreno_termico",
+   "variables": [
+    "slope_mean_deg",
+    "relieve_mean_m",
+    "rug_rms_mean_m",
+    "dtr_k"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "rug_rms_mean_m": 2.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-022",
+   "objetivo": "SL-15",
+   "perfil": "terreno_termico",
+   "variables": [
+    "dtr_k",
+    "amp_anual_k",
+    "rug_rms_mean_m",
+    "slope_mean_deg",
+    "slope_std_deg",
+    "relieve_mean_m"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "slope_std_deg": 2.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-023",
+   "objetivo": "SL-15",
+   "perfil": "caso_A-04",
+   "variables": [
+    "aridez_ai",
+    "slope_mean_deg",
+    "slope_frac_gt15",
+    "slope_p90_deg",
+    "relieve_p90_m"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {},
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-024",
+   "objetivo": "SL-16",
+   "perfil": "terreno_termico",
+   "variables": [
+    "slope_mean_deg",
+    "amp_anual_k",
+    "dtr_k",
+    "relieve_mean_m",
+    "slope_std_deg",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-025",
+   "objetivo": "SL-17",
+   "perfil": "terreno_termico",
+   "variables": [
+    "slope_mean_deg",
+    "amp_anual_k",
+    "rug_rms_mean_m",
+    "slope_std_deg",
+    "relieve_mean_m"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {},
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-026",
+   "objetivo": "SL-17",
+   "perfil": "caso_A-05",
+   "variables": [
+    "slope_mean_deg",
+    "slope_p99_deg",
+    "aridez_ai",
+    "permafrost_prob",
+    "amp_anual_k",
+    "slope_frac_gt15"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {},
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-027",
+   "objetivo": "SL-18",
+   "perfil": "terreno_termico",
+   "variables": [
+    "amp_anual_k",
+    "relieve_mean_m",
+    "rug_rms_mean_m",
+    "slope_mean_deg",
+    "slope_std_deg"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {},
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-028",
+   "objetivo": "SL-18",
+   "perfil": "caso_A-06",
+   "variables": [
+    "amp_anual_k",
+    "permafrost_prob",
+    "slope_mean_deg",
+    "slope_std_deg",
+    "relieve_p90_m"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "permafrost_prob": 2.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-029",
+   "objetivo": "SL-19",
+   "perfil": "terreno_termico",
+   "variables": [
+    "dtr_k",
+    "slope_mean_deg",
+    "amp_anual_k",
+    "slope_std_deg",
+    "relieve_mean_m",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {},
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-030",
+   "objetivo": "SL-19",
+   "perfil": "caso_A-08",
+   "variables": [
+    "aster_qi",
+    "rug_rms_p90_m",
+    "aster_mi",
+    "aridez_ai",
+    "slope_mean_deg",
+    "slope_p90_deg"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "rug_rms_p90_m": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-031",
+   "objetivo": "SL-20",
+   "perfil": "terreno_termico",
+   "variables": [
+    "rug_rms_mean_m",
+    "relieve_mean_m",
+    "amp_anual_k",
+    "dtr_k"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {},
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-032",
+   "objetivo": "SL-20",
+   "perfil": "caso_A-07",
+   "variables": [
+    "dtr_k",
+    "viento_frac_tau_gt_0p05",
+    "rug_rms_p90_m",
+    "arena_movil_frac",
+    "polvo_frec_dod0p2_pct",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "arena_movil_frac": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-033",
+   "objetivo": "SL-21",
+   "perfil": "terreno_termico",
+   "variables": [
+    "rug_rms_mean_m",
+    "amp_anual_k",
+    "dtr_k",
+    "relieve_mean_m",
+    "slope_std_deg"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "dtr_k": 2.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-034",
+   "objetivo": "SL-21",
+   "perfil": "caso_C-05",
+   "variables": [
+    "relieve_p90_m",
+    "slope_frac_gt15",
+    "relieve_mean_m",
+    "rug_rms_mean_m",
+    "amp_anual_k",
+    "slope_mean_deg",
+    "slope_std_deg",
+    "aridez_ai",
+    "permafrost_prob",
+    "rug_rms_p90_m",
+    "slope_p90_deg",
+    "dtr_k"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {},
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-035",
+   "objetivo": "SL-21",
+   "perfil": "caso_C-07",
+   "variables": [
+    "permafrost_prob",
+    "rug_rms_p90_m",
+    "slope_std_deg",
+    "slope_p90_deg",
+    "amp_anual_k",
+    "rug_rms_mean_m",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-036",
+   "objetivo": "SL-01",
+   "perfil": "terreno_termico",
+   "variables": [
+    "relieve_mean_m",
+    "rug_rms_mean_m",
+    "slope_std_deg",
+    "dtr_k"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {},
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-037",
+   "objetivo": "SL-02",
+   "perfil": "terreno_termico",
+   "variables": [
+    "rug_rms_mean_m",
+    "slope_std_deg",
+    "dtr_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {},
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-038",
+   "objetivo": "SL-03",
+   "perfil": "terreno_termico",
+   "variables": [
+    "slope_std_deg",
+    "slope_mean_deg",
+    "relieve_mean_m",
+    "dtr_k",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {},
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-039",
+   "objetivo": "SL-04",
+   "perfil": "terreno_termico",
+   "variables": [
+    "slope_std_deg",
+    "dtr_k",
+    "slope_mean_deg",
+    "relieve_mean_m",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {},
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-040",
+   "objetivo": "SL-05",
+   "perfil": "terreno_termico",
+   "variables": [
+    "relieve_mean_m",
+    "dtr_k",
+    "slope_std_deg",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-041",
+   "objetivo": "SL-05",
+   "perfil": "caso_A-02",
+   "variables": [
+    "aridez_ai",
+    "factor_cielo_visible",
+    "slope_mean_deg",
+    "dtr_k"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-042",
+   "objetivo": "SL-06",
+   "perfil": "terreno_termico",
+   "variables": [
+    "dtr_k",
+    "slope_mean_deg",
+    "relieve_mean_m",
+    "slope_std_deg",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "dtr_k": 2.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-043",
+   "objetivo": "SL-07",
+   "perfil": "terreno_termico",
+   "variables": [
+    "relieve_mean_m",
+    "slope_std_deg",
+    "slope_mean_deg",
+    "rug_rms_mean_m",
+    "dtr_k"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "rug_rms_mean_m": 2.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-044",
+   "objetivo": "SL-08",
+   "perfil": "terreno_termico",
+   "variables": [
+    "relieve_mean_m",
+    "slope_mean_deg",
+    "slope_std_deg",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "slope_std_deg": 3.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-045",
+   "objetivo": "SL-09",
+   "perfil": "terreno_termico",
+   "variables": [
+    "rug_rms_mean_m",
+    "relieve_mean_m",
+    "slope_mean_deg",
+    "dtr_k",
+    "slope_std_deg"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {},
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-046",
+   "objetivo": "SL-10",
+   "perfil": "terreno_termico",
+   "variables": [
+    "dtr_k",
+    "slope_std_deg",
+    "slope_mean_deg",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "slope_mean_deg": 3.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-047",
+   "objetivo": "SL-10",
+   "perfil": "caso_A-09",
+   "variables": [
+    "relieve_mean_m",
+    "aster_ci",
+    "slope_mean_deg",
+    "aridez_ai",
+    "dtr_k",
+    "aster_qi"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {},
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-048",
+   "objetivo": "SL-10",
+   "perfil": "caso_C-02",
+   "variables": [
+    "amp_anual_k",
+    "slope_p99_deg",
+    "rug_rms_p90_m",
+    "slope_mean_deg",
+    "rug_rms_mean_m",
+    "relieve_mean_m",
+    "relieve_p90_m"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {},
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-049",
+   "objetivo": "SL-11",
+   "perfil": "terreno_termico",
+   "variables": [
+    "relieve_mean_m",
+    "slope_mean_deg",
+    "slope_std_deg",
+    "dtr_k",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-050",
+   "objetivo": "SL-11",
+   "perfil": "caso_C-01",
+   "variables": [
+    "relieve_mean_m",
+    "dtr_k",
+    "slope_mean_deg",
+    "slope_frac_gt15",
+    "slope_std_deg",
+    "relieve_p90_m",
+    "rug_rms_mean_m",
+    "rug_rms_p90_m"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {},
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-051",
+   "objetivo": "SL-12",
+   "perfil": "terreno_termico",
+   "variables": [
+    "dtr_k",
+    "relieve_mean_m",
+    "rug_rms_mean_m",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-052",
+   "objetivo": "SL-12",
+   "perfil": "caso_C-03",
+   "variables": [
+    "slope_std_deg",
+    "slope_mean_deg",
+    "rug_rms_mean_m",
+    "slope_p99_deg"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {},
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-053",
+   "objetivo": "SL-13",
+   "perfil": "terreno_termico",
+   "variables": [
+    "relieve_mean_m",
+    "amp_anual_k",
+    "slope_mean_deg",
+    "dtr_k"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {},
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-054",
+   "objetivo": "SL-13",
+   "perfil": "caso_C-04",
+   "variables": [
+    "amp_anual_k",
+    "slope_mean_deg",
+    "slope_p90_deg",
+    "rug_rms_p90_m",
+    "slope_std_deg",
+    "slope_p99_deg",
+    "relieve_p90_m",
+    "slope_frac_gt15",
+    "relieve_mean_m",
+    "rug_rms_mean_m",
+    "permafrost_prob",
+    "dtr_k"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {},
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-055",
+   "objetivo": "SL-13",
+   "perfil": "caso_C-06",
+   "variables": [
+    "relieve_mean_m",
+    "slope_p90_deg",
+    "slope_mean_deg",
+    "slope_std_deg",
+    "rug_rms_p90_m"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {},
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-056",
+   "objetivo": "SL-14",
+   "perfil": "terreno_termico",
+   "variables": [
+    "slope_mean_deg",
+    "slope_std_deg",
+    "rug_rms_mean_m",
+    "relieve_mean_m",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {},
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-057",
+   "objetivo": "SL-15",
+   "perfil": "terreno_termico",
+   "variables": [
+    "rug_rms_mean_m",
+    "slope_std_deg",
+    "slope_mean_deg",
+    "amp_anual_k",
+    "relieve_mean_m"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "rug_rms_mean_m": 3.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-058",
+   "objetivo": "SL-15",
+   "perfil": "caso_A-04",
+   "variables": [
+    "relieve_p90_m",
+    "slope_p90_deg",
+    "aridez_ai",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "aridez_ai": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-059",
+   "objetivo": "SL-16",
+   "perfil": "terreno_termico",
+   "variables": [
+    "amp_anual_k",
+    "relieve_mean_m",
+    "dtr_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "slope_mean_deg": 2.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-060",
+   "objetivo": "SL-17",
+   "perfil": "terreno_termico",
+   "variables": [
+    "amp_anual_k",
+    "rug_rms_mean_m",
+    "dtr_k",
+    "slope_mean_deg",
+    "slope_std_deg",
+    "relieve_mean_m"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "relieve_mean_m": 3.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-061",
+   "objetivo": "SL-17",
+   "perfil": "caso_A-05",
+   "variables": [
+    "slope_frac_gt15",
+    "slope_mean_deg",
+    "amp_anual_k",
+    "aridez_ai"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {},
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-062",
+   "objetivo": "SL-18",
+   "perfil": "terreno_termico",
+   "variables": [
+    "rug_rms_mean_m",
+    "amp_anual_k",
+    "slope_std_deg",
+    "relieve_mean_m",
+    "dtr_k"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-063",
+   "objetivo": "SL-18",
+   "perfil": "caso_A-06",
+   "variables": [
+    "relieve_p90_m",
+    "slope_mean_deg",
+    "permafrost_prob",
+    "amp_anual_k",
+    "slope_std_deg"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "amp_anual_k": 3.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-064",
+   "objetivo": "SL-19",
+   "perfil": "terreno_termico",
+   "variables": [
+    "relieve_mean_m",
+    "rug_rms_mean_m",
+    "slope_mean_deg",
+    "amp_anual_k",
+    "dtr_k",
+    "slope_std_deg"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "rug_rms_mean_m": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-065",
+   "objetivo": "SL-19",
+   "perfil": "caso_A-08",
+   "variables": [
+    "slope_mean_deg",
+    "aridez_ai",
+    "rug_rms_p90_m",
+    "aster_qi"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "aster_qi": 3.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-066",
+   "objetivo": "SL-20",
+   "perfil": "terreno_termico",
+   "variables": [
+    "rug_rms_mean_m",
+    "relieve_mean_m",
+    "dtr_k",
+    "slope_mean_deg",
+    "amp_anual_k",
+    "slope_std_deg"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {},
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-067",
+   "objetivo": "SL-20",
+   "perfil": "caso_A-07",
+   "variables": [
+    "slope_mean_deg",
+    "viento_frac_tau_gt_0p05",
+    "dtr_k",
+    "rug_rms_p90_m"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {},
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-068",
+   "objetivo": "SL-21",
+   "perfil": "terreno_termico",
+   "variables": [
+    "rug_rms_mean_m",
+    "relieve_mean_m",
+    "dtr_k",
+    "amp_anual_k",
+    "slope_std_deg",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "slope_std_deg": 2.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-069",
+   "objetivo": "SL-21",
+   "perfil": "caso_C-05",
+   "variables": [
+    "slope_mean_deg",
+    "amp_anual_k",
+    "dtr_k",
+    "slope_p99_deg"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "slope_p99_deg": 3.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-070",
+   "objetivo": "SL-21",
+   "perfil": "caso_C-07",
+   "variables": [
+    "slope_std_deg",
+    "slope_frac_gt15",
+    "slope_p90_deg",
+    "dtr_k",
+    "relieve_p90_m",
+    "amp_anual_k",
+    "slope_mean_deg",
+    "slope_p99_deg",
+    "permafrost_prob",
+    "relieve_mean_m",
+    "rug_rms_p90_m",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "slope_mean_deg": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-071",
+   "objetivo": "SL-01",
+   "perfil": "terreno_termico",
+   "variables": [
+    "relieve_mean_m",
+    "slope_mean_deg",
+    "dtr_k",
+    "rug_rms_mean_m",
+    "slope_std_deg"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {},
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-072",
+   "objetivo": "SL-02",
+   "perfil": "terreno_termico",
+   "variables": [
+    "rug_rms_mean_m",
+    "slope_std_deg",
+    "relieve_mean_m",
+    "dtr_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-073",
+   "objetivo": "SL-03",
+   "perfil": "terreno_termico",
+   "variables": [
+    "relieve_mean_m",
+    "slope_std_deg",
+    "slope_mean_deg",
+    "dtr_k"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {},
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-074",
+   "objetivo": "SL-04",
+   "perfil": "terreno_termico",
+   "variables": [
+    "rug_rms_mean_m",
+    "dtr_k",
+    "slope_std_deg",
+    "slope_mean_deg",
+    "relieve_mean_m"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {},
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-075",
+   "objetivo": "SL-05",
+   "perfil": "terreno_termico",
+   "variables": [
+    "slope_mean_deg",
+    "slope_std_deg",
+    "relieve_mean_m",
+    "dtr_k",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-076",
+   "objetivo": "SL-05",
+   "perfil": "caso_A-02",
+   "variables": [
+    "aridez_ai",
+    "slope_mean_deg",
+    "dtr_k",
+    "factor_cielo_visible",
+    "relieve_p90_m"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {},
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-077",
+   "objetivo": "SL-06",
+   "perfil": "terreno_termico",
+   "variables": [
+    "slope_std_deg",
+    "dtr_k",
+    "relieve_mean_m",
+    "rug_rms_mean_m",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "dtr_k": 3.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-078",
+   "objetivo": "SL-07",
+   "perfil": "terreno_termico",
+   "variables": [
+    "dtr_k",
+    "rug_rms_mean_m",
+    "relieve_mean_m",
+    "slope_std_deg"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-079",
+   "objetivo": "SL-08",
+   "perfil": "terreno_termico",
+   "variables": [
+    "slope_std_deg",
+    "rug_rms_mean_m",
+    "slope_mean_deg",
+    "relieve_mean_m"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {},
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-080",
+   "objetivo": "SL-09",
+   "perfil": "terreno_termico",
+   "variables": [
+    "dtr_k",
+    "relieve_mean_m",
+    "slope_mean_deg",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "rug_rms_mean_m": 3.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-081",
+   "objetivo": "SL-10",
+   "perfil": "terreno_termico",
+   "variables": [
+    "relieve_mean_m",
+    "dtr_k",
+    "rug_rms_mean_m",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-082",
+   "objetivo": "SL-10",
+   "perfil": "caso_A-09",
+   "variables": [
+    "relieve_mean_m",
+    "aridez_ai",
+    "aster_qi",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {},
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-083",
+   "objetivo": "SL-10",
+   "perfil": "caso_C-02",
+   "variables": [
+    "slope_std_deg",
+    "slope_frac_gt15",
+    "slope_p99_deg",
+    "slope_mean_deg",
+    "relieve_p90_m",
+    "slope_p90_deg",
+    "aridez_ai"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "slope_p99_deg": 2.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-084",
+   "objetivo": "SL-11",
+   "perfil": "terreno_termico",
+   "variables": [
+    "relieve_mean_m",
+    "slope_mean_deg",
+    "rug_rms_mean_m",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "relieve_mean_m": 2.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-085",
+   "objetivo": "SL-11",
+   "perfil": "caso_C-01",
+   "variables": [
+    "slope_p90_deg",
+    "rug_rms_p90_m",
+    "slope_frac_gt15",
+    "rug_rms_mean_m",
+    "amp_anual_k",
+    "dtr_k",
+    "slope_mean_deg",
+    "slope_std_deg",
+    "aridez_ai",
+    "slope_p99_deg"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "slope_frac_gt15": 2.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-086",
+   "objetivo": "SL-12",
+   "perfil": "terreno_termico",
+   "variables": [
+    "amp_anual_k",
+    "slope_std_deg",
+    "slope_mean_deg",
+    "relieve_mean_m",
+    "dtr_k",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {},
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-087",
+   "objetivo": "SL-12",
+   "perfil": "caso_C-03",
+   "variables": [
+    "slope_frac_gt15",
+    "dtr_k",
+    "aridez_ai",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {},
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-088",
+   "objetivo": "SL-13",
+   "perfil": "terreno_termico",
+   "variables": [
+    "rug_rms_mean_m",
+    "dtr_k",
+    "amp_anual_k",
+    "slope_std_deg",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {},
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-089",
+   "objetivo": "SL-13",
+   "perfil": "caso_C-04",
+   "variables": [
+    "dtr_k",
+    "relieve_mean_m",
+    "aridez_ai",
+    "permafrost_prob"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "permafrost_prob": 2.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-090",
+   "objetivo": "SL-13",
+   "perfil": "caso_C-06",
+   "variables": [
+    "rug_rms_mean_m",
+    "slope_p99_deg",
+    "dtr_k",
+    "rug_rms_p90_m",
+    "slope_frac_gt15"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "rug_rms_mean_m": 2.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-091",
+   "objetivo": "SL-14",
+   "perfil": "terreno_termico",
+   "variables": [
+    "slope_mean_deg",
+    "amp_anual_k",
+    "relieve_mean_m",
+    "dtr_k"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "dtr_k": 3.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-092",
+   "objetivo": "SL-15",
+   "perfil": "terreno_termico",
+   "variables": [
+    "relieve_mean_m",
+    "slope_mean_deg",
+    "amp_anual_k",
+    "rug_rms_mean_m",
+    "dtr_k",
+    "slope_std_deg"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "dtr_k": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-093",
+   "objetivo": "SL-15",
+   "perfil": "caso_A-04",
+   "variables": [
+    "aridez_ai",
+    "slope_mean_deg",
+    "relieve_p90_m",
+    "slope_frac_gt15"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-094",
+   "objetivo": "SL-16",
+   "perfil": "terreno_termico",
+   "variables": [
+    "amp_anual_k",
+    "relieve_mean_m",
+    "slope_std_deg",
+    "rug_rms_mean_m",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-095",
+   "objetivo": "SL-17",
+   "perfil": "terreno_termico",
+   "variables": [
+    "slope_mean_deg",
+    "slope_std_deg",
+    "relieve_mean_m",
+    "rug_rms_mean_m",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {},
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-096",
+   "objetivo": "SL-17",
+   "perfil": "caso_A-05",
+   "variables": [
+    "permafrost_prob",
+    "slope_frac_gt15",
+    "aridez_ai",
+    "slope_p99_deg",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "amp_anual_k": 2.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-097",
+   "objetivo": "SL-18",
+   "perfil": "terreno_termico",
+   "variables": [
+    "rug_rms_mean_m",
+    "amp_anual_k",
+    "slope_std_deg",
+    "relieve_mean_m",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {},
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-098",
+   "objetivo": "SL-18",
+   "perfil": "caso_A-06",
+   "variables": [
+    "permafrost_prob",
+    "slope_std_deg",
+    "amp_anual_k",
+    "slope_mean_deg",
+    "relieve_p90_m"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 2.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-099",
+   "objetivo": "SL-19",
+   "perfil": "terreno_termico",
+   "variables": [
+    "dtr_k",
+    "relieve_mean_m",
+    "slope_mean_deg",
+    "amp_anual_k",
+    "rug_rms_mean_m",
+    "slope_std_deg"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "amp_anual_k": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-100",
+   "objetivo": "SL-19",
+   "perfil": "caso_A-08",
+   "variables": [
+    "rug_rms_p90_m",
+    "aster_qi",
+    "slope_p90_deg",
+    "amp_anual_k",
+    "aridez_ai"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {},
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-101",
+   "objetivo": "SL-20",
+   "perfil": "terreno_termico",
+   "variables": [
+    "dtr_k",
+    "rug_rms_mean_m",
+    "amp_anual_k",
+    "slope_mean_deg",
+    "relieve_mean_m"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "rug_rms_mean_m": 3.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-102",
+   "objetivo": "SL-20",
+   "perfil": "caso_A-07",
+   "variables": [
+    "dtr_k",
+    "arena_movil_frac",
+    "viento_frac_tau_gt_0p05",
+    "rug_rms_p90_m",
+    "polvo_frec_dod0p2_pct"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "rug_rms_p90_m": 3.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-103",
+   "objetivo": "SL-21",
+   "perfil": "terreno_termico",
+   "variables": [
+    "slope_mean_deg",
+    "relieve_mean_m",
+    "amp_anual_k",
+    "dtr_k",
+    "slope_std_deg"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {},
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-104",
+   "objetivo": "SL-21",
+   "perfil": "caso_C-05",
+   "variables": [
+    "slope_p90_deg",
+    "slope_p99_deg",
+    "rug_rms_p90_m",
+    "slope_frac_gt15",
+    "rug_rms_mean_m",
+    "aridez_ai",
+    "dtr_k",
+    "amp_anual_k",
+    "slope_std_deg",
+    "relieve_p90_m",
+    "relieve_mean_m",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {},
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-105",
+   "objetivo": "SL-21",
+   "perfil": "caso_C-07",
+   "variables": [
+    "permafrost_prob",
+    "relieve_mean_m",
+    "relieve_p90_m",
+    "slope_std_deg"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "slope_std_deg": 3.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-106",
+   "objetivo": "SL-01",
+   "perfil": "terreno_termico",
+   "variables": [
+    "relieve_mean_m",
+    "slope_std_deg",
+    "rug_rms_mean_m",
+    "dtr_k"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {},
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-107",
+   "objetivo": "SL-02",
+   "perfil": "terreno_termico",
+   "variables": [
+    "slope_mean_deg",
+    "slope_std_deg",
+    "relieve_mean_m",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {},
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-108",
+   "objetivo": "SL-03",
+   "perfil": "terreno_termico",
+   "variables": [
+    "slope_mean_deg",
+    "dtr_k",
+    "slope_std_deg",
+    "relieve_mean_m"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {},
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-109",
+   "objetivo": "SL-04",
+   "perfil": "terreno_termico",
+   "variables": [
+    "slope_mean_deg",
+    "slope_std_deg",
+    "rug_rms_mean_m",
+    "relieve_mean_m",
+    "dtr_k"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-110",
+   "objetivo": "SL-05",
+   "perfil": "terreno_termico",
+   "variables": [
+    "dtr_k",
+    "relieve_mean_m",
+    "slope_std_deg",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {},
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-111",
+   "objetivo": "SL-05",
+   "perfil": "caso_A-02",
+   "variables": [
+    "aridez_ai",
+    "slope_mean_deg",
+    "dtr_k",
+    "factor_cielo_visible"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {},
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-112",
+   "objetivo": "SL-06",
+   "perfil": "terreno_termico",
+   "variables": [
+    "dtr_k",
+    "relieve_mean_m",
+    "rug_rms_mean_m",
+    "slope_mean_deg",
+    "slope_std_deg"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {},
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-113",
+   "objetivo": "SL-07",
+   "perfil": "terreno_termico",
+   "variables": [
+    "rug_rms_mean_m",
+    "dtr_k",
+    "relieve_mean_m",
+    "slope_std_deg"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "dtr_k": 3.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-114",
+   "objetivo": "SL-08",
+   "perfil": "terreno_termico",
+   "variables": [
+    "relieve_mean_m",
+    "slope_mean_deg",
+    "rug_rms_mean_m",
+    "dtr_k"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {},
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-115",
+   "objetivo": "SL-09",
+   "perfil": "terreno_termico",
+   "variables": [
+    "dtr_k",
+    "relieve_mean_m",
+    "rug_rms_mean_m",
+    "slope_std_deg"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "rug_rms_mean_m": 3.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-116",
+   "objetivo": "SL-10",
+   "perfil": "terreno_termico",
+   "variables": [
+    "relieve_mean_m",
+    "amp_anual_k",
+    "rug_rms_mean_m",
+    "slope_std_deg",
+    "dtr_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "slope_mean_deg": 3.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-117",
+   "objetivo": "SL-10",
+   "perfil": "caso_A-09",
+   "variables": [
+    "relieve_mean_m",
+    "dtr_k",
+    "aridez_ai",
+    "aster_qi"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "dtr_k": 2.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-118",
+   "objetivo": "SL-10",
+   "perfil": "caso_C-02",
+   "variables": [
+    "amp_anual_k",
+    "slope_p99_deg",
+    "slope_p90_deg",
+    "slope_mean_deg",
+    "rug_rms_p90_m",
+    "slope_frac_gt15",
+    "slope_std_deg",
+    "relieve_p90_m"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {},
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-119",
+   "objetivo": "SL-11",
+   "perfil": "terreno_termico",
+   "variables": [
+    "slope_std_deg",
+    "amp_anual_k",
+    "slope_mean_deg",
+    "dtr_k",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "slope_std_deg": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-120",
+   "objetivo": "SL-11",
+   "perfil": "caso_C-01",
+   "variables": [
+    "amp_anual_k",
+    "dtr_k",
+    "slope_std_deg",
+    "rug_rms_mean_m",
+    "slope_mean_deg",
+    "relieve_mean_m",
+    "slope_frac_gt15",
+    "relieve_p90_m",
+    "rug_rms_p90_m",
+    "slope_p90_deg",
+    "aridez_ai",
+    "slope_p99_deg"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "relieve_mean_m": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-121",
+   "objetivo": "SL-12",
+   "perfil": "terreno_termico",
+   "variables": [
+    "rug_rms_mean_m",
+    "slope_std_deg",
+    "amp_anual_k",
+    "relieve_mean_m",
+    "slope_mean_deg",
+    "dtr_k"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {},
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-122",
+   "objetivo": "SL-12",
+   "perfil": "caso_C-03",
+   "variables": [
+    "amp_anual_k",
+    "slope_p99_deg",
+    "relieve_p90_m",
+    "slope_frac_gt15",
+    "aridez_ai",
+    "dtr_k",
+    "slope_p90_deg",
+    "slope_std_deg",
+    "rug_rms_p90_m",
+    "relieve_mean_m"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {},
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-123",
+   "objetivo": "SL-13",
+   "perfil": "terreno_termico",
+   "variables": [
+    "dtr_k",
+    "slope_std_deg",
+    "amp_anual_k",
+    "relieve_mean_m",
+    "rug_rms_mean_m",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-124",
+   "objetivo": "SL-13",
+   "perfil": "caso_C-04",
+   "variables": [
+    "relieve_mean_m",
+    "permafrost_prob",
+    "rug_rms_p90_m",
+    "slope_p90_deg",
+    "relieve_p90_m",
+    "slope_frac_gt15",
+    "slope_p99_deg",
+    "aridez_ai",
+    "slope_std_deg",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 3.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-125",
+   "objetivo": "SL-13",
+   "perfil": "caso_C-06",
+   "variables": [
+    "slope_std_deg",
+    "amp_anual_k",
+    "dtr_k",
+    "slope_p90_deg",
+    "rug_rms_p90_m",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-126",
+   "objetivo": "SL-14",
+   "perfil": "terreno_termico",
+   "variables": [
+    "amp_anual_k",
+    "slope_std_deg",
+    "dtr_k",
+    "relieve_mean_m",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "rug_rms_mean_m": 2.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-127",
+   "objetivo": "SL-15",
+   "perfil": "terreno_termico",
+   "variables": [
+    "rug_rms_mean_m",
+    "slope_mean_deg",
+    "slope_std_deg",
+    "amp_anual_k",
+    "dtr_k",
+    "relieve_mean_m"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {},
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-128",
+   "objetivo": "SL-15",
+   "perfil": "caso_A-04",
+   "variables": [
+    "aridez_ai",
+    "slope_frac_gt15",
+    "relieve_p90_m",
+    "slope_p90_deg"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "aridez_ai": 2.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-129",
+   "objetivo": "SL-16",
+   "perfil": "terreno_termico",
+   "variables": [
+    "rug_rms_mean_m",
+    "amp_anual_k",
+    "slope_mean_deg",
+    "dtr_k",
+    "relieve_mean_m",
+    "slope_std_deg"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {},
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-130",
+   "objetivo": "SL-17",
+   "perfil": "terreno_termico",
+   "variables": [
+    "slope_mean_deg",
+    "rug_rms_mean_m",
+    "slope_std_deg",
+    "relieve_mean_m",
+    "dtr_k"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {},
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-131",
+   "objetivo": "SL-17",
+   "perfil": "caso_A-05",
+   "variables": [
+    "permafrost_prob",
+    "aridez_ai",
+    "slope_frac_gt15",
+    "slope_p99_deg",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {},
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-132",
+   "objetivo": "SL-18",
+   "perfil": "terreno_termico",
+   "variables": [
+    "relieve_mean_m",
+    "dtr_k",
+    "slope_mean_deg",
+    "slope_std_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "slope_std_deg": 2.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-133",
+   "objetivo": "SL-18",
+   "perfil": "caso_A-06",
+   "variables": [
+    "slope_mean_deg",
+    "amp_anual_k",
+    "slope_std_deg",
+    "permafrost_prob",
+    "relieve_p90_m"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "slope_std_deg": 3.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-134",
+   "objetivo": "SL-19",
+   "perfil": "terreno_termico",
+   "variables": [
+    "rug_rms_mean_m",
+    "relieve_mean_m",
+    "slope_mean_deg",
+    "slope_std_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-135",
+   "objetivo": "SL-19",
+   "perfil": "caso_A-08",
+   "variables": [
+    "aster_qi",
+    "slope_p90_deg",
+    "amp_anual_k",
+    "aster_mi",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "slope_p90_deg": 3.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-136",
+   "objetivo": "SL-20",
+   "perfil": "terreno_termico",
+   "variables": [
+    "relieve_mean_m",
+    "rug_rms_mean_m",
+    "slope_mean_deg",
+    "slope_std_deg",
+    "amp_anual_k",
+    "dtr_k"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "relieve_mean_m": 2.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-137",
+   "objetivo": "SL-20",
+   "perfil": "caso_A-07",
+   "variables": [
+    "rug_rms_p90_m",
+    "arena_movil_frac",
+    "polvo_frec_dod0p2_pct",
+    "slope_mean_deg",
+    "dtr_k"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {},
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-138",
+   "objetivo": "SL-21",
+   "perfil": "terreno_termico",
+   "variables": [
+    "slope_mean_deg",
+    "dtr_k",
+    "rug_rms_mean_m",
+    "amp_anual_k",
+    "slope_std_deg",
+    "relieve_mean_m"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "relieve_mean_m": 3.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-139",
+   "objetivo": "SL-21",
+   "perfil": "caso_C-05",
+   "variables": [
+    "relieve_p90_m",
+    "permafrost_prob",
+    "slope_mean_deg",
+    "slope_p99_deg",
+    "aridez_ai",
+    "relieve_mean_m",
+    "dtr_k",
+    "slope_frac_gt15",
+    "rug_rms_p90_m",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-140",
+   "objetivo": "SL-21",
+   "perfil": "caso_C-07",
+   "variables": [
+    "slope_frac_gt15",
+    "amp_anual_k",
+    "slope_std_deg",
+    "relieve_mean_m",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {},
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-141",
+   "objetivo": "SL-01",
+   "perfil": "terreno_termico",
+   "variables": [
+    "relieve_mean_m",
+    "rug_rms_mean_m",
+    "slope_std_deg",
+    "slope_mean_deg",
+    "dtr_k"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "rug_rms_mean_m": 2.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-142",
+   "objetivo": "SL-02",
+   "perfil": "terreno_termico",
+   "variables": [
+    "rug_rms_mean_m",
+    "dtr_k",
+    "slope_mean_deg",
+    "slope_std_deg"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "dtr_k": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-143",
+   "objetivo": "SL-03",
+   "perfil": "terreno_termico",
+   "variables": [
+    "rug_rms_mean_m",
+    "slope_mean_deg",
+    "relieve_mean_m",
+    "dtr_k",
+    "slope_std_deg"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "slope_mean_deg": 2.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-144",
+   "objetivo": "SL-04",
+   "perfil": "terreno_termico",
+   "variables": [
+    "slope_std_deg",
+    "dtr_k",
+    "slope_mean_deg",
+    "rug_rms_mean_m",
+    "relieve_mean_m"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "slope_std_deg": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-145",
+   "objetivo": "SL-05",
+   "perfil": "terreno_termico",
+   "variables": [
+    "slope_mean_deg",
+    "relieve_mean_m",
+    "slope_std_deg",
+    "dtr_k",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-146",
+   "objetivo": "SL-05",
+   "perfil": "caso_A-02",
+   "variables": [
+    "dtr_k",
+    "relieve_p90_m",
+    "aridez_ai",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "aridez_ai": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-147",
+   "objetivo": "SL-06",
+   "perfil": "terreno_termico",
+   "variables": [
+    "rug_rms_mean_m",
+    "dtr_k",
+    "slope_mean_deg",
+    "slope_std_deg"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {},
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-148",
+   "objetivo": "SL-07",
+   "perfil": "terreno_termico",
+   "variables": [
+    "rug_rms_mean_m",
+    "relieve_mean_m",
+    "slope_std_deg",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "slope_std_deg": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-149",
+   "objetivo": "SL-08",
+   "perfil": "terreno_termico",
+   "variables": [
+    "slope_std_deg",
+    "dtr_k",
+    "rug_rms_mean_m",
+    "slope_mean_deg",
+    "relieve_mean_m"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "slope_mean_deg": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-150",
+   "objetivo": "SL-09",
+   "perfil": "terreno_termico",
+   "variables": [
+    "relieve_mean_m",
+    "rug_rms_mean_m",
+    "dtr_k",
+    "slope_std_deg",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "slope_mean_deg": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-151",
+   "objetivo": "SL-10",
+   "perfil": "terreno_termico",
+   "variables": [
+    "amp_anual_k",
+    "slope_mean_deg",
+    "slope_std_deg",
+    "dtr_k",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-152",
+   "objetivo": "SL-10",
+   "perfil": "caso_A-09",
+   "variables": [
+    "dtr_k",
+    "relieve_mean_m",
+    "slope_mean_deg",
+    "aster_qi",
+    "aster_ci",
+    "aridez_ai"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "aster_ci": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-153",
+   "objetivo": "SL-10",
+   "perfil": "caso_C-02",
+   "variables": [
+    "slope_p90_deg",
+    "amp_anual_k",
+    "rug_rms_p90_m",
+    "slope_p99_deg"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "slope_p99_deg": 3.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-154",
+   "objetivo": "SL-11",
+   "perfil": "terreno_termico",
+   "variables": [
+    "relieve_mean_m",
+    "slope_std_deg",
+    "rug_rms_mean_m",
+    "dtr_k"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "relieve_mean_m": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-155",
+   "objetivo": "SL-11",
+   "perfil": "caso_C-01",
+   "variables": [
+    "relieve_p90_m",
+    "aridez_ai",
+    "slope_mean_deg",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-156",
+   "objetivo": "SL-12",
+   "perfil": "terreno_termico",
+   "variables": [
+    "amp_anual_k",
+    "relieve_mean_m",
+    "slope_mean_deg",
+    "slope_std_deg"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-157",
+   "objetivo": "SL-12",
+   "perfil": "caso_C-03",
+   "variables": [
+    "rug_rms_p90_m",
+    "amp_anual_k",
+    "slope_p99_deg",
+    "slope_p90_deg",
+    "slope_mean_deg",
+    "slope_frac_gt15",
+    "rug_rms_mean_m",
+    "dtr_k",
+    "relieve_p90_m"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-158",
+   "objetivo": "SL-13",
+   "perfil": "terreno_termico",
+   "variables": [
+    "rug_rms_mean_m",
+    "slope_mean_deg",
+    "amp_anual_k",
+    "slope_std_deg",
+    "dtr_k"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "amp_anual_k": 2.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-159",
+   "objetivo": "SL-13",
+   "perfil": "caso_C-04",
+   "variables": [
+    "slope_mean_deg",
+    "rug_rms_mean_m",
+    "slope_p99_deg",
+    "permafrost_prob",
+    "relieve_p90_m",
+    "relieve_mean_m",
+    "aridez_ai",
+    "slope_p90_deg"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "permafrost_prob": 2.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-160",
+   "objetivo": "SL-13",
+   "perfil": "caso_C-06",
+   "variables": [
+    "rug_rms_mean_m",
+    "dtr_k",
+    "slope_frac_gt15",
+    "slope_p99_deg",
+    "slope_p90_deg",
+    "permafrost_prob",
+    "relieve_mean_m",
+    "relieve_p90_m"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-161",
+   "objetivo": "SL-14",
+   "perfil": "terreno_termico",
+   "variables": [
+    "dtr_k",
+    "relieve_mean_m",
+    "amp_anual_k",
+    "slope_std_deg",
+    "rug_rms_mean_m",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {},
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-162",
+   "objetivo": "SL-15",
+   "perfil": "terreno_termico",
+   "variables": [
+    "amp_anual_k",
+    "rug_rms_mean_m",
+    "slope_std_deg",
+    "dtr_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {},
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-163",
+   "objetivo": "SL-15",
+   "perfil": "caso_A-04",
+   "variables": [
+    "slope_mean_deg",
+    "relieve_p90_m",
+    "slope_frac_gt15",
+    "slope_p90_deg"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {},
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-164",
+   "objetivo": "SL-16",
+   "perfil": "terreno_termico",
+   "variables": [
+    "dtr_k",
+    "rug_rms_mean_m",
+    "slope_std_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "amp_anual_k": 2.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-165",
+   "objetivo": "SL-17",
+   "perfil": "terreno_termico",
+   "variables": [
+    "slope_mean_deg",
+    "slope_std_deg",
+    "rug_rms_mean_m",
+    "relieve_mean_m",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {},
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-166",
+   "objetivo": "SL-17",
+   "perfil": "caso_A-05",
+   "variables": [
+    "permafrost_prob",
+    "amp_anual_k",
+    "slope_p99_deg",
+    "slope_frac_gt15",
+    "slope_mean_deg",
+    "aridez_ai"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "slope_p99_deg": 2.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-167",
+   "objetivo": "SL-18",
+   "perfil": "terreno_termico",
+   "variables": [
+    "relieve_mean_m",
+    "amp_anual_k",
+    "dtr_k",
+    "slope_std_deg",
+    "slope_mean_deg",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-168",
+   "objetivo": "SL-18",
+   "perfil": "caso_A-06",
+   "variables": [
+    "permafrost_prob",
+    "relieve_p90_m",
+    "slope_std_deg",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "slope_mean_deg": 3.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-169",
+   "objetivo": "SL-19",
+   "perfil": "terreno_termico",
+   "variables": [
+    "rug_rms_mean_m",
+    "relieve_mean_m",
+    "dtr_k",
+    "amp_anual_k",
+    "slope_std_deg"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-170",
+   "objetivo": "SL-19",
+   "perfil": "caso_A-08",
+   "variables": [
+    "amp_anual_k",
+    "aster_mi",
+    "rug_rms_p90_m",
+    "slope_mean_deg",
+    "aster_qi",
+    "slope_p90_deg",
+    "aridez_ai"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "aster_mi": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-171",
+   "objetivo": "SL-20",
+   "perfil": "terreno_termico",
+   "variables": [
+    "dtr_k",
+    "slope_mean_deg",
+    "relieve_mean_m",
+    "amp_anual_k",
+    "slope_std_deg"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-172",
+   "objetivo": "SL-20",
+   "perfil": "caso_A-07",
+   "variables": [
+    "rug_rms_p90_m",
+    "viento_frac_tau_gt_0p05",
+    "dtr_k",
+    "polvo_frec_dod0p2_pct",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "rug_rms_p90_m": 3.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-173",
+   "objetivo": "SL-21",
+   "perfil": "terreno_termico",
+   "variables": [
+    "rug_rms_mean_m",
+    "relieve_mean_m",
+    "amp_anual_k",
+    "slope_mean_deg",
+    "dtr_k"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-174",
+   "objetivo": "SL-21",
+   "perfil": "caso_C-05",
+   "variables": [
+    "rug_rms_p90_m",
+    "relieve_p90_m",
+    "slope_mean_deg",
+    "dtr_k",
+    "slope_p99_deg",
+    "slope_frac_gt15"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "dtr_k": 3.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-175",
+   "objetivo": "SL-21",
+   "perfil": "caso_C-07",
+   "variables": [
+    "relieve_mean_m",
+    "slope_std_deg",
+    "slope_frac_gt15",
+    "slope_mean_deg",
+    "slope_p90_deg",
+    "relieve_p90_m",
+    "rug_rms_p90_m",
+    "permafrost_prob",
+    "slope_p99_deg",
+    "amp_anual_k",
+    "dtr_k"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 2.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-176",
+   "objetivo": "SL-01",
+   "perfil": "terreno_termico",
+   "variables": [
+    "rug_rms_mean_m",
+    "relieve_mean_m",
+    "slope_mean_deg",
+    "slope_std_deg"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-177",
+   "objetivo": "SL-02",
+   "perfil": "terreno_termico",
+   "variables": [
+    "slope_mean_deg",
+    "dtr_k",
+    "rug_rms_mean_m",
+    "slope_std_deg"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "rug_rms_mean_m": 2.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-178",
+   "objetivo": "SL-03",
+   "perfil": "terreno_termico",
+   "variables": [
+    "slope_mean_deg",
+    "dtr_k",
+    "rug_rms_mean_m",
+    "slope_std_deg"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "dtr_k": 2.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-179",
+   "objetivo": "SL-04",
+   "perfil": "terreno_termico",
+   "variables": [
+    "rug_rms_mean_m",
+    "dtr_k",
+    "slope_mean_deg",
+    "relieve_mean_m",
+    "slope_std_deg"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {},
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-180",
+   "objetivo": "SL-05",
+   "perfil": "terreno_termico",
+   "variables": [
+    "rug_rms_mean_m",
+    "slope_mean_deg",
+    "relieve_mean_m",
+    "dtr_k"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {},
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-181",
+   "objetivo": "SL-05",
+   "perfil": "caso_A-02",
+   "variables": [
+    "dtr_k",
+    "factor_cielo_visible",
+    "slope_mean_deg",
+    "relieve_p90_m"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "dtr_k": 2.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-182",
+   "objetivo": "SL-06",
+   "perfil": "terreno_termico",
+   "variables": [
+    "rug_rms_mean_m",
+    "dtr_k",
+    "slope_mean_deg",
+    "slope_std_deg",
+    "relieve_mean_m"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "dtr_k": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-183",
+   "objetivo": "SL-07",
+   "perfil": "terreno_termico",
+   "variables": [
+    "slope_std_deg",
+    "dtr_k",
+    "rug_rms_mean_m",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-184",
+   "objetivo": "SL-08",
+   "perfil": "terreno_termico",
+   "variables": [
+    "slope_std_deg",
+    "dtr_k",
+    "slope_mean_deg",
+    "relieve_mean_m",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "slope_mean_deg": 2.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-185",
+   "objetivo": "SL-09",
+   "perfil": "terreno_termico",
+   "variables": [
+    "relieve_mean_m",
+    "dtr_k",
+    "rug_rms_mean_m",
+    "slope_std_deg"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "slope_std_deg": 2.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-186",
+   "objetivo": "SL-10",
+   "perfil": "terreno_termico",
+   "variables": [
+    "rug_rms_mean_m",
+    "relieve_mean_m",
+    "slope_std_deg",
+    "dtr_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "relieve_mean_m": 2.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-187",
+   "objetivo": "SL-10",
+   "perfil": "caso_A-09",
+   "variables": [
+    "aridez_ai",
+    "slope_mean_deg",
+    "relieve_mean_m",
+    "aster_ci"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "aster_ci": 2.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-188",
+   "objetivo": "SL-10",
+   "perfil": "caso_C-02",
+   "variables": [
+    "amp_anual_k",
+    "slope_p90_deg",
+    "dtr_k",
+    "relieve_p90_m",
+    "slope_p99_deg",
+    "rug_rms_mean_m",
+    "rug_rms_p90_m"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "rug_rms_p90_m": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-189",
+   "objetivo": "SL-11",
+   "perfil": "terreno_termico",
+   "variables": [
+    "rug_rms_mean_m",
+    "dtr_k",
+    "amp_anual_k",
+    "slope_mean_deg",
+    "slope_std_deg"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "slope_mean_deg": 3.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-190",
+   "objetivo": "SL-11",
+   "perfil": "caso_C-01",
+   "variables": [
+    "amp_anual_k",
+    "slope_p99_deg",
+    "slope_mean_deg",
+    "rug_rms_mean_m",
+    "aridez_ai",
+    "rug_rms_p90_m"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "rug_rms_mean_m": 3.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-191",
+   "objetivo": "SL-12",
+   "perfil": "terreno_termico",
+   "variables": [
+    "relieve_mean_m",
+    "rug_rms_mean_m",
+    "slope_std_deg",
+    "dtr_k"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "rug_rms_mean_m": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-192",
+   "objetivo": "SL-12",
+   "perfil": "caso_C-03",
+   "variables": [
+    "slope_p99_deg",
+    "dtr_k",
+    "slope_frac_gt15",
+    "rug_rms_mean_m",
+    "slope_std_deg",
+    "slope_p90_deg",
+    "relieve_p90_m",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-193",
+   "objetivo": "SL-13",
+   "perfil": "terreno_termico",
+   "variables": [
+    "dtr_k",
+    "slope_mean_deg",
+    "slope_std_deg",
+    "relieve_mean_m"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {},
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-194",
+   "objetivo": "SL-13",
+   "perfil": "caso_C-04",
+   "variables": [
+    "relieve_mean_m",
+    "slope_mean_deg",
+    "dtr_k",
+    "rug_rms_mean_m",
+    "slope_p99_deg",
+    "rug_rms_p90_m",
+    "relieve_p90_m",
+    "permafrost_prob",
+    "slope_std_deg",
+    "aridez_ai",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {},
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-195",
+   "objetivo": "SL-13",
+   "perfil": "caso_C-06",
+   "variables": [
+    "rug_rms_mean_m",
+    "relieve_p90_m",
+    "slope_p90_deg",
+    "rug_rms_p90_m",
+    "slope_std_deg",
+    "amp_anual_k",
+    "dtr_k"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "rug_rms_p90_m": 3.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "N200-196",
+   "objetivo": "SL-14",
+   "perfil": "terreno_termico",
+   "variables": [
+    "dtr_k",
+    "slope_mean_deg",
+    "amp_anual_k",
+    "relieve_mean_m"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {},
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "N200-197",
+   "objetivo": "SL-15",
+   "perfil": "terreno_termico",
+   "variables": [
+    "relieve_mean_m",
+    "rug_rms_mean_m",
+    "dtr_k",
+    "slope_mean_deg",
+    "slope_std_deg"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-198",
+   "objetivo": "SL-15",
+   "perfil": "caso_A-04",
+   "variables": [
+    "slope_mean_deg",
+    "slope_p90_deg",
+    "aridez_ai",
+    "relieve_p90_m",
+    "slope_frac_gt15"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "relieve_p90_m": 2.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-199",
+   "objetivo": "SL-16",
+   "perfil": "terreno_termico",
+   "variables": [
+    "relieve_mean_m",
+    "dtr_k",
+    "rug_rms_mean_m",
+    "slope_std_deg",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {},
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "N200-200",
+   "objetivo": "SL-17",
+   "perfil": "terreno_termico",
+   "variables": [
+    "slope_mean_deg",
+    "relieve_mean_m",
+    "amp_anual_k",
+    "slope_std_deg",
+    "rug_rms_mean_m",
+    "dtr_k"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "relieve_mean_m": 2.0
+   },
+   "ndvi_max": 0.3
+  }
+ ]
+}

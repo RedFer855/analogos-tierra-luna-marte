@@ -1,0 +1,30 @@
+{
+  "escenarios": [
+    { "id": "SL-12-base", "objetivo": "SL-12", "perfil": "terreno_termico" }
+  ],
+  "muestreo": {
+    "objetivos": ["SL-12"],
+    "perfil": "caso_C-03",
+    "n": 200,
+    "semilla": 20261112,
+    "k_min": 4,
+    "k_max": 8,
+    "factores_tolerancia": [0.5, 1.0, 2.0],
+    "ndvi_max": [0.2, 0.3, 0.4],
+    "peso_realce": 2.0,
+    "grupos": {
+      "pendiente": ["slope_mean_deg", "slope_std_deg", "slope_p90_deg", "slope_p99_deg", "slope_frac_gt15"],
+      "rugosidad": ["rug_rms_mean_m", "rug_rms_p90_m"],
+      "relieve": ["relieve_mean_m", "relieve_p90_m", "elev_mean_m", "factor_cielo_visible"],
+      "termico": ["dtr_k", "dtr_max_k", "amp_anual_k", "lst_media_k", "lst_dia_max_k", "lst_noche_min_k"],
+      "aridez_y_agua": ["aridez_ai", "et0_mm_anio", "frac_efimero", "frac_lago", "frac_rio", "frac_agua_sin_gsw", "gsw_ocurrencia_media_pct", "gsw_frac_agua_permanente", "gsw_frac_agua_alguna_vez", "humedal_area_pct"],
+      "hielo_y_permafrost": ["permafrost_prob", "magt_c", "hielo_suelo_gam", "hielo_suelo_gbm"],
+      "viento": ["viento_tau_media_pa", "viento_ustar_media", "viento_frac_tau_gt_0p02", "viento_frac_tau_gt_0p05", "viento_frac_tau_gt_0p10", "viento_frac_tau_gt_0p20"],
+      "polvo": ["polvo_frec_dod0p2_pct", "polvo_frec_dod0p5_pct", "polvo_emision_kg_m2_s"],
+      "arena_y_dunas": ["dunas_frac", "dunas_creciente_frac", "dunas_lineal_frac", "dunas_estrella_frac", "dunas_otras_frac", "arena_manto_frac", "arena_movil_frac", "arena_semifija_frac", "sin_arena_gsds30_frac"],
+      "suelo": ["arcilla_gkg", "limo_gkg"],
+      "mineralogia_emit": ["emit_calcite", "emit_chlorite", "emit_dolomite", "emit_goethite", "emit_gypsum", "emit_hematite", "emit_illite_muscovite", "emit_kaolinite", "emit_montmorillonite", "emit_vermiculite", "emit_quartz_feldspar"],
+      "mineralogia_aster": ["aster_emis_b10", "aster_emis_b11", "aster_emis_b12", "aster_emis_b13", "aster_emis_b14", "aster_qi", "aster_ci", "aster_mi"]
+    }
+  }
+}

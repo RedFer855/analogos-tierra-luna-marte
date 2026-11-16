@@ -1,0 +1,502 @@
+{
+ "generado": "2026-11-13T21:58:04.338Z",
+ "parametros": {
+  "TAU": 0.2,
+  "R_KM": 50,
+  "N_ALEATORIAS": 300,
+  "celdas_cubiertas": 11169104
+ },
+ "sitios": {
+  "SL-10": {
+   "marte_en_el_sitio": [
+    {
+     "familia": "hematita",
+     "valor": 0.005349568107963673,
+     "percentil_marte": 0.7210281870595772,
+     "pixeles": 21
+    },
+    {
+     "familia": "sulfatos",
+     "valor": 0.03759931515724886,
+     "percentil_marte": 0.7528827674567585,
+     "pixeles": 21
+    },
+    {
+     "familia": "carbonatos",
+     "valor": 0.057178003732891135,
+     "percentil_marte": 0.944795003203075,
+     "pixeles": 21
+    },
+    {
+     "familia": "cuarzo_feldespato",
+     "valor": 0.007651902546751357,
+     "percentil_marte": 0.2414437860345932,
+     "pixeles": 21
+    }
+   ],
+   "pares": [
+    {
+     "analogo": "ST-07",
+     "nombre": "Death Valley",
+     "certeza": "P",
+     "celdas_en_ventana": 3094,
+     "A": {
+      "maximo": 0.6779,
+      "top_pct": 75.7
+     },
+     "B": {
+      "maximo": 0.6622,
+      "top_pct": 53
+     }
+    },
+    {
+     "analogo": "ST-10",
+     "nombre": "Verde Valley",
+     "certeza": "P",
+     "celdas_en_ventana": 3106,
+     "A": null,
+     "B": null
+    },
+    {
+     "analogo": "ST-13",
+     "nombre": "Atacama",
+     "certeza": "C",
+     "celdas_en_ventana": 2901,
+     "A": {
+      "maximo": 0.9863,
+      "top_pct": 0.3
+     },
+     "B": {
+      "maximo": 0.7635,
+      "top_pct": 15.7
+     }
+    },
+    {
+     "analogo": "ST-17",
+     "nombre": "Lago Salda",
+     "certeza": "C",
+     "celdas_en_ventana": 3095,
+     "A": null,
+     "B": null
+    },
+    {
+     "analogo": "ST-35",
+     "nombre": "Little Ambergris Cay",
+     "certeza": "P",
+     "celdas_en_ventana": 63,
+     "A": null,
+     "B": null
+    },
+    {
+     "analogo": "ST-36",
+     "nombre": "Pigeon Cay",
+     "certeza": "P",
+     "celdas_en_ventana": 136,
+     "A": null,
+     "B": null
+    },
+    {
+     "analogo": "ST-37",
+     "nombre": "Lago Alchichica",
+     "certeza": "C",
+     "celdas_en_ventana": 3098,
+     "A": null,
+     "B": null
+    }
+   ],
+   "mejores_regiones": {
+    "A": {
+     "umbral": 0.9002,
+     "celdas_sobre_umbral": 6725,
+     "regiones": [
+      {
+       "lat": -21.712806701660156,
+       "lon": -67.39013671875,
+       "puntaje": 0.998,
+       "st_cercano": "ST-13",
+       "st_km": 387
+      },
+      {
+       "lat": -24.542278289794922,
+       "lon": -68.829345703125,
+       "puntaje": 0.998,
+       "st_cercano": "ST-13",
+       "st_km": 141
+      },
+      {
+       "lat": -22.983264923095703,
+       "lon": -68.31298828125,
+       "puntaje": 0.997,
+       "st_cercano": "ST-13",
+       "st_km": 224
+      },
+      {
+       "lat": -19.73850440979004,
+       "lon": -68.40087890625,
+       "puntaje": 0.989,
+       "st_cercano": "ST-13",
+       "st_km": 517
+      },
+      {
+       "lat": -26.224822998046875,
+       "lon": -70.048828125,
+       "puntaje": 0.983,
+       "st_cercano": "ST-13",
+       "st_km": 236
+      }
+     ]
+    },
+    "B": {
+     "umbral": 0.8162,
+     "celdas_sobre_umbral": 5415,
+     "regiones": [
+      {
+       "lat": -24.02052116394043,
+       "lon": -66.20361328125,
+       "puntaje": 0.933,
+       "st_cercano": "ST-13",
+       "st_km": 400
+      },
+      {
+       "lat": -21.14178466796875,
+       "lon": -68.236083984375,
+       "puntaje": 0.93,
+       "st_cercano": "ST-13",
+       "st_km": 383
+      },
+      {
+       "lat": -19.669164657592773,
+       "lon": -66.807861328125,
+       "puntaje": 0.903,
+       "st_cercano": "ST-13",
+       "st_km": 601
+      },
+      {
+       "lat": -20.055864334106445,
+       "lon": -70.048828125,
+       "puntaje": 0.891,
+       "st_cercano": "ST-13",
+       "st_km": 450
+      },
+      {
+       "lat": -19.73850440979004,
+       "lon": -68.40087890625,
+       "puntaje": 0.891,
+       "st_cercano": "ST-13",
+       "st_km": 517
+      }
+     ]
+    }
+   }
+  },
+  "SL-11": {
+   "marte_en_el_sitio": [
+    {
+     "familia": "hematita",
+     "valor": 0.001429800476346697,
+     "percentil_marte": 0.7025504484304933,
+     "pixeles": 21
+    },
+    {
+     "familia": "sulfatos",
+     "valor": 0.017531982844784147,
+     "percentil_marte": 0.4104059897501601,
+     "pixeles": 21
+    },
+    {
+     "familia": "carbonatos",
+     "valor": 0.017187928348513588,
+     "percentil_marte": 0.45456438180653425,
+     "pixeles": 21
+    },
+    {
+     "familia": "cuarzo_feldespato",
+     "valor": 0.021260429595020554,
+     "percentil_marte": 0.4720211402946829,
+     "pixeles": 21
+    }
+   ],
+   "pares": [
+    {
+     "analogo": "ST-07",
+     "nombre": "Death Valley",
+     "certeza": "C",
+     "celdas_en_ventana": 3094,
+     "A": {
+      "maximo": 0.7665,
+      "top_pct": 37.7
+     },
+     "B": {
+      "maximo": 0.7012,
+      "top_pct": 38.3
+     }
+    },
+    {
+     "analogo": "ST-10",
+     "nombre": "Verde Valley",
+     "certeza": "P",
+     "celdas_en_ventana": 3106,
+     "A": null,
+     "B": null
+    },
+    {
+     "analogo": "ST-13",
+     "nombre": "Atacama",
+     "certeza": "C",
+     "celdas_en_ventana": 2901,
+     "A": {
+      "maximo": 0.8639,
+      "top_pct": 1.7
+     },
+     "B": {
+      "maximo": 0.7937,
+      "top_pct": 6
+     }
+    },
+    {
+     "analogo": "ST-14",
+     "nombre": "Valles Secos de McMurdo",
+     "certeza": "C",
+     "celdas_en_ventana": 3009,
+     "A": null,
+     "B": null
+    },
+    {
+     "analogo": "ST-15",
+     "nombre": "Caldera de Askja",
+     "certeza": "C",
+     "celdas_en_ventana": 3100,
+     "A": null,
+     "B": null
+    },
+    {
+     "analogo": "ST-31",
+     "nombre": "Rincón de la Vieja",
+     "certeza": "C",
+     "celdas_en_ventana": 2958,
+     "A": null,
+     "B": null
+    },
+    {
+     "analogo": "ST-32",
+     "nombre": "Cerro Negro",
+     "certeza": "C",
+     "celdas_en_ventana": 2791,
+     "A": null,
+     "B": null
+    },
+    {
+     "analogo": "ST-41",
+     "nombre": "Cuenca de Qaidam",
+     "certeza": "C",
+     "celdas_en_ventana": 3098,
+     "A": {
+      "maximo": 0.7885,
+      "top_pct": 28
+     },
+     "B": {
+      "maximo": 0.6347,
+      "top_pct": 68.3
+     }
+    }
+   ],
+   "mejores_regiones": {
+    "A": {
+     "umbral": 0.8467,
+     "celdas_sobre_umbral": 6341,
+     "regiones": [
+      {
+       "lat": -25.447729110717773,
+       "lon": -68.829345703125,
+       "puntaje": 0.989,
+       "st_cercano": "ST-13",
+       "st_km": 200
+      },
+      {
+       "lat": -26.20403289794922,
+       "lon": -67.412109375,
+       "puntaje": 0.976,
+       "st_cercano": "ST-13",
+       "st_km": 360
+      },
+      {
+       "lat": -23.857269287109375,
+       "lon": -67.87353515625,
+       "puntaje": 0.951,
+       "st_cercano": "ST-13",
+       "st_km": 232
+      },
+      {
+       "lat": -26.787551879882812,
+       "lon": -69.06005859375,
+       "puntaje": 0.941,
+       "st_cercano": "ST-13",
+       "st_km": 318
+      },
+      {
+       "lat": -24.78856086730957,
+       "lon": -66.697998046875,
+       "puntaje": 0.939,
+       "st_cercano": "ST-13",
+       "st_km": 356
+      }
+     ]
+    },
+    "B": {
+     "umbral": 0.8173,
+     "celdas_sobre_umbral": 5217,
+     "regiones": [
+      {
+       "lat": -24.41931915283203,
+       "lon": -67.752685546875,
+       "puntaje": 0.869,
+       "st_cercano": "ST-13",
+       "st_km": 244
+      },
+      {
+       "lat": 34.02608871459961,
+       "lon": -4.954833984375,
+       "puntaje": 0.868,
+       "st_cercano": "ST-23",
+       "st_km": 433
+      },
+      {
+       "lat": -25.94447898864746,
+       "lon": -67.708740234375,
+       "puntaje": 0.863,
+       "st_cercano": "ST-13",
+       "st_km": 319
+      },
+      {
+       "lat": 26.0067195892334,
+       "lon": 33.497314453125,
+       "puntaje": 0.863,
+       "st_cercano": "ST-17",
+       "st_km": 1332
+      },
+      {
+       "lat": 27.479148864746094,
+       "lon": -3.1640625,
+       "puntaje": 0.86,
+       "st_cercano": "ST-18",
+       "st_km": 1027
+      }
+     ]
+    }
+   }
+  },
+  "SL-12": {
+   "marte_en_el_sitio": [
+    {
+     "familia": "hematita",
+     "valor": 0.02044630066856094,
+     "percentil_marte": 0.8252922805893658,
+     "pixeles": 23
+    },
+    {
+     "familia": "sulfatos",
+     "valor": 0.043512805648472,
+     "percentil_marte": 0.8256005765534914,
+     "pixeles": 23
+    },
+    {
+     "familia": "carbonatos",
+     "valor": 0.04692249032466308,
+     "percentil_marte": 0.8760770339525945,
+     "pixeles": 23
+    },
+    {
+     "familia": "cuarzo_feldespato",
+     "valor": 0.01689077267403026,
+     "percentil_marte": 0.3789918321588725,
+     "pixeles": 23
+    }
+   ],
+   "pares": [],
+   "mejores_regiones": {
+    "A": {
+     "umbral": 0.8345,
+     "celdas_sobre_umbral": 5380,
+     "regiones": [
+      {
+       "lat": -26.370450973510742,
+       "lon": -68.5546875,
+       "puntaje": 0.986,
+       "st_cercano": "ST-13",
+       "st_km": 298
+      },
+      {
+       "lat": -25.01474952697754,
+       "lon": -68.895263671875,
+       "puntaje": 0.941,
+       "st_cercano": "ST-13",
+       "st_km": 162
+      },
+      {
+       "lat": 29.94617462158203,
+       "lon": 56.8212890625,
+       "puntaje": 0.938,
+       "st_cercano": "ST-25",
+       "st_km": 2433
+      },
+      {
+       "lat": -25.045625686645508,
+       "lon": -67.25830078125,
+       "puntaje": 0.935,
+       "st_cercano": "ST-13",
+       "st_km": 310
+      },
+      {
+       "lat": 28.43992042541504,
+       "lon": 88.428955078125,
+       "puntaje": 0.933,
+       "st_cercano": "ST-41",
+       "st_km": 1106
+      }
+     ]
+    },
+    "B": {
+     "umbral": 0.8244,
+     "celdas_sobre_umbral": 4623,
+     "regiones": [
+      {
+       "lat": -21.44204330444336,
+       "lon": -67.335205078125,
+       "puntaje": 0.883,
+       "st_cercano": "ST-13",
+       "st_km": 412
+      },
+      {
+       "lat": 31.946969985961914,
+       "lon": -109.70947265625,
+       "puntaje": 0.879,
+       "st_cercano": "ST-10",
+       "st_km": 355
+      },
+      {
+       "lat": 31.289899826049805,
+       "lon": -104.9853515625,
+       "puntaje": 0.878,
+       "st_cercano": "ST-10",
+       "st_km": 740
+      },
+      {
+       "lat": -39.92350769042969,
+       "lon": -69.36767578125,
+       "puntaje": 0.877,
+       "st_cercano": "ST-26",
+       "st_km": 140
+      },
+      {
+       "lat": 33.599578857421875,
+       "lon": -106.182861328125,
+       "puntaje": 0.875,
+       "st_cercano": "ST-06",
+       "st_km": 535
+      }
+     ]
+    }
+   }
+  }
+ }
+}

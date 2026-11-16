@@ -1,0 +1,129 @@
+{
+ "ventana_grados": 0.25,
+ "prof_min": 0.0,
+ "pixeles": 910916,
+ "group_1": {
+  "con_mineral": 910862,
+  "total": 910916,
+  "top": [
+   {
+    "id": 46,
+    "mineral": "fe3+_hematite-nano+goethite-fg-amix",
+    "pix": 324546,
+    "pct_ventana": 35.63,
+    "band_depth_mediana": 0.0431
+   },
+   {
+    "id": 302,
+    "mineral": "fe3+_hematite.1+goeth.4+qtz",
+    "pix": 182693,
+    "pct_ventana": 20.06,
+    "band_depth_mediana": 0.0471
+   },
+   {
+    "id": 53,
+    "mineral": "fe2+_chlorite.clinochlor",
+    "pix": 150729,
+    "pct_ventana": 16.55,
+    "band_depth_mediana": 0.051
+   },
+   {
+    "id": 47,
+    "mineral": "fe3+_hematite.nano.BR34b2b",
+    "pix": 96497,
+    "pct_ventana": 10.59,
+    "band_depth_mediana": 0.0706
+   },
+   {
+    "id": 45,
+    "mineral": "fe3+_hematite.nano.BR34b2",
+    "pix": 70254,
+    "pct_ventana": 7.71,
+    "band_depth_mediana": 0.0667
+   },
+   {
+    "id": 298,
+    "mineral": "fe3+_goethite.nano0.5+qtz",
+    "pix": 50602,
+    "pct_ventana": 5.56,
+    "band_depth_mediana": 0.0412
+   },
+   {
+    "id": 299,
+    "mineral": "fe3+_hematite.1+goethite.9hg1",
+    "pix": 10549,
+    "pct_ventana": 1.16,
+    "band_depth_mediana": 0.0392
+   },
+   {
+    "id": 64,
+    "mineral": "fe2+generic_carbonate_siderite1",
+    "pix": 9556,
+    "pct_ventana": 1.05,
+    "band_depth_mediana": 0.0647
+   }
+  ]
+ },
+ "group_2": {
+  "con_mineral": 910450,
+  "total": 910916,
+  "top": [
+   {
+    "id": 131,
+    "mineral": "micagrp_muscovite-low-Al",
+    "pix": 552215,
+    "pct_ventana": 60.62,
+    "band_depth_mediana": 0.0333
+   },
+   {
+    "id": 130,
+    "mineral": "micagrp_illite.gds4",
+    "pix": 99530,
+    "pct_ventana": 10.93,
+    "band_depth_mediana": 0.0333
+   },
+   {
+    "id": 197,
+    "mineral": "chlorite_clinochlore.fe.gds157",
+    "pix": 57627,
+    "pct_ventana": 6.33,
+    "band_depth_mediana": 0.0588
+   },
+   {
+    "id": 129,
+    "mineral": "micagrp_illite",
+    "pix": 51924,
+    "pct_ventana": 5.7,
+    "band_depth_mediana": 0.0333
+   },
+   {
+    "id": 220,
+    "mineral": "carbonate_siderite",
+    "pix": 50595,
+    "pct_ventana": 5.55,
+    "band_depth_mediana": 0.0588
+   },
+   {
+    "id": 225,
+    "mineral": "calcite+0.2Na-mont",
+    "pix": 30491,
+    "pct_ventana": 3.35,
+    "band_depth_mediana": 0.0314
+   },
+   {
+    "id": 227,
+    "mineral": "carbonate_calcite+0.3muscovite",
+    "pix": 21931,
+    "pct_ventana": 2.41,
+    "band_depth_mediana": 0.0412
+   },
+   {
+    "id": 215,
+    "mineral": "carbonate_calcite",
+    "pix": 19394,
+    "pct_ventana": 2.13,
+    "band_depth_mediana": 0.0549
+   }
+  ]
+ }
+}

@@ -1,0 +1,96 @@
+{
+  "version_contrato": "1.0.0",
+  "generado": "2026-11-09T00:00:00Z",
+  "es_ejemplo": true,
+  "healpix": { "esquema": "nested", "nivel": 12 },
+  "cuerpos": {
+    "tierra": {
+      "nombre": "Tierra",
+      "radio_m": 6371000,
+      "gravedad_ms2": 9.80,
+      "presion_superficie_pa": 101400,
+      "atmosfera": "Densa, con nitrógeno y oxígeno",
+      "radiacion": "Campo magnético y atmósfera protegen la superficie",
+      "fuente": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html"
+    },
+    "luna": {
+      "nombre": "Luna",
+      "radio_m": 1737400,
+      "gravedad_ms2": 1.62,
+      "presion_superficie_pa": 3e-10,
+      "atmosfera": "Prácticamente vacío (exosfera)",
+      "radiacion": "Sin campo magnético global ni atmósfera: la superficie recibe radiación solar y cósmica directa",
+      "fuente": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html"
+    },
+    "marte": {
+      "nombre": "Marte",
+      "radio_m": 3389500,
+      "gravedad_ms2": 3.71,
+      "presion_superficie_pa": 636,
+      "atmosfera": "Muy delgada, casi toda CO₂",
+      "radiacion": "Sin campo magnético global y con atmósfera delgada: mucha más radiación en superficie que en la Tierra",
+      "fuente": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html"
+    }
+  },
+  "variables": [
+    { "id": "pendiente", "codigo": "N1", "nombre": "Pendiente", "unidad": "°", "aplica_a": ["luna", "marte"] },
+    { "id": "rugosidad", "codigo": "N2", "nombre": "Rugosidad", "unidad": "m RMS", "aplica_a": ["luna", "marte"] },
+    { "id": "relieve_relativo", "codigo": "N3", "nombre": "Relieve relativo", "unidad": "m", "aplica_a": ["luna", "marte"] },
+    { "id": "silice", "codigo": "N4", "nombre": "Sílice", "unidad": "% SiO₂", "aplica_a": ["luna", "marte"] },
+    { "id": "rango_termico", "codigo": "N5", "nombre": "Rango térmico diario", "unidad": "K", "aplica_a": ["luna", "marte"] },
+    { "id": "iluminacion", "codigo": "N6", "nombre": "Iluminación", "unidad": "fracción del tiempo con sol", "aplica_a": ["luna"] },
+    { "id": "viento", "codigo": "N7", "nombre": "Viento (Shields)", "unidad": "fracción del tiempo sobre el umbral", "aplica_a": ["marte"] }
+  ],
+  "marcas": [
+    { "id": "hiperarido", "nombre": "Hiperárido", "tipo": "filtro" },
+    { "id": "frio_extremo", "nombre": "Frío extremo", "tipo": "filtro" },
+    { "id": "hielo", "nombre": "Hielo en el suelo", "tipo": "filtro" },
+    { "id": "mineral_hidratado", "nombre": "Minerales hidratados", "tipo": "filtro" },
+    { "id": "evaporitas", "nombre": "Evaporitas", "tipo": "filtro" },
+    { "id": "cueva_cercana", "nombre": "Cueva o tubo de lava cerca", "tipo": "filtro" },
+    { "id": "dunas", "nombre": "Dunas", "tipo": "proceso" },
+    { "id": "glaciar", "nombre": "Glaciar", "tipo": "proceso" },
+    { "id": "volcan", "nombre": "Volcán", "tipo": "proceso" },
+    { "id": "salar", "nombre": "Salar", "tipo": "proceso" },
+    { "id": "sin_dato_hielo", "nombre": "Sin dato de hielo", "tipo": "sin_dato" },
+    { "id": "sin_dato_mineral", "nombre": "Sin dato de mineral", "tipo": "sin_dato" }
+  ],
+  "perfiles": [
+    { "id": "base_lunar", "nombre": "Base lunar permanente", "contra": ["luna"], "variables": ["iluminacion", "pendiente", "rugosidad"] },
+    { "id": "aterrizaje", "nombre": "Aterrizaje", "contra": ["luna", "marte"], "variables": ["pendiente", "rugosidad", "iluminacion"] },
+    { "id": "rover", "nombre": "Rover / movilidad", "contra": ["luna", "marte"], "variables": ["pendiente", "rugosidad", "relieve_relativo", "viento"] },
+    { "id": "astrobiologia", "nombre": "Astrobiología", "contra": ["marte"], "variables": ["silice", "rango_termico"] },
+    { "id": "procesos_activos", "nombre": "Procesos activos: dunas y polvo", "contra": ["marte"], "variables": ["viento", "rango_termico"] },
+    { "id": "agua_frio", "nombre": "Agua / frío extremo", "contra": ["luna", "marte"], "variables": ["rango_termico", "iluminacion"] }
+  ],
+  "sitios_objetivo": [
+    { "id": "SL-01", "nombre": "Peak near Cabeus B", "cuerpo": "luna", "centro": { "lat": -83.637, "lon": -68.749 } },
+    { "id": "SL-03", "nombre": "Malapert Massif", "cuerpo": "luna", "centro": { "lat": -85.995, "lon": -0.236 } },
+    { "id": "SL-10", "nombre": "Jezero", "cuerpo": "marte", "centro": { "lat": 18.4447, "lon": 77.4508 } },
+    { "id": "SL-11", "nombre": "Gale", "cuerpo": "marte", "centro": { "lat": -4.5895, "lon": 137.4417 } }
+  ],
+  "analogos_conocidos": [
+    { "id": "ST-13", "nombre": "Atacama", "centro": { "lat": -24.1021, "lon": -70.1381 }, "analogo_de": ["marte"] },
+    { "id": "ST-16", "nombre": "Vikursandur", "centro": { "lat": 65.0833, "lon": -16.65 }, "analogo_de": ["marte"] },
+    { "id": "ST-23", "nombre": "Río Tinto", "centro": { "lat": 37.695, "lon": -6.561 }, "analogo_de": ["marte"] },
+    { "id": "ST-25", "nombre": "Depresión de Danakil", "centro": { "lat": 14.2417, "lon": 40.2989 }, "analogo_de": ["marte"] },
+    { "id": "ST-26", "nombre": "Andes argentinos", "centro": { "lat": -41.1833, "lon": -69.4167 }, "analogo_de": ["luna", "marte"] },
+    { "id": "ST-28", "nombre": "Dunas de Tottori", "centro": { "lat": 35.5411, "lon": 134.2281 }, "analogo_de": ["marte"] }
+  ],
+  "resultados": [
+    {
+      "perfil": "astrobiologia", "sitio": "SL-10", "archivo": "resultados/astrobiologia/SL-10.json", "n_candidatos": 3,
+      "mejor": { "nota": 0.81, "centro": { "lat": -24.1, "lon": -70.14 }, "region": "Desierto de Atacama" }
+    },
+    {
+      "perfil": "base_lunar", "sitio": "SL-03", "archivo": "resultados/base_lunar/SL-03.json", "n_candidatos": 3,
+      "mejor": { "nota": 0.58, "centro": { "lat": -23.5, "lon": -67.5 }, "region": "Puna de Atacama" }
+    },
+    { "perfil": "astrobiologia", "sitio": "SL-11", "archivo": "resultados/astrobiologia/SL-11.json", "n_candidatos": 0, "mejor": null }
+  ],
+  "fuentes": [
+    { "id": "glo90", "nombre": "Copernicus DEM GLO-90", "version": "2021_1", "url": "https://copernicus-dem-90m.s3.amazonaws.com/", "licencia": "Copernicus DEM, uso libre con atribución" },
+    { "id": "myd11c3", "nombre": "MODIS Aqua MYD11C3", "version": "061", "url": "https://lpdaac.usgs.gov/products/myd11c3v061/", "licencia": "Dominio público NASA" },
+    { "id": "ag1km", "nombre": "ASTER GED AG1km", "version": "003", "url": "https://lpdaac.usgs.gov/products/ag1kmv003/", "licencia": "Dominio público NASA" }
+  ]
+}

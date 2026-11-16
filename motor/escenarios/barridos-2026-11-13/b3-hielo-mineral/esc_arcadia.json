@@ -1,0 +1,1344 @@
+{
+ "escenarios": [
+  {
+   "id": "ARC-001",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_qi",
+    "aster_mi",
+    "slope_mean_deg",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 4.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_qi": 2.0,
+    "aster_mi": 2.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "ARC-002",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_mi",
+    "amp_anual_k",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_mi": 4.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "ARC-003",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_mi",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 2.0,
+    "aster_mi": 4.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "ARC-004",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_qi",
+    "aster_mi",
+    "amp_anual_k",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 2.0,
+    "aster_qi": 4.0,
+    "aster_mi": 2.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "ARC-005",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_qi",
+    "aster_mi",
+    "rug_rms_mean_m",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 2.0,
+    "aster_qi": 4.0,
+    "aster_mi": 2.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "ARC-006",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_qi",
+    "aster_mi",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 2.0,
+    "aster_qi": 2.0,
+    "aster_mi": 3.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "ARC-007",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_qi",
+    "aster_mi",
+    "amp_anual_k",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 2.0,
+    "aster_qi": 3.0,
+    "aster_mi": 3.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "ARC-008",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_mi",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 2.0,
+    "aster_mi": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "ARC-009",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_qi",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_qi": 3.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "ARC-010",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_mi",
+    "aster_qi",
+    "amp_anual_k",
+    "rug_rms_mean_m",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 2.0,
+    "aster_mi": 3.0,
+    "aster_qi": 4.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "ARC-011",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_mi",
+    "rug_rms_mean_m",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_mi": 3.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "ARC-012",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_mi",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_mi": 3.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "ARC-013",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_mi",
+    "aster_qi",
+    "rug_rms_mean_m",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "permafrost_prob": 4.0,
+    "hielo_suelo_gam": 2.0,
+    "aster_mi": 3.0,
+    "aster_qi": 2.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "ARC-014",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_mi",
+    "amp_anual_k",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_mi": 2.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "ARC-015",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_mi",
+    "amp_anual_k",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_mi": 4.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "ARC-016",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_qi",
+    "aster_mi",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 2.0,
+    "aster_qi": 3.0,
+    "aster_mi": 4.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "ARC-017",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_qi",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 3.0,
+    "aster_qi": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "ARC-018",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_mi",
+    "rug_rms_mean_m",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "permafrost_prob": 4.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_mi": 2.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "ARC-019",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_qi",
+    "amp_anual_k",
+    "slope_mean_deg",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 3.0,
+    "aster_qi": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "ARC-020",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_mi",
+    "slope_mean_deg",
+    "rug_rms_mean_m",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 2.0,
+    "aster_mi": 2.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "ARC-021",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_mi",
+    "aster_qi",
+    "rug_rms_mean_m",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 3.0,
+    "aster_mi": 2.0,
+    "aster_qi": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "ARC-022",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_qi",
+    "aster_mi",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "permafrost_prob": 4.0,
+    "hielo_suelo_gam": 2.0,
+    "aster_qi": 3.0,
+    "aster_mi": 3.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "ARC-023",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_qi",
+    "aster_mi",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_qi": 2.0,
+    "aster_mi": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "ARC-024",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_qi",
+    "rug_rms_mean_m",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 2.0,
+    "aster_qi": 4.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "ARC-025",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_qi",
+    "rug_rms_mean_m",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 0.75,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_qi": 3.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "ARC-026",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_mi",
+    "aster_qi",
+    "slope_mean_deg",
+    "rug_rms_mean_m",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 2.0,
+    "aster_mi": 3.0,
+    "aster_qi": 3.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "ARC-027",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_qi",
+    "slope_mean_deg",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 3.0,
+    "aster_qi": 2.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "ARC-028",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_qi",
+    "aster_mi",
+    "slope_mean_deg",
+    "amp_anual_k",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "permafrost_prob": 4.0,
+    "hielo_suelo_gam": 2.0,
+    "aster_qi": 4.0,
+    "aster_mi": 4.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "ARC-029",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_qi",
+    "aster_mi",
+    "rug_rms_mean_m",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 0.75,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 2.0,
+    "aster_qi": 3.0,
+    "aster_mi": 2.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "ARC-030",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_qi",
+    "amp_anual_k",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 0.75,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_qi": 2.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "ARC-031",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_mi",
+    "aster_qi",
+    "amp_anual_k",
+    "slope_mean_deg",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 3.0,
+    "aster_mi": 3.0,
+    "aster_qi": 4.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "ARC-032",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_qi",
+    "slope_mean_deg",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 4.0,
+    "hielo_suelo_gam": 3.0,
+    "aster_qi": 2.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "ARC-033",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_mi",
+    "amp_anual_k",
+    "rug_rms_mean_m",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_mi": 2.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "ARC-034",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_mi",
+    "rug_rms_mean_m",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_mi": 3.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "ARC-035",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_qi",
+    "slope_mean_deg",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_qi": 3.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "ARC-036",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_mi",
+    "rug_rms_mean_m",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 0.75,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_mi": 3.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "ARC-037",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_qi",
+    "amp_anual_k",
+    "slope_mean_deg",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_qi": 4.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "ARC-038",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_qi",
+    "amp_anual_k",
+    "rug_rms_mean_m",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 2.0,
+    "aster_qi": 4.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "ARC-039",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_mi",
+    "aster_qi",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "permafrost_prob": 4.0,
+    "hielo_suelo_gam": 3.0,
+    "aster_mi": 2.0,
+    "aster_qi": 4.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "ARC-040",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_mi",
+    "aster_qi",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_mi": 3.0,
+    "aster_qi": 3.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "ARC-041",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_qi",
+    "slope_mean_deg",
+    "rug_rms_mean_m",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_qi": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "ARC-042",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_mi",
+    "aster_qi",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 2.0,
+    "aster_mi": 2.0,
+    "aster_qi": 2.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "ARC-043",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_qi",
+    "aster_mi",
+    "amp_anual_k",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 3.0,
+    "aster_qi": 4.0,
+    "aster_mi": 4.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "ARC-044",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_mi",
+    "aster_qi",
+    "rug_rms_mean_m",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 0.75,
+   "pesos": {
+    "permafrost_prob": 4.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_mi": 2.0,
+    "aster_qi": 4.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "ARC-045",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_mi",
+    "slope_mean_deg",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 3.0,
+    "aster_mi": 4.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "ARC-046",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_mi",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_mi": 2.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "ARC-047",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_qi",
+    "amp_anual_k",
+    "slope_mean_deg",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_qi": 4.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "ARC-048",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_qi",
+    "slope_mean_deg",
+    "rug_rms_mean_m",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 3.0,
+    "aster_qi": 2.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "ARC-049",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_mi",
+    "aster_qi",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 2.0,
+    "aster_mi": 3.0,
+    "aster_qi": 4.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "ARC-050",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_mi",
+    "slope_mean_deg",
+    "amp_anual_k",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 3.0,
+    "aster_mi": 3.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "ARC-051",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_mi",
+    "aster_qi",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 2.0,
+    "aster_mi": 3.0,
+    "aster_qi": 3.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "ARC-052",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_qi",
+    "aster_mi",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 2.0,
+    "aster_qi": 4.0,
+    "aster_mi": 4.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "ARC-053",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_qi",
+    "rug_rms_mean_m",
+    "slope_mean_deg",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 2.0,
+    "aster_qi": 3.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "ARC-054",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_qi",
+    "aster_mi",
+    "slope_mean_deg",
+    "amp_anual_k",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 3.0,
+    "aster_qi": 3.0,
+    "aster_mi": 2.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "ARC-055",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_mi",
+    "amp_anual_k",
+    "rug_rms_mean_m",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_mi": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "ARC-056",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_qi",
+    "amp_anual_k",
+    "slope_mean_deg",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_qi": 2.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "ARC-057",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_mi",
+    "rug_rms_mean_m",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 0.5,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_mi": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "ARC-058",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_qi",
+    "aster_mi",
+    "amp_anual_k",
+    "rug_rms_mean_m",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "permafrost_prob": 4.0,
+    "hielo_suelo_gam": 3.0,
+    "aster_qi": 4.0,
+    "aster_mi": 2.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "ARC-059",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_qi",
+    "rug_rms_mean_m",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 3.0,
+    "aster_qi": 4.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "ARC-060",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_qi",
+    "rug_rms_mean_m",
+    "amp_anual_k",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 2.0,
+   "pesos": {
+    "permafrost_prob": 4.0,
+    "hielo_suelo_gam": 3.0,
+    "aster_qi": 3.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "ARC-061",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_qi",
+    "aster_mi",
+    "slope_mean_deg",
+    "amp_anual_k",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 4.0,
+    "hielo_suelo_gam": 2.0,
+    "aster_qi": 4.0,
+    "aster_mi": 2.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "ARC-062",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_mi",
+    "aster_qi",
+    "slope_mean_deg",
+    "rug_rms_mean_m",
+    "amp_anual_k"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 3.0,
+    "aster_mi": 4.0,
+    "aster_qi": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "ARC-063",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_mi",
+    "slope_mean_deg",
+    "amp_anual_k",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 4.0,
+    "aster_mi": 3.0
+   },
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "ARC-064",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_mi",
+    "amp_anual_k",
+    "slope_mean_deg",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 1.5,
+   "pesos": {
+    "permafrost_prob": 3.0,
+    "hielo_suelo_gam": 3.0,
+    "aster_mi": 2.0
+   },
+   "ndvi_max": 0.45
+  },
+  {
+   "id": "ARC-065",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_qi",
+    "aster_mi",
+    "rug_rms_mean_m",
+    "slope_mean_deg"
+   ],
+   "factor_tolerancia": 1.0,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 3.0,
+    "aster_qi": 2.0,
+    "aster_mi": 4.0
+   },
+   "ndvi_max": 0.6
+  },
+  {
+   "id": "ARC-066",
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto",
+   "variables": [
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_qi",
+    "aster_mi",
+    "amp_anual_k",
+    "rug_rms_mean_m"
+   ],
+   "factor_tolerancia": 0.75,
+   "pesos": {
+    "permafrost_prob": 2.0,
+    "hielo_suelo_gam": 2.0,
+    "aster_qi": 2.0,
+    "aster_mi": 4.0
+   },
+   "ndvi_max": 0.6
+  }
+ ]
+}

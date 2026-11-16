@@ -1,0 +1,3816 @@
+{
+ "SL-17/hielo_basalto": {
+  "variables": [
+   "slope_mean_deg",
+   "rug_rms_mean_m",
+   "amp_anual_k",
+   "permafrost_prob",
+   "hielo_suelo_gam",
+   "aster_mi",
+   "aster_qi"
+  ],
+  "objetivo": {
+   "slope_mean_deg": 0.7639,
+   "rug_rms_mean_m": 3.7784,
+   "amp_anual_k": 46.51,
+   "permafrost_prob": 0.85,
+   "hielo_suelo_gam": 50.0,
+   "aster_mi": 0.99,
+   "aster_qi": 0.99
+  },
+  "tolerancia": {
+   "slope_mean_deg": 0.8213,
+   "rug_rms_mean_m": 4.0673,
+   "amp_anual_k": 5.0,
+   "permafrost_prob": 0.12,
+   "hielo_suelo_gam": 8.0,
+   "aster_mi": 0.03,
+   "aster_qi": 0.02
+  },
+  "escala_tierra": {
+   "slope_mean_deg": 4.9599,
+   "rug_rms_mean_m": 25.3608,
+   "amp_anual_k": 9.8086,
+   "permafrost_prob": 0.3447,
+   "hielo_suelo_gam": 18.2374,
+   "aster_mi": 0.0693,
+   "aster_qi": 0.0323
+  },
+  "correlacion": [
+   [
+    1.0,
+    0.9976397630472095,
+    0.043103735726584165,
+    0.3514406767576108,
+    -0.44575139566579236,
+    0.3215937357380758,
+    -0.23963834495883388
+   ],
+   [
+    0.9976397630472095,
+    1.0,
+    0.04281137823011988,
+    0.3440146720067544,
+    -0.4446548793051187,
+    0.31672937201405377,
+    -0.23532139341978411
+   ],
+   [
+    0.043103735726584165,
+    0.04281137823011988,
+    1.0,
+    0.08349377326389454,
+    0.572770314295063,
+    0.2101322840568097,
+    -0.18976111816812943
+   ],
+   [
+    0.3514406767576108,
+    0.3440146720067544,
+    0.08349377326389454,
+    1.0,
+    0.39422256596070165,
+    0.2568165074233131,
+    -0.06955344256587988
+   ],
+   [
+    -0.44575139566579236,
+    -0.4446548793051187,
+    0.572770314295063,
+    0.39422256596070165,
+    1.0,
+    0.34204770176315435,
+    -0.1578884246656121
+   ],
+   [
+    0.3215937357380758,
+    0.31672937201405377,
+    0.2101322840568097,
+    0.2568165074233131,
+    0.34204770176315435,
+    1.0,
+    -0.8867118674937791
+   ],
+   [
+    -0.23963834495883388,
+    -0.23532139341978411,
+    -0.18976111816812943,
+    -0.06955344256587988,
+    -0.1578884246656121,
+    -0.8867118674937791,
+    1.0
+   ]
+  ],
+  "fuera_del_alcance_de_la_tierra": {
+   "dtr_k": {
+    "objetivo_real": 80.26,
+    "tope_tierra_p99.9": 42.12
+   }
+  },
+  "celdas_que_coinciden_en_la_tierra": 31362,
+  "area_km2": 79427,
+  "sin_analogo": false,
+  "tolerancia_ancha": {
+   "slope_mean_deg": {
+    "tau": 0.8213,
+    "s": 0.8108,
+    "razon": 1.0129
+   },
+   "rug_rms_mean_m": {
+    "tau": 4.0673,
+    "s": 3.9475,
+    "razon": 1.0304
+   },
+   "relieve_mean_m": {
+    "tau": 14.7904,
+    "s": 14.3895,
+    "razon": 1.0279
+   },
+   "dtr_k": {
+    "tau": 5.9447,
+    "s": 3.1211,
+    "razon": 1.9047
+   }
+  },
+  "advertencias": [
+   "Tolerancia ancha en slope_mean_deg: tau=0.8213 frente a escala terrestre s=0.8108 (1.0129x).",
+   "Tolerancia ancha en rug_rms_mean_m: tau=4.0673 frente a escala terrestre s=3.9475 (1.0304x).",
+   "Tolerancia ancha en relieve_mean_m: tau=14.7904 frente a escala terrestre s=14.3895 (1.0279x).",
+   "Tolerancia ancha en dtr_k: tau=5.9447 frente a escala terrestre s=3.1211 (1.9047x)."
+  ],
+  "resumen_calidad": {
+   "alta": 7,
+   "media": 6,
+   "baja": 0
+  },
+  "regiones_nuevas": [
+   {
+    "region_n6": 24535,
+    "lat": 36.632,
+    "lon": 94.186,
+    "mejor_celda": {
+     "ipix": 100498558,
+     "lat": 36.679,
+     "lon": 94.2957,
+     "S_exacta": 0.8007
+    },
+    "celdas_que_coinciden": 1726,
+    "area_km2": 4371,
+    "frac_de_la_region": 0.421,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.6229,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.224,
+     "slope_std_deg": 0.065,
+     "rug_rms_mean_m": 1.123,
+     "relieve_mean_m": 4.196,
+     "dtr_k": 38.725,
+     "amp_anual_k": 35.541
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 1.0,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9993,
+     "amp_anual_k": 0.9515
+    },
+    "contexto": {
+     "elev_mean_m": 2748.6931,
+     "ndvi_max_clim": 0.062,
+     "aridez_ai": 0.0245,
+     "lst_media_k": 285.7878,
+     "lst_noche_min_k": 252.072,
+     "lst_dia_max_k": 324.516,
+     "dtr_k": 38.7252,
+     "amp_anual_k": 35.541,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 1.6794,
+     "viento_frac_tau_gt_0p05": 0.416,
+     "factor_cielo_visible": 0.9996,
+     "slope_p99_deg": 0.4539,
+     "presion_estandar_hpa": 723.8
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 6792,
+    "lat": 37.815,
+    "lon": 94.131,
+    "mejor_celda": {
+     "ipix": 27822577,
+     "lat": 38.04,
+     "lon": 94.054,
+     "S_exacta": 0.7874
+    },
+    "celdas_que_coinciden": 2475,
+    "area_km2": 6268,
+    "frac_de_la_region": 0.604,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.5931,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.588,
+     "slope_std_deg": 0.304,
+     "rug_rms_mean_m": 2.959,
+     "relieve_mean_m": 11.007,
+     "dtr_k": 37.711,
+     "amp_anual_k": 35.603
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 1.0,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9994,
+     "amp_anual_k": 0.9525
+    },
+    "contexto": {
+     "elev_mean_m": 2749.6707,
+     "ndvi_max_clim": 0.0545,
+     "aridez_ai": 0.0208,
+     "lst_media_k": 284.3882,
+     "lst_noche_min_k": 251.08,
+     "lst_dia_max_k": 322.6,
+     "dtr_k": 37.7107,
+     "amp_anual_k": 35.603,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 1.7177,
+     "viento_frac_tau_gt_0p05": 0.3857,
+     "factor_cielo_visible": 0.9998,
+     "slope_p99_deg": 1.3036,
+     "presion_estandar_hpa": 723.7
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 24542,
+    "lat": 37.345,
+    "lon": 92.318,
+    "mejor_celda": {
+     "ipix": 100527533,
+     "lat": 37.5679,
+     "lon": 92.1643,
+     "S_exacta": 0.7499
+    },
+    "celdas_que_coinciden": 1097,
+    "area_km2": 2778,
+    "frac_de_la_region": 0.268,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.5832,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.845,
+     "slope_std_deg": 0.189,
+     "rug_rms_mean_m": 4.173,
+     "relieve_mean_m": 15.657,
+     "dtr_k": 38.174,
+     "amp_anual_k": 34.17
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 1.0,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.999,
+     "amp_anual_k": 0.9276
+    },
+    "contexto": {
+     "elev_mean_m": 3026.4746,
+     "ndvi_max_clim": 0.0537,
+     "aridez_ai": 0.0325,
+     "lst_media_k": 283.861,
+     "lst_noche_min_k": 251.556,
+     "lst_dia_max_k": 322.358,
+     "dtr_k": 38.1743,
+     "amp_anual_k": 34.17,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 3.5683,
+     "viento_frac_tau_gt_0p05": 0.368,
+     "factor_cielo_visible": 0.9997,
+     "slope_p99_deg": 1.2852,
+     "presion_estandar_hpa": 698.7
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 24541,
+    "lat": 37.169,
+    "lon": 93.636,
+    "mejor_celda": {
+     "ipix": 100521765,
+     "lat": 37.2626,
+     "lon": 93.8562,
+     "S_exacta": 0.7781
+    },
+    "celdas_que_coinciden": 2057,
+    "area_km2": 5210,
+    "frac_de_la_region": 0.502,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.5794,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.134,
+     "slope_std_deg": 0.043,
+     "rug_rms_mean_m": 0.678,
+     "relieve_mean_m": 2.544,
+     "dtr_k": 37.857,
+     "amp_anual_k": 35.529
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 1.0,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9993,
+     "amp_anual_k": 0.9513
+    },
+    "contexto": {
+     "elev_mean_m": 2718.9429,
+     "ndvi_max_clim": 0.0667,
+     "aridez_ai": 0.0192,
+     "lst_media_k": 285.412,
+     "lst_noche_min_k": 252.278,
+     "lst_dia_max_k": 323.928,
+     "dtr_k": 37.8575,
+     "amp_anual_k": 35.529,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 1.8137,
+     "viento_frac_tau_gt_0p05": 0.3982,
+     "factor_cielo_visible": 0.9998,
+     "slope_p99_deg": 0.2699,
+     "presion_estandar_hpa": 726.5
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 6794,
+    "lat": 38.444,
+    "lon": 93.483,
+    "mejor_celda": {
+     "ipix": 27828545,
+     "lat": 38.2297,
+     "lon": 93.7903,
+     "S_exacta": 0.7662
+    },
+    "celdas_que_coinciden": 1602,
+    "area_km2": 4057,
+    "frac_de_la_region": 0.391,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.5226,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.692,
+     "slope_std_deg": 0.246,
+     "rug_rms_mean_m": 3.467,
+     "relieve_mean_m": 12.779,
+     "dtr_k": 36.975,
+     "amp_anual_k": 35.532
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 1.0,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9993,
+     "amp_anual_k": 0.9514
+    },
+    "contexto": {
+     "elev_mean_m": 2771.3262,
+     "ndvi_max_clim": 0.0489,
+     "aridez_ai": 0.0179,
+     "lst_media_k": 283.6705,
+     "lst_noche_min_k": 250.754,
+     "lst_dia_max_k": 321.568,
+     "dtr_k": 36.975,
+     "amp_anual_k": 35.532,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 2.1023,
+     "viento_frac_tau_gt_0p05": 0.3951,
+     "factor_cielo_visible": 0.9996,
+     "slope_p99_deg": 1.4007,
+     "presion_estandar_hpa": 721.7
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 24543,
+    "lat": 37.839,
+    "lon": 92.78,
+    "mejor_celda": {
+     "ipix": 100530269,
+     "lat": 37.7563,
+     "lon": 92.6038,
+     "S_exacta": 0.7616
+    },
+    "celdas_que_coinciden": 2052,
+    "area_km2": 5197,
+    "frac_de_la_region": 0.501,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.5179,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.549,
+     "slope_std_deg": 0.292,
+     "rug_rms_mean_m": 2.766,
+     "relieve_mean_m": 10.08,
+     "dtr_k": 36.324,
+     "amp_anual_k": 35.821
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 1.0,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9994,
+     "amp_anual_k": 0.9558
+    },
+    "contexto": {
+     "elev_mean_m": 2757.8135,
+     "ndvi_max_clim": 0.0567,
+     "aridez_ai": 0.0189,
+     "lst_media_k": 283.9283,
+     "lst_noche_min_k": 251.03,
+     "lst_dia_max_k": 321.462,
+     "dtr_k": 36.3245,
+     "amp_anual_k": 35.821,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 1.7195,
+     "viento_frac_tau_gt_0p05": 0.346,
+     "factor_cielo_visible": 0.9998,
+     "slope_p99_deg": 1.2404,
+     "presion_estandar_hpa": 722.9
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 6793,
+    "lat": 38.766,
+    "lon": 94.614,
+    "mejor_celda": {
+     "ipix": 27826765,
+     "lat": 38.6583,
+     "lon": 94.4934,
+     "S_exacta": 0.8148
+    },
+    "celdas_que_coinciden": 1051,
+    "area_km2": 2662,
+    "frac_de_la_region": 0.257,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.4874,
+    "calidad_analogo": "media",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.791,
+     "slope_std_deg": 0.056,
+     "rug_rms_mean_m": 3.904,
+     "relieve_mean_m": 14.321,
+     "dtr_k": 36.788,
+     "amp_anual_k": 35.531
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 1.0,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9993,
+     "amp_anual_k": 0.9513
+    },
+    "contexto": {
+     "elev_mean_m": 3099.6558,
+     "ndvi_max_clim": 0.0606,
+     "aridez_ai": 0.0456,
+     "lst_media_k": 281.6745,
+     "lst_noche_min_k": 249.024,
+     "lst_dia_max_k": 319.114,
+     "dtr_k": 36.7878,
+     "amp_anual_k": 35.531,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 1.0586,
+     "viento_frac_tau_gt_0p05": 0.4171,
+     "factor_cielo_visible": 0.9994,
+     "slope_p99_deg": 0.9209,
+     "presion_estandar_hpa": 692.2
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 24565,
+    "lat": 38.313,
+    "lon": 92.043,
+    "mejor_celda": {
+     "ipix": 100618254,
+     "lat": 37.9926,
+     "lon": 92.0984,
+     "S_exacta": 0.76
+    },
+    "celdas_que_coinciden": 820,
+    "area_km2": 2077,
+    "frac_de_la_region": 0.2,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.4824,
+    "calidad_analogo": "media",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.442,
+     "slope_std_deg": 0.219,
+     "rug_rms_mean_m": 2.195,
+     "relieve_mean_m": 7.965,
+     "dtr_k": 35.518,
+     "amp_anual_k": 36.894
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 0.9999,
+     "rug_rms_mean_m": 1.0,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9928,
+     "amp_anual_k": 0.9683
+    },
+    "contexto": {
+     "elev_mean_m": 2734.6675,
+     "ndvi_max_clim": 0.0526,
+     "aridez_ai": 0.0219,
+     "lst_media_k": 283.418,
+     "lst_noche_min_k": 250.074,
+     "lst_dia_max_k": 321.026,
+     "dtr_k": 35.5182,
+     "amp_anual_k": 36.8945,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 1.4515,
+     "viento_frac_tau_gt_0p05": 0.289,
+     "factor_cielo_visible": 0.9998,
+     "slope_p99_deg": 0.9468,
+     "presion_estandar_hpa": 725.1
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 6786,
+    "lat": 37.181,
+    "lon": 94.801,
+    "mejor_celda": {
+     "ipix": 27798371,
+     "lat": 37.3446,
+     "lon": 94.6143,
+     "S_exacta": 0.6969
+    },
+    "celdas_que_coinciden": 1408,
+    "area_km2": 3566,
+    "frac_de_la_region": 0.344,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.4824,
+    "calidad_analogo": "media",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.197,
+     "slope_std_deg": 0.077,
+     "rug_rms_mean_m": 0.973,
+     "relieve_mean_m": 3.571,
+     "dtr_k": 36.486,
+     "amp_anual_k": 35.357
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 1.0,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9993,
+     "amp_anual_k": 0.9485
+    },
+    "contexto": {
+     "elev_mean_m": 2699.0801,
+     "ndvi_max_clim": 0.0599,
+     "aridez_ai": 0.0265,
+     "lst_media_k": 285.6753,
+     "lst_noche_min_k": 253.276,
+     "lst_dia_max_k": 323.178,
+     "dtr_k": 36.4865,
+     "amp_anual_k": 35.357,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 1.6741,
+     "viento_frac_tau_gt_0p05": 0.413,
+     "factor_cielo_visible": 0.9998,
+     "slope_p99_deg": 0.4317,
+     "presion_estandar_hpa": 728.3
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 24566,
+    "lat": 38.605,
+    "lon": 90.549,
+    "mejor_celda": {
+     "ipix": 100625047,
+     "lat": 38.6941,
+     "lon": 90.1538,
+     "S_exacta": 0.7926
+    },
+    "celdas_que_coinciden": 416,
+    "area_km2": 1054,
+    "frac_de_la_region": 0.102,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.477,
+    "calidad_analogo": "media",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.857,
+     "slope_std_deg": 0.086,
+     "rug_rms_mean_m": 4.243,
+     "relieve_mean_m": 15.108,
+     "dtr_k": 36.939,
+     "amp_anual_k": 34.744
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 1.0,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9992,
+     "amp_anual_k": 0.9381
+    },
+    "contexto": {
+     "elev_mean_m": 2996.4131,
+     "ndvi_max_clim": 0.0535,
+     "aridez_ai": 0.0535,
+     "lst_media_k": 281.6809,
+     "lst_noche_min_k": 249.192,
+     "lst_dia_max_k": 319.052,
+     "dtr_k": 36.9393,
+     "amp_anual_k": 34.744,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 2.6973,
+     "viento_frac_tau_gt_0p05": 0.3543,
+     "factor_cielo_visible": 0.9989,
+     "slope_p99_deg": 1.1581,
+     "presion_estandar_hpa": 701.4
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 6784,
+    "lat": 36.516,
+    "lon": 95.499,
+    "mejor_celda": {
+     "ipix": 27789704,
+     "lat": 36.3656,
+     "lon": 95.3394,
+     "S_exacta": 0.6008
+    },
+    "celdas_que_coinciden": 804,
+    "area_km2": 2036,
+    "frac_de_la_region": 0.196,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.451,
+    "calidad_analogo": "media",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.368,
+     "slope_std_deg": 0.051,
+     "rug_rms_mean_m": 1.822,
+     "relieve_mean_m": 6.144,
+     "dtr_k": 36.028,
+     "amp_anual_k": 34.851
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 1.0,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9981,
+     "amp_anual_k": 0.9392
+    },
+    "contexto": {
+     "elev_mean_m": 2740.3733,
+     "ndvi_max_clim": 0.0699,
+     "aridez_ai": 0.0336,
+     "lst_media_k": 285.8457,
+     "lst_noche_min_k": 253.768,
+     "lst_dia_max_k": 322.928,
+     "dtr_k": 36.0275,
+     "amp_anual_k": 34.851,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 1.6211,
+     "viento_frac_tau_gt_0p05": 0.43,
+     "factor_cielo_visible": 0.9996,
+     "slope_p99_deg": 0.5417,
+     "presion_estandar_hpa": 724.5
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 6801,
+    "lat": 39.766,
+    "lon": 99.13,
+    "mejor_celda": {
+     "ipix": 27857440,
+     "lat": 39.705,
+     "lon": 98.9209,
+     "S_exacta": 0.6626
+    },
+    "celdas_que_coinciden": 488,
+    "area_km2": 1236,
+    "frac_de_la_region": 0.119,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.4412,
+    "calidad_analogo": "media",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.184,
+     "slope_std_deg": 0.074,
+     "rug_rms_mean_m": 0.9,
+     "relieve_mean_m": 3.343,
+     "dtr_k": 34.186,
+     "amp_anual_k": 42.108
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 0.9999,
+     "slope_std_deg": 0.9998,
+     "rug_rms_mean_m": 0.9999,
+     "relieve_mean_m": 0.9999,
+     "dtr_k": 0.9622,
+     "amp_anual_k": 0.9995
+    },
+    "contexto": {
+     "elev_mean_m": 1344.3809,
+     "ndvi_max_clim": 0.1022,
+     "aridez_ai": 0.0866,
+     "lst_media_k": 289.5978,
+     "lst_noche_min_k": 254.702,
+     "lst_dia_max_k": 328.226,
+     "dtr_k": 34.1858,
+     "amp_anual_k": 42.108,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 2.9091,
+     "viento_frac_tau_gt_0p05": 0.4399,
+     "factor_cielo_visible": 0.9996,
+     "slope_p99_deg": 0.3573,
+     "presion_estandar_hpa": 861.8
+    },
+    "tubo_lava_cercano": null
+   }
+  ],
+  "regiones_conocidas": [
+   {
+    "region_n6": 24564,
+    "lat": 37.91,
+    "lon": 91.494,
+    "mejor_celda": {
+     "ipix": 100615541,
+     "lat": 37.969,
+     "lon": 92.0544,
+     "S_exacta": 0.761
+    },
+    "celdas_que_coinciden": 879,
+    "area_km2": 2226,
+    "frac_de_la_region": 0.215,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.5152,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": "ST-41 Cuenca de Qaidam",
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.888,
+     "slope_std_deg": 0.22,
+     "rug_rms_mean_m": 4.457,
+     "relieve_mean_m": 16.553,
+     "dtr_k": 36.8,
+     "amp_anual_k": 35.028
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 1.0,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9992,
+     "amp_anual_k": 0.9431
+    },
+    "contexto": {
+     "elev_mean_m": 2934.5278,
+     "ndvi_max_clim": 0.0515,
+     "aridez_ai": 0.0342,
+     "lst_media_k": 283.6589,
+     "lst_noche_min_k": 250.84,
+     "lst_dia_max_k": 321.226,
+     "dtr_k": 36.8002,
+     "amp_anual_k": 35.028,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 2.9282,
+     "viento_frac_tau_gt_0p05": 0.3531,
+     "factor_cielo_visible": 0.9994,
+     "slope_p99_deg": 1.4709,
+     "presion_estandar_hpa": 706.9
+    },
+    "tubo_lava_cercano": null
+   }
+  ],
+  "proxima_pasada_por_vegetacion": [],
+  "coinciden_pero_les_falta_alguna_variable": [
+   {
+    "lat": -81.277,
+    "lon": -48.333,
+    "celdas_que_coinciden": 3191,
+    "frac_de_la_region": 0.779,
+    "frac_sin_ndvi": 1.0,
+    "n_vars": 4,
+    "conocido": "Antartida",
+    "advertencia": "Vegetación sin verificar (NDVI sin dato)"
+   },
+   {
+    "lat": -71.532,
+    "lon": 69.785,
+    "celdas_que_coinciden": 2769,
+    "frac_de_la_region": 0.676,
+    "frac_sin_ndvi": 1.0,
+    "n_vars": 4,
+    "conocido": "Antartida",
+    "advertencia": "Vegetación sin verificar (NDVI sin dato)"
+   },
+   {
+    "lat": -73.358,
+    "lon": 168.527,
+    "celdas_que_coinciden": 343,
+    "frac_de_la_region": 0.634,
+    "frac_sin_ndvi": 1.0,
+    "n_vars": 4,
+    "conocido": "Antartida",
+    "advertencia": "Vegetación sin verificar (NDVI sin dato)"
+   },
+   {
+    "lat": -81.815,
+    "lon": -45.124,
+    "celdas_que_coinciden": 2567,
+    "frac_de_la_region": 0.627,
+    "frac_sin_ndvi": 1.0,
+    "n_vars": 4,
+    "conocido": "Antartida",
+    "advertencia": "Vegetación sin verificar (NDVI sin dato)"
+   },
+   {
+    "lat": -75.156,
+    "lon": 163.164,
+    "celdas_que_coinciden": 1073,
+    "frac_de_la_region": 0.618,
+    "frac_sin_ndvi": 1.0,
+    "n_vars": 4,
+    "conocido": "Antartida",
+    "advertencia": "Vegetación sin verificar (NDVI sin dato)"
+   }
+  ]
+ },
+ "SL-20/hielo_arcilla": {
+  "variables": [
+   "slope_mean_deg",
+   "rug_rms_mean_m",
+   "amp_anual_k",
+   "permafrost_prob",
+   "hielo_suelo_gam",
+   "arcilla_gkg",
+   "aster_ci"
+  ],
+  "objetivo": {
+   "slope_mean_deg": 0.3639,
+   "rug_rms_mean_m": 1.8136,
+   "amp_anual_k": 26.93,
+   "permafrost_prob": 0.85,
+   "hielo_suelo_gam": 50.0,
+   "arcilla_gkg": 330.0,
+   "aster_ci": 1.005
+  },
+  "tolerancia": {
+   "slope_mean_deg": 0.1812,
+   "rug_rms_mean_m": 0.8719,
+   "amp_anual_k": 5.0,
+   "permafrost_prob": 0.12,
+   "hielo_suelo_gam": 8.0,
+   "arcilla_gkg": 40.0,
+   "aster_ci": 0.004
+  },
+  "escala_tierra": {
+   "slope_mean_deg": 4.9599,
+   "rug_rms_mean_m": 25.3608,
+   "amp_anual_k": 9.8086,
+   "permafrost_prob": 0.3447,
+   "hielo_suelo_gam": 18.2374,
+   "arcilla_gkg": 64.8467,
+   "aster_ci": 0.0067
+  },
+  "correlacion": [
+   [
+    1.0,
+    0.9976397630472095,
+    0.043103735726584165,
+    0.3514406767576108,
+    -0.44575139566579236,
+    -0.1336727822453808,
+    0.15590253454816871
+   ],
+   [
+    0.9976397630472095,
+    1.0,
+    0.04281137823011988,
+    0.3440146720067544,
+    -0.4446548793051187,
+    -0.13196149975507296,
+    0.1539529886007121
+   ],
+   [
+    0.043103735726584165,
+    0.04281137823011988,
+    1.0,
+    0.08349377326389454,
+    0.572770314295063,
+    0.23653046616173096,
+    0.1496082613710247
+   ],
+   [
+    0.3514406767576108,
+    0.3440146720067544,
+    0.08349377326389454,
+    1.0,
+    0.39422256596070165,
+    -0.05627183962404553,
+    0.3179251682083045
+   ],
+   [
+    -0.44575139566579236,
+    -0.4446548793051187,
+    0.572770314295063,
+    0.39422256596070165,
+    1.0,
+    -0.1622701216270083,
+    0.183728163742531
+   ],
+   [
+    -0.1336727822453808,
+    -0.13196149975507296,
+    0.23653046616173096,
+    -0.05627183962404553,
+    -0.1622701216270083,
+    1.0,
+    0.10553437986927597
+   ],
+   [
+    0.15590253454816871,
+    0.1539529886007121,
+    0.1496082613710247,
+    0.3179251682083045,
+    0.183728163742531,
+    0.10553437986927597,
+    1.0
+   ]
+  ],
+  "fuera_del_alcance_de_la_tierra": {
+   "dtr_k": {
+    "objetivo_real": 72.71,
+    "tope_tierra_p99.9": 42.12
+   }
+  },
+  "celdas_que_coinciden_en_la_tierra": 95879,
+  "area_km2": 242823,
+  "sin_analogo": false,
+  "tolerancia_ancha": {
+   "dtr_k": {
+    "tau": 5.9447,
+    "s": 3.1211,
+    "razon": 1.9047
+   }
+  },
+  "advertencias": [
+   "Tolerancia ancha en dtr_k: tau=5.9447 frente a escala terrestre s=3.1211 (1.9047x)."
+  ],
+  "resumen_calidad": {
+   "alta": 15,
+   "media": 0,
+   "baja": 0
+  },
+  "regiones_nuevas": [
+   {
+    "region_n6": 24542,
+    "lat": 37.298,
+    "lon": 92.329,
+    "mejor_celda": {
+     "ipix": 100527826,
+     "lat": 37.6149,
+     "lon": 91.9666,
+     "S_exacta": 0.9371
+    },
+    "celdas_que_coinciden": 904,
+    "area_km2": 2289,
+    "frac_de_la_region": 0.221,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.7771,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.707,
+     "slope_std_deg": 0.15,
+     "rug_rms_mean_m": 3.511,
+     "relieve_mean_m": 13.05,
+     "dtr_k": 38.242,
+     "amp_anual_k": 34.012
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 0.9981,
+     "slope_std_deg": 0.9951,
+     "rug_rms_mean_m": 0.9974,
+     "relieve_mean_m": 0.9946,
+     "dtr_k": 0.9997,
+     "amp_anual_k": 0.9941
+    },
+    "contexto": {
+     "elev_mean_m": 3010.5508,
+     "ndvi_max_clim": 0.0541,
+     "aridez_ai": 0.0316,
+     "lst_media_k": 283.8495,
+     "lst_noche_min_k": 251.59,
+     "lst_dia_max_k": 322.3,
+     "dtr_k": 38.2423,
+     "amp_anual_k": 34.012,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 3.5683,
+     "viento_frac_tau_gt_0p05": 0.368,
+     "factor_cielo_visible": 0.9997,
+     "slope_p99_deg": 1.0329,
+     "presion_estandar_hpa": 700.1
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 48124,
+    "lat": -21.352,
+    "lon": -67.214,
+    "mejor_celda": {
+     "ipix": 197117401,
+     "lat": -21.3018,
+     "lon": -66.9397,
+     "S_exacta": 0.8796
+    },
+    "celdas_que_coinciden": 1042,
+    "area_km2": 2639,
+    "frac_de_la_region": 0.254,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.7737,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.24,
+     "slope_std_deg": 0.05,
+     "rug_rms_mean_m": 1.2,
+     "relieve_mean_m": 4.429,
+     "dtr_k": 42.031,
+     "amp_anual_k": 16.619
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 1.0,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9995,
+     "amp_anual_k": 0.9614
+    },
+    "contexto": {
+     "elev_mean_m": 3775.7627,
+     "ndvi_max_clim": 0.1257,
+     "aridez_ai": 0.0577,
+     "lst_media_k": 288.912,
+     "lst_noche_min_k": 260.782,
+     "lst_dia_max_k": 319.144,
+     "dtr_k": 42.0312,
+     "amp_anual_k": 16.619,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": null,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 0.0,
+     "viento_frac_tau_gt_0p05": 0.405,
+     "factor_cielo_visible": 0.9997,
+     "slope_p99_deg": 0.3663,
+     "presion_estandar_hpa": 634.6
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 24535,
+    "lat": 36.621,
+    "lon": 94.208,
+    "mejor_celda": {
+     "ipix": 100497779,
+     "lat": 36.4584,
+     "lon": 94.1309,
+     "S_exacta": 0.9039
+    },
+    "celdas_que_coinciden": 1816,
+    "area_km2": 4599,
+    "frac_de_la_region": 0.443,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.7599,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.209,
+     "slope_std_deg": 0.056,
+     "rug_rms_mean_m": 1.042,
+     "relieve_mean_m": 3.913,
+     "dtr_k": 38.459,
+     "amp_anual_k": 35.503
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 1.0,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9998,
+     "amp_anual_k": 0.9823
+    },
+    "contexto": {
+     "elev_mean_m": 2747.0022,
+     "ndvi_max_clim": 0.0635,
+     "aridez_ai": 0.0246,
+     "lst_media_k": 285.7538,
+     "lst_noche_min_k": 252.18,
+     "lst_dia_max_k": 324.393,
+     "dtr_k": 38.4587,
+     "amp_anual_k": 35.503,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 1.6765,
+     "viento_frac_tau_gt_0p05": 0.416,
+     "factor_cielo_visible": 0.9997,
+     "slope_p99_deg": 0.3923,
+     "presion_estandar_hpa": 723.9
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 6792,
+    "lat": 37.863,
+    "lon": 94.164,
+    "mejor_celda": {
+     "ipix": 27821361,
+     "lat": 37.8508,
+     "lon": 94.7571,
+     "S_exacta": 0.8814
+    },
+    "celdas_que_coinciden": 2367,
+    "area_km2": 5995,
+    "frac_de_la_region": 0.578,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.7289,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.489,
+     "slope_std_deg": 0.251,
+     "rug_rms_mean_m": 2.49,
+     "relieve_mean_m": 9.348,
+     "dtr_k": 37.339,
+     "amp_anual_k": 35.556
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 0.9998,
+     "slope_std_deg": 0.9956,
+     "rug_rms_mean_m": 0.9998,
+     "relieve_mean_m": 0.9998,
+     "dtr_k": 0.9997,
+     "amp_anual_k": 0.9816
+    },
+    "contexto": {
+     "elev_mean_m": 2747.7063,
+     "ndvi_max_clim": 0.0549,
+     "aridez_ai": 0.0211,
+     "lst_media_k": 284.3748,
+     "lst_noche_min_k": 251.262,
+     "lst_dia_max_k": 322.488,
+     "dtr_k": 37.3388,
+     "amp_anual_k": 35.556,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 1.7131,
+     "viento_frac_tau_gt_0p05": 0.3857,
+     "factor_cielo_visible": 0.9998,
+     "slope_p99_deg": 1.0882,
+     "presion_estandar_hpa": 723.9
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 24541,
+    "lat": 37.169,
+    "lon": 93.604,
+    "mejor_celda": {
+     "ipix": 100520068,
+     "lat": 36.5512,
+     "lon": 93.4497,
+     "S_exacta": 0.8872
+    },
+    "celdas_que_coinciden": 2352,
+    "area_km2": 5957,
+    "frac_de_la_region": 0.574,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.7198,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.14,
+     "slope_std_deg": 0.04,
+     "rug_rms_mean_m": 0.705,
+     "relieve_mean_m": 2.628,
+     "dtr_k": 37.446,
+     "amp_anual_k": 35.395
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 0.9999,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 0.9997,
+     "relieve_mean_m": 0.9999,
+     "dtr_k": 0.9999,
+     "amp_anual_k": 0.9834
+    },
+    "contexto": {
+     "elev_mean_m": 2720.3599,
+     "ndvi_max_clim": 0.0684,
+     "aridez_ai": 0.0193,
+     "lst_media_k": 285.2736,
+     "lst_noche_min_k": 252.422,
+     "lst_dia_max_k": 323.496,
+     "dtr_k": 37.446,
+     "amp_anual_k": 35.395,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 1.7931,
+     "viento_frac_tau_gt_0p05": 0.3982,
+     "factor_cielo_visible": 0.9998,
+     "slope_p99_deg": 0.2632,
+     "presion_estandar_hpa": 726.4
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 6794,
+    "lat": 38.408,
+    "lon": 93.45,
+    "mejor_celda": {
+     "ipix": 27830746,
+     "lat": 38.7778,
+     "lon": 93.3508,
+     "S_exacta": 0.8924
+    },
+    "celdas_que_coinciden": 1120,
+    "area_km2": 2837,
+    "frac_de_la_region": 0.273,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.7159,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.431,
+     "slope_std_deg": 0.215,
+     "rug_rms_mean_m": 2.16,
+     "relieve_mean_m": 8.047,
+     "dtr_k": 37.077,
+     "amp_anual_k": 35.606
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 0.9996,
+     "rug_rms_mean_m": 1.0,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9997,
+     "amp_anual_k": 0.9813
+    },
+    "contexto": {
+     "elev_mean_m": 2753.6035,
+     "ndvi_max_clim": 0.0494,
+     "aridez_ai": 0.0174,
+     "lst_media_k": 283.6213,
+     "lst_noche_min_k": 250.754,
+     "lst_dia_max_k": 321.586,
+     "dtr_k": 37.077,
+     "amp_anual_k": 35.606,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 2.1023,
+     "viento_frac_tau_gt_0p05": 0.3951,
+     "factor_cielo_visible": 0.9997,
+     "slope_p99_deg": 0.9694,
+     "presion_estandar_hpa": 723.3
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 6793,
+    "lat": 38.802,
+    "lon": 94.614,
+    "mejor_celda": {
+     "ipix": 27826847,
+     "lat": 38.718,
+     "lon": 94.3506,
+     "S_exacta": 0.8985
+    },
+    "celdas_que_coinciden": 726,
+    "area_km2": 1839,
+    "frac_de_la_region": 0.177,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.709,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.484,
+     "slope_std_deg": 0.046,
+     "rug_rms_mean_m": 2.379,
+     "relieve_mean_m": 8.351,
+     "dtr_k": 37.697,
+     "amp_anual_k": 35.442
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 1.0,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9998,
+     "amp_anual_k": 0.983
+    },
+    "contexto": {
+     "elev_mean_m": 3054.6016,
+     "ndvi_max_clim": 0.0583,
+     "aridez_ai": 0.0435,
+     "lst_media_k": 281.8629,
+     "lst_noche_min_k": 248.976,
+     "lst_dia_max_k": 319.48,
+     "dtr_k": 37.697,
+     "amp_anual_k": 35.442,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 1.2431,
+     "viento_frac_tau_gt_0p05": 0.4171,
+     "factor_cielo_visible": 0.9995,
+     "slope_p99_deg": 0.7094,
+     "presion_estandar_hpa": 696.2
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 48125,
+    "lat": -20.787,
+    "lon": -66.907,
+    "mejor_celda": {
+     "ipix": 197122193,
+     "lat": -20.922,
+     "lon": -67.1814,
+     "S_exacta": 0.8763
+    },
+    "celdas_que_coinciden": 1610,
+    "area_km2": 4077,
+    "frac_de_la_region": 0.393,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.6939,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.161,
+     "slope_std_deg": 0.057,
+     "rug_rms_mean_m": 0.823,
+     "relieve_mean_m": 3.026,
+     "dtr_k": 39.008,
+     "amp_anual_k": 16.539
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 0.9999,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9994,
+     "amp_anual_k": 0.9603
+    },
+    "contexto": {
+     "elev_mean_m": 3677.0151,
+     "ndvi_max_clim": 0.1239,
+     "aridez_ai": 0.0798,
+     "lst_media_k": 288.2719,
+     "lst_noche_min_k": 261.242,
+     "lst_dia_max_k": 317.31,
+     "dtr_k": 39.008,
+     "amp_anual_k": 16.539,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": null,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 0.0,
+     "viento_frac_tau_gt_0p05": 0.405,
+     "factor_cielo_visible": 0.9998,
+     "slope_p99_deg": 0.3353,
+     "presion_estandar_hpa": 642.8
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 48113,
+    "lat": -23.409,
+    "lon": -66.764,
+    "mejor_celda": {
+     "ipix": 197073214,
+     "lat": -23.3383,
+     "lon": -66.9836,
+     "S_exacta": 0.8678
+    },
+    "celdas_que_coinciden": 451,
+    "area_km2": 1142,
+    "frac_de_la_region": 0.11,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.6928,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.388,
+     "slope_std_deg": 0.133,
+     "rug_rms_mean_m": 1.958,
+     "relieve_mean_m": 7.172,
+     "dtr_k": 38.746,
+     "amp_anual_k": 17.002
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 1.0,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9995,
+     "amp_anual_k": 0.9667
+    },
+    "contexto": {
+     "elev_mean_m": 3937.9517,
+     "ndvi_max_clim": 0.0832,
+     "aridez_ai": 0.0598,
+     "lst_media_k": 287.7758,
+     "lst_noche_min_k": 262.392,
+     "lst_dia_max_k": 317.262,
+     "dtr_k": 38.7458,
+     "amp_anual_k": 17.002,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": null,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 0.0322,
+     "viento_frac_tau_gt_0p05": 0.5674,
+     "factor_cielo_visible": 0.9991,
+     "slope_p99_deg": 0.6859,
+     "presion_estandar_hpa": 621.4
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 48091,
+    "lat": -23.674,
+    "lon": -66.116,
+    "mejor_celda": {
+     "ipix": 196984645,
+     "lat": -23.5212,
+     "lon": -65.9729,
+     "S_exacta": 0.877
+    },
+    "celdas_que_coinciden": 562,
+    "area_km2": 1423,
+    "frac_de_la_region": 0.137,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.6881,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.18,
+     "slope_std_deg": 0.033,
+     "rug_rms_mean_m": 0.9,
+     "relieve_mean_m": 3.272,
+     "dtr_k": 38.535,
+     "amp_anual_k": 17.824
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 0.9994,
+     "rug_rms_mean_m": 1.0,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9996,
+     "amp_anual_k": 0.9767
+    },
+    "contexto": {
+     "elev_mean_m": 3424.791,
+     "ndvi_max_clim": 0.1191,
+     "aridez_ai": 0.0857,
+     "lst_media_k": 291.3362,
+     "lst_noche_min_k": 264.312,
+     "lst_dia_max_k": 320.004,
+     "dtr_k": 38.5347,
+     "amp_anual_k": 17.824,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": null,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 0.0,
+     "viento_frac_tau_gt_0p05": 0.4806,
+     "factor_cielo_visible": 0.9992,
+     "slope_p99_deg": 0.2606,
+     "presion_estandar_hpa": 664.0
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 24543,
+    "lat": 37.863,
+    "lon": 92.823,
+    "mejor_celda": {
+     "ipix": 100528209,
+     "lat": 37.3329,
+     "lon": 92.9553,
+     "S_exacta": 0.8713
+    },
+    "celdas_que_coinciden": 1976,
+    "area_km2": 5004,
+    "frac_de_la_region": 0.482,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.6485,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.449,
+     "slope_std_deg": 0.221,
+     "rug_rms_mean_m": 2.223,
+     "relieve_mean_m": 8.135,
+     "dtr_k": 35.546,
+     "amp_anual_k": 35.843
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 0.9999,
+     "slope_std_deg": 0.9995,
+     "rug_rms_mean_m": 0.9999,
+     "relieve_mean_m": 0.9999,
+     "dtr_k": 0.9981,
+     "amp_anual_k": 0.9807
+    },
+    "contexto": {
+     "elev_mean_m": 2748.8083,
+     "ndvi_max_clim": 0.0568,
+     "aridez_ai": 0.0188,
+     "lst_media_k": 283.9494,
+     "lst_noche_min_k": 251.306,
+     "lst_dia_max_k": 321.166,
+     "dtr_k": 35.5461,
+     "amp_anual_k": 35.843,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 1.7077,
+     "viento_frac_tau_gt_0p05": 0.3627,
+     "factor_cielo_visible": 0.9999,
+     "slope_p99_deg": 0.9835,
+     "presion_estandar_hpa": 723.8
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 6786,
+    "lat": 37.157,
+    "lon": 94.845,
+    "mejor_celda": {
+     "ipix": 27799275,
+     "lat": 37.6503,
+     "lon": 94.6802,
+     "S_exacta": 0.8653
+    },
+    "celdas_que_coinciden": 1670,
+    "area_km2": 4229,
+    "frac_de_la_region": 0.408,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.6466,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.175,
+     "slope_std_deg": 0.064,
+     "rug_rms_mean_m": 0.88,
+     "relieve_mean_m": 3.188,
+     "dtr_k": 35.947,
+     "amp_anual_k": 35.331
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 0.9999,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9999,
+     "amp_anual_k": 0.9846
+    },
+    "contexto": {
+     "elev_mean_m": 2697.0859,
+     "ndvi_max_clim": 0.0605,
+     "aridez_ai": 0.0268,
+     "lst_media_k": 285.6291,
+     "lst_noche_min_k": 253.426,
+     "lst_dia_max_k": 322.62,
+     "dtr_k": 35.9475,
+     "amp_anual_k": 35.331,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 1.5678,
+     "viento_frac_tau_gt_0p05": 0.413,
+     "factor_cielo_visible": 0.9998,
+     "slope_p99_deg": 0.3505,
+     "presion_estandar_hpa": 728.5
+    },
+    "tubo_lava_cercano": null
+   }
+  ],
+  "regiones_conocidas": [
+   {
+    "region_n6": 48114,
+    "lat": -23.247,
+    "lon": -68.203,
+    "mejor_celda": {
+     "ipix": 197078597,
+     "lat": -23.0339,
+     "lon": -68.2581,
+     "S_exacta": 0.8879
+    },
+    "celdas_que_coinciden": 844,
+    "area_km2": 2138,
+    "frac_de_la_region": 0.206,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.7123,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": "Atacama",
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.146,
+     "slope_std_deg": 0.038,
+     "rug_rms_mean_m": 0.73,
+     "relieve_mean_m": 2.615,
+     "dtr_k": 41.767,
+     "amp_anual_k": 16.838
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 0.9999,
+     "relieve_mean_m": 0.9999,
+     "dtr_k": 0.9994,
+     "amp_anual_k": 0.9645
+    },
+    "contexto": {
+     "elev_mean_m": 2316.9241,
+     "ndvi_max_clim": 0.0844,
+     "aridez_ai": 0.0189,
+     "lst_media_k": 298.5058,
+     "lst_noche_min_k": 270.644,
+     "lst_dia_max_k": 327.318,
+     "dtr_k": 41.7668,
+     "amp_anual_k": 16.838,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": null,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 1.174,
+     "viento_frac_tau_gt_0p05": 0.3666,
+     "factor_cielo_visible": 0.9986,
+     "slope_p99_deg": 0.25,
+     "presion_estandar_hpa": 764.2
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 24564,
+    "lat": 37.933,
+    "lon": 91.472,
+    "mejor_celda": {
+     "ipix": 100615242,
+     "lat": 37.6856,
+     "lon": 91.8127,
+     "S_exacta": 0.9018
+    },
+    "celdas_que_coinciden": 711,
+    "area_km2": 1801,
+    "frac_de_la_region": 0.174,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.6786,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": "ST-41 Cuenca de Qaidam",
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.701,
+     "slope_std_deg": 0.161,
+     "rug_rms_mean_m": 3.475,
+     "relieve_mean_m": 12.861,
+     "dtr_k": 36.292,
+     "amp_anual_k": 34.668
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 0.9982,
+     "slope_std_deg": 0.9956,
+     "rug_rms_mean_m": 0.9976,
+     "relieve_mean_m": 0.9954,
+     "dtr_k": 0.9996,
+     "amp_anual_k": 0.9897
+    },
+    "contexto": {
+     "elev_mean_m": 2913.7168,
+     "ndvi_max_clim": 0.0519,
+     "aridez_ai": 0.0338,
+     "lst_media_k": 283.4265,
+     "lst_noche_min_k": 250.776,
+     "lst_dia_max_k": 320.8,
+     "dtr_k": 36.292,
+     "amp_anual_k": 34.668,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 2.9964,
+     "viento_frac_tau_gt_0p05": 0.3531,
+     "factor_cielo_visible": 0.9994,
+     "slope_p99_deg": 1.0148,
+     "presion_estandar_hpa": 708.8
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 29013,
+    "lat": -19.353,
+    "lon": -67.994,
+    "mejor_celda": {
+     "ipix": 118838150,
+     "lat": -19.6692,
+     "lon": -68.28,
+     "S_exacta": 0.8324
+    },
+    "celdas_que_coinciden": 598,
+    "area_km2": 1514,
+    "frac_de_la_region": 0.146,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.6313,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": "Atacama",
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.109,
+     "slope_std_deg": 0.051,
+     "rug_rms_mean_m": 0.571,
+     "relieve_mean_m": 2.029,
+     "dtr_k": 38.788,
+     "amp_anual_k": 14.793
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 0.9995,
+     "slope_std_deg": 0.9993,
+     "rug_rms_mean_m": 0.9994,
+     "relieve_mean_m": 0.9995,
+     "dtr_k": 0.9988,
+     "amp_anual_k": 0.9315
+    },
+    "contexto": {
+     "elev_mean_m": 3661.9124,
+     "ndvi_max_clim": 0.1174,
+     "aridez_ai": 0.1314,
+     "lst_media_k": 290.0141,
+     "lst_noche_min_k": 264.196,
+     "lst_dia_max_k": 319.934,
+     "dtr_k": 38.7877,
+     "amp_anual_k": 14.793,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": null,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": null,
+     "viento_frac_tau_gt_0p05": 0.2861,
+     "factor_cielo_visible": 0.9997,
+     "slope_p99_deg": 0.2544,
+     "presion_estandar_hpa": 644.0
+    },
+    "tubo_lava_cercano": null
+   }
+  ],
+  "proxima_pasada_por_vegetacion": [],
+  "coinciden_pero_les_falta_alguna_variable": [
+   {
+    "lat": -81.277,
+    "lon": -48.333,
+    "celdas_que_coinciden": 3191,
+    "frac_de_la_region": 0.779,
+    "frac_sin_ndvi": 1.0,
+    "n_vars": 4,
+    "conocido": "Antartida",
+    "advertencia": "Vegetación sin verificar (NDVI sin dato)"
+   },
+   {
+    "lat": -71.543,
+    "lon": 69.787,
+    "celdas_que_coinciden": 2728,
+    "frac_de_la_region": 0.666,
+    "frac_sin_ndvi": 1.0,
+    "n_vars": 4,
+    "conocido": "Antartida",
+    "advertencia": "Vegetación sin verificar (NDVI sin dato)"
+   },
+   {
+    "lat": -81.815,
+    "lon": -45.123,
+    "celdas_que_coinciden": 2562,
+    "frac_de_la_region": 0.625,
+    "frac_sin_ndvi": 1.0,
+    "n_vars": 4,
+    "conocido": "Antartida",
+    "advertencia": "Vegetación sin verificar (NDVI sin dato)"
+   },
+   {
+    "lat": -73.346,
+    "lon": 168.501,
+    "celdas_que_coinciden": 285,
+    "frac_de_la_region": 0.527,
+    "frac_sin_ndvi": 1.0,
+    "n_vars": 4,
+    "conocido": "Antartida",
+    "advertencia": "Vegetación sin verificar (NDVI sin dato)"
+   },
+   {
+    "lat": -77.871,
+    "lon": 168.081,
+    "celdas_que_coinciden": 965,
+    "frac_de_la_region": 0.466,
+    "frac_sin_ndvi": 1.0,
+    "n_vars": 4,
+    "conocido": "Antartida",
+    "advertencia": "Vegetación sin verificar (NDVI sin dato)"
+   }
+  ]
+ },
+ "SL-17/crater_hielo_alterado": {
+  "variables": [
+   "slope_mean_deg",
+   "amp_anual_k",
+   "permafrost_prob",
+   "hielo_suelo_gam",
+   "arcilla_gkg",
+   "aster_ci"
+  ],
+  "objetivo": {
+   "slope_mean_deg": 5.0,
+   "amp_anual_k": 46.51,
+   "permafrost_prob": 0.6,
+   "hielo_suelo_gam": 40.0,
+   "arcilla_gkg": 330.0,
+   "aster_ci": 1.005
+  },
+  "tolerancia": {
+   "slope_mean_deg": 3.0,
+   "amp_anual_k": 5.0,
+   "permafrost_prob": 0.25,
+   "hielo_suelo_gam": 12.0,
+   "arcilla_gkg": 40.0,
+   "aster_ci": 0.004
+  },
+  "escala_tierra": {
+   "slope_mean_deg": 4.9599,
+   "amp_anual_k": 9.8086,
+   "permafrost_prob": 0.3447,
+   "hielo_suelo_gam": 18.2374,
+   "arcilla_gkg": 64.8467,
+   "aster_ci": 0.0067
+  },
+  "correlacion": [
+   [
+    1.0,
+    0.043103735726584165,
+    0.3514406767576108,
+    -0.44575139566579236,
+    -0.1336727822453808,
+    0.15590253454816871
+   ],
+   [
+    0.043103735726584165,
+    1.0,
+    0.08349377326389454,
+    0.572770314295063,
+    0.23653046616173096,
+    0.1496082613710247
+   ],
+   [
+    0.3514406767576108,
+    0.08349377326389454,
+    1.0,
+    0.39422256596070165,
+    -0.05627183962404553,
+    0.3179251682083045
+   ],
+   [
+    -0.44575139566579236,
+    0.572770314295063,
+    0.39422256596070165,
+    1.0,
+    -0.1622701216270083,
+    0.183728163742531
+   ],
+   [
+    -0.1336727822453808,
+    0.23653046616173096,
+    -0.05627183962404553,
+    -0.1622701216270083,
+    1.0,
+    0.10553437986927597
+   ],
+   [
+    0.15590253454816871,
+    0.1496082613710247,
+    0.3179251682083045,
+    0.183728163742531,
+    0.10553437986927597,
+    1.0
+   ]
+  ],
+  "fuera_del_alcance_de_la_tierra": {
+   "dtr_k": {
+    "objetivo_real": 80.26,
+    "tope_tierra_p99.9": 42.12
+   }
+  },
+  "celdas_que_coinciden_en_la_tierra": 31362,
+  "area_km2": 79427,
+  "sin_analogo": false,
+  "tolerancia_ancha": {
+   "slope_mean_deg": {
+    "tau": 0.8213,
+    "s": 0.8108,
+    "razon": 1.0129
+   },
+   "rug_rms_mean_m": {
+    "tau": 4.0673,
+    "s": 3.9475,
+    "razon": 1.0304
+   },
+   "relieve_mean_m": {
+    "tau": 14.7904,
+    "s": 14.3895,
+    "razon": 1.0279
+   },
+   "dtr_k": {
+    "tau": 5.9447,
+    "s": 3.1211,
+    "razon": 1.9047
+   }
+  },
+  "advertencias": [
+   "Tolerancia ancha en slope_mean_deg: tau=0.8213 frente a escala terrestre s=0.8108 (1.0129x).",
+   "Tolerancia ancha en rug_rms_mean_m: tau=4.0673 frente a escala terrestre s=3.9475 (1.0304x).",
+   "Tolerancia ancha en relieve_mean_m: tau=14.7904 frente a escala terrestre s=14.3895 (1.0279x).",
+   "Tolerancia ancha en dtr_k: tau=5.9447 frente a escala terrestre s=3.1211 (1.9047x)."
+  ],
+  "resumen_calidad": {
+   "alta": 7,
+   "media": 6,
+   "baja": 0
+  },
+  "regiones_nuevas": [
+   {
+    "region_n6": 24535,
+    "lat": 36.632,
+    "lon": 94.186,
+    "mejor_celda": {
+     "ipix": 100498558,
+     "lat": 36.679,
+     "lon": 94.2957,
+     "S_exacta": 0.8007
+    },
+    "celdas_que_coinciden": 1726,
+    "area_km2": 4371,
+    "frac_de_la_region": 0.421,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.6229,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.224,
+     "slope_std_deg": 0.065,
+     "rug_rms_mean_m": 1.123,
+     "relieve_mean_m": 4.196,
+     "dtr_k": 38.725,
+     "amp_anual_k": 35.541
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 1.0,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9993,
+     "amp_anual_k": 0.9515
+    },
+    "contexto": {
+     "elev_mean_m": 2748.6931,
+     "ndvi_max_clim": 0.062,
+     "aridez_ai": 0.0245,
+     "lst_media_k": 285.7878,
+     "lst_noche_min_k": 252.072,
+     "lst_dia_max_k": 324.516,
+     "dtr_k": 38.7252,
+     "amp_anual_k": 35.541,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 1.6794,
+     "viento_frac_tau_gt_0p05": 0.416,
+     "factor_cielo_visible": 0.9996,
+     "slope_p99_deg": 0.4539,
+     "presion_estandar_hpa": 723.8
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 6792,
+    "lat": 37.815,
+    "lon": 94.131,
+    "mejor_celda": {
+     "ipix": 27822577,
+     "lat": 38.04,
+     "lon": 94.054,
+     "S_exacta": 0.7874
+    },
+    "celdas_que_coinciden": 2475,
+    "area_km2": 6268,
+    "frac_de_la_region": 0.604,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.5931,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.588,
+     "slope_std_deg": 0.304,
+     "rug_rms_mean_m": 2.959,
+     "relieve_mean_m": 11.007,
+     "dtr_k": 37.711,
+     "amp_anual_k": 35.603
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 1.0,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9994,
+     "amp_anual_k": 0.9525
+    },
+    "contexto": {
+     "elev_mean_m": 2749.6707,
+     "ndvi_max_clim": 0.0545,
+     "aridez_ai": 0.0208,
+     "lst_media_k": 284.3882,
+     "lst_noche_min_k": 251.08,
+     "lst_dia_max_k": 322.6,
+     "dtr_k": 37.7107,
+     "amp_anual_k": 35.603,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 1.7177,
+     "viento_frac_tau_gt_0p05": 0.3857,
+     "factor_cielo_visible": 0.9998,
+     "slope_p99_deg": 1.3036,
+     "presion_estandar_hpa": 723.7
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 24542,
+    "lat": 37.345,
+    "lon": 92.318,
+    "mejor_celda": {
+     "ipix": 100527533,
+     "lat": 37.5679,
+     "lon": 92.1643,
+     "S_exacta": 0.7499
+    },
+    "celdas_que_coinciden": 1097,
+    "area_km2": 2778,
+    "frac_de_la_region": 0.268,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.5832,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.845,
+     "slope_std_deg": 0.189,
+     "rug_rms_mean_m": 4.173,
+     "relieve_mean_m": 15.657,
+     "dtr_k": 38.174,
+     "amp_anual_k": 34.17
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 1.0,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.999,
+     "amp_anual_k": 0.9276
+    },
+    "contexto": {
+     "elev_mean_m": 3026.4746,
+     "ndvi_max_clim": 0.0537,
+     "aridez_ai": 0.0325,
+     "lst_media_k": 283.861,
+     "lst_noche_min_k": 251.556,
+     "lst_dia_max_k": 322.358,
+     "dtr_k": 38.1743,
+     "amp_anual_k": 34.17,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 3.5683,
+     "viento_frac_tau_gt_0p05": 0.368,
+     "factor_cielo_visible": 0.9997,
+     "slope_p99_deg": 1.2852,
+     "presion_estandar_hpa": 698.7
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 24541,
+    "lat": 37.169,
+    "lon": 93.636,
+    "mejor_celda": {
+     "ipix": 100521765,
+     "lat": 37.2626,
+     "lon": 93.8562,
+     "S_exacta": 0.7781
+    },
+    "celdas_que_coinciden": 2057,
+    "area_km2": 5210,
+    "frac_de_la_region": 0.502,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.5794,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.134,
+     "slope_std_deg": 0.043,
+     "rug_rms_mean_m": 0.678,
+     "relieve_mean_m": 2.544,
+     "dtr_k": 37.857,
+     "amp_anual_k": 35.529
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 1.0,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9993,
+     "amp_anual_k": 0.9513
+    },
+    "contexto": {
+     "elev_mean_m": 2718.9429,
+     "ndvi_max_clim": 0.0667,
+     "aridez_ai": 0.0192,
+     "lst_media_k": 285.412,
+     "lst_noche_min_k": 252.278,
+     "lst_dia_max_k": 323.928,
+     "dtr_k": 37.8575,
+     "amp_anual_k": 35.529,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 1.8137,
+     "viento_frac_tau_gt_0p05": 0.3982,
+     "factor_cielo_visible": 0.9998,
+     "slope_p99_deg": 0.2699,
+     "presion_estandar_hpa": 726.5
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 6794,
+    "lat": 38.444,
+    "lon": 93.483,
+    "mejor_celda": {
+     "ipix": 27828545,
+     "lat": 38.2297,
+     "lon": 93.7903,
+     "S_exacta": 0.7662
+    },
+    "celdas_que_coinciden": 1602,
+    "area_km2": 4057,
+    "frac_de_la_region": 0.391,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.5226,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.692,
+     "slope_std_deg": 0.246,
+     "rug_rms_mean_m": 3.467,
+     "relieve_mean_m": 12.779,
+     "dtr_k": 36.975,
+     "amp_anual_k": 35.532
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 1.0,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9993,
+     "amp_anual_k": 0.9514
+    },
+    "contexto": {
+     "elev_mean_m": 2771.3262,
+     "ndvi_max_clim": 0.0489,
+     "aridez_ai": 0.0179,
+     "lst_media_k": 283.6705,
+     "lst_noche_min_k": 250.754,
+     "lst_dia_max_k": 321.568,
+     "dtr_k": 36.975,
+     "amp_anual_k": 35.532,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 2.1023,
+     "viento_frac_tau_gt_0p05": 0.3951,
+     "factor_cielo_visible": 0.9996,
+     "slope_p99_deg": 1.4007,
+     "presion_estandar_hpa": 721.7
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 24543,
+    "lat": 37.839,
+    "lon": 92.78,
+    "mejor_celda": {
+     "ipix": 100530269,
+     "lat": 37.7563,
+     "lon": 92.6038,
+     "S_exacta": 0.7616
+    },
+    "celdas_que_coinciden": 2052,
+    "area_km2": 5197,
+    "frac_de_la_region": 0.501,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.5179,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.549,
+     "slope_std_deg": 0.292,
+     "rug_rms_mean_m": 2.766,
+     "relieve_mean_m": 10.08,
+     "dtr_k": 36.324,
+     "amp_anual_k": 35.821
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 1.0,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9994,
+     "amp_anual_k": 0.9558
+    },
+    "contexto": {
+     "elev_mean_m": 2757.8135,
+     "ndvi_max_clim": 0.0567,
+     "aridez_ai": 0.0189,
+     "lst_media_k": 283.9283,
+     "lst_noche_min_k": 251.03,
+     "lst_dia_max_k": 321.462,
+     "dtr_k": 36.3245,
+     "amp_anual_k": 35.821,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 1.7195,
+     "viento_frac_tau_gt_0p05": 0.346,
+     "factor_cielo_visible": 0.9998,
+     "slope_p99_deg": 1.2404,
+     "presion_estandar_hpa": 722.9
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 6793,
+    "lat": 38.766,
+    "lon": 94.614,
+    "mejor_celda": {
+     "ipix": 27826765,
+     "lat": 38.6583,
+     "lon": 94.4934,
+     "S_exacta": 0.8148
+    },
+    "celdas_que_coinciden": 1051,
+    "area_km2": 2662,
+    "frac_de_la_region": 0.257,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.4874,
+    "calidad_analogo": "media",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.791,
+     "slope_std_deg": 0.056,
+     "rug_rms_mean_m": 3.904,
+     "relieve_mean_m": 14.321,
+     "dtr_k": 36.788,
+     "amp_anual_k": 35.531
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 1.0,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9993,
+     "amp_anual_k": 0.9513
+    },
+    "contexto": {
+     "elev_mean_m": 3099.6558,
+     "ndvi_max_clim": 0.0606,
+     "aridez_ai": 0.0456,
+     "lst_media_k": 281.6745,
+     "lst_noche_min_k": 249.024,
+     "lst_dia_max_k": 319.114,
+     "dtr_k": 36.7878,
+     "amp_anual_k": 35.531,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 1.0586,
+     "viento_frac_tau_gt_0p05": 0.4171,
+     "factor_cielo_visible": 0.9994,
+     "slope_p99_deg": 0.9209,
+     "presion_estandar_hpa": 692.2
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 24565,
+    "lat": 38.313,
+    "lon": 92.043,
+    "mejor_celda": {
+     "ipix": 100618254,
+     "lat": 37.9926,
+     "lon": 92.0984,
+     "S_exacta": 0.76
+    },
+    "celdas_que_coinciden": 820,
+    "area_km2": 2077,
+    "frac_de_la_region": 0.2,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.4824,
+    "calidad_analogo": "media",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.442,
+     "slope_std_deg": 0.219,
+     "rug_rms_mean_m": 2.195,
+     "relieve_mean_m": 7.965,
+     "dtr_k": 35.518,
+     "amp_anual_k": 36.894
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 0.9999,
+     "rug_rms_mean_m": 1.0,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9928,
+     "amp_anual_k": 0.9683
+    },
+    "contexto": {
+     "elev_mean_m": 2734.6675,
+     "ndvi_max_clim": 0.0526,
+     "aridez_ai": 0.0219,
+     "lst_media_k": 283.418,
+     "lst_noche_min_k": 250.074,
+     "lst_dia_max_k": 321.026,
+     "dtr_k": 35.5182,
+     "amp_anual_k": 36.8945,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 1.4515,
+     "viento_frac_tau_gt_0p05": 0.289,
+     "factor_cielo_visible": 0.9998,
+     "slope_p99_deg": 0.9468,
+     "presion_estandar_hpa": 725.1
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 6786,
+    "lat": 37.181,
+    "lon": 94.801,
+    "mejor_celda": {
+     "ipix": 27798371,
+     "lat": 37.3446,
+     "lon": 94.6143,
+     "S_exacta": 0.6969
+    },
+    "celdas_que_coinciden": 1408,
+    "area_km2": 3566,
+    "frac_de_la_region": 0.344,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.4824,
+    "calidad_analogo": "media",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.197,
+     "slope_std_deg": 0.077,
+     "rug_rms_mean_m": 0.973,
+     "relieve_mean_m": 3.571,
+     "dtr_k": 36.486,
+     "amp_anual_k": 35.357
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 1.0,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9993,
+     "amp_anual_k": 0.9485
+    },
+    "contexto": {
+     "elev_mean_m": 2699.0801,
+     "ndvi_max_clim": 0.0599,
+     "aridez_ai": 0.0265,
+     "lst_media_k": 285.6753,
+     "lst_noche_min_k": 253.276,
+     "lst_dia_max_k": 323.178,
+     "dtr_k": 36.4865,
+     "amp_anual_k": 35.357,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 1.6741,
+     "viento_frac_tau_gt_0p05": 0.413,
+     "factor_cielo_visible": 0.9998,
+     "slope_p99_deg": 0.4317,
+     "presion_estandar_hpa": 728.3
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 24566,
+    "lat": 38.605,
+    "lon": 90.549,
+    "mejor_celda": {
+     "ipix": 100625047,
+     "lat": 38.6941,
+     "lon": 90.1538,
+     "S_exacta": 0.7926
+    },
+    "celdas_que_coinciden": 416,
+    "area_km2": 1054,
+    "frac_de_la_region": 0.102,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.477,
+    "calidad_analogo": "media",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.857,
+     "slope_std_deg": 0.086,
+     "rug_rms_mean_m": 4.243,
+     "relieve_mean_m": 15.108,
+     "dtr_k": 36.939,
+     "amp_anual_k": 34.744
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 1.0,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9992,
+     "amp_anual_k": 0.9381
+    },
+    "contexto": {
+     "elev_mean_m": 2996.4131,
+     "ndvi_max_clim": 0.0535,
+     "aridez_ai": 0.0535,
+     "lst_media_k": 281.6809,
+     "lst_noche_min_k": 249.192,
+     "lst_dia_max_k": 319.052,
+     "dtr_k": 36.9393,
+     "amp_anual_k": 34.744,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 2.6973,
+     "viento_frac_tau_gt_0p05": 0.3543,
+     "factor_cielo_visible": 0.9989,
+     "slope_p99_deg": 1.1581,
+     "presion_estandar_hpa": 701.4
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 6784,
+    "lat": 36.516,
+    "lon": 95.499,
+    "mejor_celda": {
+     "ipix": 27789704,
+     "lat": 36.3656,
+     "lon": 95.3394,
+     "S_exacta": 0.6008
+    },
+    "celdas_que_coinciden": 804,
+    "area_km2": 2036,
+    "frac_de_la_region": 0.196,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.451,
+    "calidad_analogo": "media",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.368,
+     "slope_std_deg": 0.051,
+     "rug_rms_mean_m": 1.822,
+     "relieve_mean_m": 6.144,
+     "dtr_k": 36.028,
+     "amp_anual_k": 34.851
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 1.0,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9981,
+     "amp_anual_k": 0.9392
+    },
+    "contexto": {
+     "elev_mean_m": 2740.3733,
+     "ndvi_max_clim": 0.0699,
+     "aridez_ai": 0.0336,
+     "lst_media_k": 285.8457,
+     "lst_noche_min_k": 253.768,
+     "lst_dia_max_k": 322.928,
+     "dtr_k": 36.0275,
+     "amp_anual_k": 34.851,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 1.6211,
+     "viento_frac_tau_gt_0p05": 0.43,
+     "factor_cielo_visible": 0.9996,
+     "slope_p99_deg": 0.5417,
+     "presion_estandar_hpa": 724.5
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 6801,
+    "lat": 39.766,
+    "lon": 99.13,
+    "mejor_celda": {
+     "ipix": 27857440,
+     "lat": 39.705,
+     "lon": 98.9209,
+     "S_exacta": 0.6626
+    },
+    "celdas_que_coinciden": 488,
+    "area_km2": 1236,
+    "frac_de_la_region": 0.119,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.4412,
+    "calidad_analogo": "media",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.184,
+     "slope_std_deg": 0.074,
+     "rug_rms_mean_m": 0.9,
+     "relieve_mean_m": 3.343,
+     "dtr_k": 34.186,
+     "amp_anual_k": 42.108
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 0.9999,
+     "slope_std_deg": 0.9998,
+     "rug_rms_mean_m": 0.9999,
+     "relieve_mean_m": 0.9999,
+     "dtr_k": 0.9622,
+     "amp_anual_k": 0.9995
+    },
+    "contexto": {
+     "elev_mean_m": 1344.3809,
+     "ndvi_max_clim": 0.1022,
+     "aridez_ai": 0.0866,
+     "lst_media_k": 289.5978,
+     "lst_noche_min_k": 254.702,
+     "lst_dia_max_k": 328.226,
+     "dtr_k": 34.1858,
+     "amp_anual_k": 42.108,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 2.9091,
+     "viento_frac_tau_gt_0p05": 0.4399,
+     "factor_cielo_visible": 0.9996,
+     "slope_p99_deg": 0.3573,
+     "presion_estandar_hpa": 861.8
+    },
+    "tubo_lava_cercano": null
+   }
+  ],
+  "regiones_conocidas": [
+   {
+    "region_n6": 24564,
+    "lat": 37.91,
+    "lon": 91.494,
+    "mejor_celda": {
+     "ipix": 100615541,
+     "lat": 37.969,
+     "lon": 92.0544,
+     "S_exacta": 0.761
+    },
+    "celdas_que_coinciden": 879,
+    "area_km2": 2226,
+    "frac_de_la_region": 0.215,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.5152,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": "ST-41 Cuenca de Qaidam",
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.888,
+     "slope_std_deg": 0.22,
+     "rug_rms_mean_m": 4.457,
+     "relieve_mean_m": 16.553,
+     "dtr_k": 36.8,
+     "amp_anual_k": 35.028
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 1.0,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9992,
+     "amp_anual_k": 0.9431
+    },
+    "contexto": {
+     "elev_mean_m": 2934.5278,
+     "ndvi_max_clim": 0.0515,
+     "aridez_ai": 0.0342,
+     "lst_media_k": 283.6589,
+     "lst_noche_min_k": 250.84,
+     "lst_dia_max_k": 321.226,
+     "dtr_k": 36.8002,
+     "amp_anual_k": 35.028,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 2.9282,
+     "viento_frac_tau_gt_0p05": 0.3531,
+     "factor_cielo_visible": 0.9994,
+     "slope_p99_deg": 1.4709,
+     "presion_estandar_hpa": 706.9
+    },
+    "tubo_lava_cercano": null
+   }
+  ],
+  "proxima_pasada_por_vegetacion": [],
+  "coinciden_pero_les_falta_alguna_variable": [
+   {
+    "lat": -81.277,
+    "lon": -48.333,
+    "celdas_que_coinciden": 3191,
+    "frac_de_la_region": 0.779,
+    "frac_sin_ndvi": 1.0,
+    "n_vars": 4,
+    "conocido": "Antartida",
+    "advertencia": "Vegetación sin verificar (NDVI sin dato)"
+   },
+   {
+    "lat": -71.532,
+    "lon": 69.785,
+    "celdas_que_coinciden": 2769,
+    "frac_de_la_region": 0.676,
+    "frac_sin_ndvi": 1.0,
+    "n_vars": 4,
+    "conocido": "Antartida",
+    "advertencia": "Vegetación sin verificar (NDVI sin dato)"
+   },
+   {
+    "lat": -73.358,
+    "lon": 168.527,
+    "celdas_que_coinciden": 343,
+    "frac_de_la_region": 0.634,
+    "frac_sin_ndvi": 1.0,
+    "n_vars": 4,
+    "conocido": "Antartida",
+    "advertencia": "Vegetación sin verificar (NDVI sin dato)"
+   },
+   {
+    "lat": -81.815,
+    "lon": -45.124,
+    "celdas_que_coinciden": 2567,
+    "frac_de_la_region": 0.627,
+    "frac_sin_ndvi": 1.0,
+    "n_vars": 4,
+    "conocido": "Antartida",
+    "advertencia": "Vegetación sin verificar (NDVI sin dato)"
+   },
+   {
+    "lat": -75.156,
+    "lon": 163.164,
+    "celdas_que_coinciden": 1073,
+    "frac_de_la_region": 0.618,
+    "frac_sin_ndvi": 1.0,
+    "n_vars": 4,
+    "conocido": "Antartida",
+    "advertencia": "Vegetación sin verificar (NDVI sin dato)"
+   }
+  ]
+ },
+ "SL-20/crater_hielo_alterado": {
+  "variables": [
+   "slope_mean_deg",
+   "amp_anual_k",
+   "permafrost_prob",
+   "hielo_suelo_gam",
+   "arcilla_gkg",
+   "aster_ci"
+  ],
+  "objetivo": {
+   "slope_mean_deg": 5.0,
+   "amp_anual_k": 26.93,
+   "permafrost_prob": 0.6,
+   "hielo_suelo_gam": 40.0,
+   "arcilla_gkg": 330.0,
+   "aster_ci": 1.005
+  },
+  "tolerancia": {
+   "slope_mean_deg": 3.0,
+   "amp_anual_k": 5.0,
+   "permafrost_prob": 0.25,
+   "hielo_suelo_gam": 12.0,
+   "arcilla_gkg": 40.0,
+   "aster_ci": 0.004
+  },
+  "escala_tierra": {
+   "slope_mean_deg": 4.9599,
+   "amp_anual_k": 9.8086,
+   "permafrost_prob": 0.3447,
+   "hielo_suelo_gam": 18.2374,
+   "arcilla_gkg": 64.8467,
+   "aster_ci": 0.0067
+  },
+  "correlacion": [
+   [
+    1.0,
+    0.043103735726584165,
+    0.3514406767576108,
+    -0.44575139566579236,
+    -0.1336727822453808,
+    0.15590253454816871
+   ],
+   [
+    0.043103735726584165,
+    1.0,
+    0.08349377326389454,
+    0.572770314295063,
+    0.23653046616173096,
+    0.1496082613710247
+   ],
+   [
+    0.3514406767576108,
+    0.08349377326389454,
+    1.0,
+    0.39422256596070165,
+    -0.05627183962404553,
+    0.3179251682083045
+   ],
+   [
+    -0.44575139566579236,
+    0.572770314295063,
+    0.39422256596070165,
+    1.0,
+    -0.1622701216270083,
+    0.183728163742531
+   ],
+   [
+    -0.1336727822453808,
+    0.23653046616173096,
+    -0.05627183962404553,
+    -0.1622701216270083,
+    1.0,
+    0.10553437986927597
+   ],
+   [
+    0.15590253454816871,
+    0.1496082613710247,
+    0.3179251682083045,
+    0.183728163742531,
+    0.10553437986927597,
+    1.0
+   ]
+  ],
+  "fuera_del_alcance_de_la_tierra": {
+   "dtr_k": {
+    "objetivo_real": 72.71,
+    "tope_tierra_p99.9": 42.12
+   }
+  },
+  "celdas_que_coinciden_en_la_tierra": 95879,
+  "area_km2": 242823,
+  "sin_analogo": false,
+  "tolerancia_ancha": {
+   "dtr_k": {
+    "tau": 5.9447,
+    "s": 3.1211,
+    "razon": 1.9047
+   }
+  },
+  "advertencias": [
+   "Tolerancia ancha en dtr_k: tau=5.9447 frente a escala terrestre s=3.1211 (1.9047x)."
+  ],
+  "resumen_calidad": {
+   "alta": 15,
+   "media": 0,
+   "baja": 0
+  },
+  "regiones_nuevas": [
+   {
+    "region_n6": 24542,
+    "lat": 37.298,
+    "lon": 92.329,
+    "mejor_celda": {
+     "ipix": 100527826,
+     "lat": 37.6149,
+     "lon": 91.9666,
+     "S_exacta": 0.9371
+    },
+    "celdas_que_coinciden": 904,
+    "area_km2": 2289,
+    "frac_de_la_region": 0.221,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.7771,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.707,
+     "slope_std_deg": 0.15,
+     "rug_rms_mean_m": 3.511,
+     "relieve_mean_m": 13.05,
+     "dtr_k": 38.242,
+     "amp_anual_k": 34.012
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 0.9981,
+     "slope_std_deg": 0.9951,
+     "rug_rms_mean_m": 0.9974,
+     "relieve_mean_m": 0.9946,
+     "dtr_k": 0.9997,
+     "amp_anual_k": 0.9941
+    },
+    "contexto": {
+     "elev_mean_m": 3010.5508,
+     "ndvi_max_clim": 0.0541,
+     "aridez_ai": 0.0316,
+     "lst_media_k": 283.8495,
+     "lst_noche_min_k": 251.59,
+     "lst_dia_max_k": 322.3,
+     "dtr_k": 38.2423,
+     "amp_anual_k": 34.012,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 3.5683,
+     "viento_frac_tau_gt_0p05": 0.368,
+     "factor_cielo_visible": 0.9997,
+     "slope_p99_deg": 1.0329,
+     "presion_estandar_hpa": 700.1
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 48124,
+    "lat": -21.352,
+    "lon": -67.214,
+    "mejor_celda": {
+     "ipix": 197117401,
+     "lat": -21.3018,
+     "lon": -66.9397,
+     "S_exacta": 0.8796
+    },
+    "celdas_que_coinciden": 1042,
+    "area_km2": 2639,
+    "frac_de_la_region": 0.254,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.7737,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.24,
+     "slope_std_deg": 0.05,
+     "rug_rms_mean_m": 1.2,
+     "relieve_mean_m": 4.429,
+     "dtr_k": 42.031,
+     "amp_anual_k": 16.619
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 1.0,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9995,
+     "amp_anual_k": 0.9614
+    },
+    "contexto": {
+     "elev_mean_m": 3775.7627,
+     "ndvi_max_clim": 0.1257,
+     "aridez_ai": 0.0577,
+     "lst_media_k": 288.912,
+     "lst_noche_min_k": 260.782,
+     "lst_dia_max_k": 319.144,
+     "dtr_k": 42.0312,
+     "amp_anual_k": 16.619,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": null,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 0.0,
+     "viento_frac_tau_gt_0p05": 0.405,
+     "factor_cielo_visible": 0.9997,
+     "slope_p99_deg": 0.3663,
+     "presion_estandar_hpa": 634.6
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 24535,
+    "lat": 36.621,
+    "lon": 94.208,
+    "mejor_celda": {
+     "ipix": 100497779,
+     "lat": 36.4584,
+     "lon": 94.1309,
+     "S_exacta": 0.9039
+    },
+    "celdas_que_coinciden": 1816,
+    "area_km2": 4599,
+    "frac_de_la_region": 0.443,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.7599,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.209,
+     "slope_std_deg": 0.056,
+     "rug_rms_mean_m": 1.042,
+     "relieve_mean_m": 3.913,
+     "dtr_k": 38.459,
+     "amp_anual_k": 35.503
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 1.0,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9998,
+     "amp_anual_k": 0.9823
+    },
+    "contexto": {
+     "elev_mean_m": 2747.0022,
+     "ndvi_max_clim": 0.0635,
+     "aridez_ai": 0.0246,
+     "lst_media_k": 285.7538,
+     "lst_noche_min_k": 252.18,
+     "lst_dia_max_k": 324.393,
+     "dtr_k": 38.4587,
+     "amp_anual_k": 35.503,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 1.6765,
+     "viento_frac_tau_gt_0p05": 0.416,
+     "factor_cielo_visible": 0.9997,
+     "slope_p99_deg": 0.3923,
+     "presion_estandar_hpa": 723.9
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 6792,
+    "lat": 37.863,
+    "lon": 94.164,
+    "mejor_celda": {
+     "ipix": 27821361,
+     "lat": 37.8508,
+     "lon": 94.7571,
+     "S_exacta": 0.8814
+    },
+    "celdas_que_coinciden": 2367,
+    "area_km2": 5995,
+    "frac_de_la_region": 0.578,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.7289,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.489,
+     "slope_std_deg": 0.251,
+     "rug_rms_mean_m": 2.49,
+     "relieve_mean_m": 9.348,
+     "dtr_k": 37.339,
+     "amp_anual_k": 35.556
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 0.9998,
+     "slope_std_deg": 0.9956,
+     "rug_rms_mean_m": 0.9998,
+     "relieve_mean_m": 0.9998,
+     "dtr_k": 0.9997,
+     "amp_anual_k": 0.9816
+    },
+    "contexto": {
+     "elev_mean_m": 2747.7063,
+     "ndvi_max_clim": 0.0549,
+     "aridez_ai": 0.0211,
+     "lst_media_k": 284.3748,
+     "lst_noche_min_k": 251.262,
+     "lst_dia_max_k": 322.488,
+     "dtr_k": 37.3388,
+     "amp_anual_k": 35.556,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 1.7131,
+     "viento_frac_tau_gt_0p05": 0.3857,
+     "factor_cielo_visible": 0.9998,
+     "slope_p99_deg": 1.0882,
+     "presion_estandar_hpa": 723.9
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 24541,
+    "lat": 37.169,
+    "lon": 93.604,
+    "mejor_celda": {
+     "ipix": 100520068,
+     "lat": 36.5512,
+     "lon": 93.4497,
+     "S_exacta": 0.8872
+    },
+    "celdas_que_coinciden": 2352,
+    "area_km2": 5957,
+    "frac_de_la_region": 0.574,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.7198,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.14,
+     "slope_std_deg": 0.04,
+     "rug_rms_mean_m": 0.705,
+     "relieve_mean_m": 2.628,
+     "dtr_k": 37.446,
+     "amp_anual_k": 35.395
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 0.9999,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 0.9997,
+     "relieve_mean_m": 0.9999,
+     "dtr_k": 0.9999,
+     "amp_anual_k": 0.9834
+    },
+    "contexto": {
+     "elev_mean_m": 2720.3599,
+     "ndvi_max_clim": 0.0684,
+     "aridez_ai": 0.0193,
+     "lst_media_k": 285.2736,
+     "lst_noche_min_k": 252.422,
+     "lst_dia_max_k": 323.496,
+     "dtr_k": 37.446,
+     "amp_anual_k": 35.395,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 1.7931,
+     "viento_frac_tau_gt_0p05": 0.3982,
+     "factor_cielo_visible": 0.9998,
+     "slope_p99_deg": 0.2632,
+     "presion_estandar_hpa": 726.4
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 6794,
+    "lat": 38.408,
+    "lon": 93.45,
+    "mejor_celda": {
+     "ipix": 27830746,
+     "lat": 38.7778,
+     "lon": 93.3508,
+     "S_exacta": 0.8924
+    },
+    "celdas_que_coinciden": 1120,
+    "area_km2": 2837,
+    "frac_de_la_region": 0.273,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.7159,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.431,
+     "slope_std_deg": 0.215,
+     "rug_rms_mean_m": 2.16,
+     "relieve_mean_m": 8.047,
+     "dtr_k": 37.077,
+     "amp_anual_k": 35.606
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 0.9996,
+     "rug_rms_mean_m": 1.0,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9997,
+     "amp_anual_k": 0.9813
+    },
+    "contexto": {
+     "elev_mean_m": 2753.6035,
+     "ndvi_max_clim": 0.0494,
+     "aridez_ai": 0.0174,
+     "lst_media_k": 283.6213,
+     "lst_noche_min_k": 250.754,
+     "lst_dia_max_k": 321.586,
+     "dtr_k": 37.077,
+     "amp_anual_k": 35.606,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 2.1023,
+     "viento_frac_tau_gt_0p05": 0.3951,
+     "factor_cielo_visible": 0.9997,
+     "slope_p99_deg": 0.9694,
+     "presion_estandar_hpa": 723.3
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 6793,
+    "lat": 38.802,
+    "lon": 94.614,
+    "mejor_celda": {
+     "ipix": 27826847,
+     "lat": 38.718,
+     "lon": 94.3506,
+     "S_exacta": 0.8985
+    },
+    "celdas_que_coinciden": 726,
+    "area_km2": 1839,
+    "frac_de_la_region": 0.177,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.709,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.484,
+     "slope_std_deg": 0.046,
+     "rug_rms_mean_m": 2.379,
+     "relieve_mean_m": 8.351,
+     "dtr_k": 37.697,
+     "amp_anual_k": 35.442
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 1.0,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9998,
+     "amp_anual_k": 0.983
+    },
+    "contexto": {
+     "elev_mean_m": 3054.6016,
+     "ndvi_max_clim": 0.0583,
+     "aridez_ai": 0.0435,
+     "lst_media_k": 281.8629,
+     "lst_noche_min_k": 248.976,
+     "lst_dia_max_k": 319.48,
+     "dtr_k": 37.697,
+     "amp_anual_k": 35.442,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 1.2431,
+     "viento_frac_tau_gt_0p05": 0.4171,
+     "factor_cielo_visible": 0.9995,
+     "slope_p99_deg": 0.7094,
+     "presion_estandar_hpa": 696.2
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 48125,
+    "lat": -20.787,
+    "lon": -66.907,
+    "mejor_celda": {
+     "ipix": 197122193,
+     "lat": -20.922,
+     "lon": -67.1814,
+     "S_exacta": 0.8763
+    },
+    "celdas_que_coinciden": 1610,
+    "area_km2": 4077,
+    "frac_de_la_region": 0.393,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.6939,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.161,
+     "slope_std_deg": 0.057,
+     "rug_rms_mean_m": 0.823,
+     "relieve_mean_m": 3.026,
+     "dtr_k": 39.008,
+     "amp_anual_k": 16.539
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 0.9999,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9994,
+     "amp_anual_k": 0.9603
+    },
+    "contexto": {
+     "elev_mean_m": 3677.0151,
+     "ndvi_max_clim": 0.1239,
+     "aridez_ai": 0.0798,
+     "lst_media_k": 288.2719,
+     "lst_noche_min_k": 261.242,
+     "lst_dia_max_k": 317.31,
+     "dtr_k": 39.008,
+     "amp_anual_k": 16.539,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": null,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 0.0,
+     "viento_frac_tau_gt_0p05": 0.405,
+     "factor_cielo_visible": 0.9998,
+     "slope_p99_deg": 0.3353,
+     "presion_estandar_hpa": 642.8
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 48113,
+    "lat": -23.409,
+    "lon": -66.764,
+    "mejor_celda": {
+     "ipix": 197073214,
+     "lat": -23.3383,
+     "lon": -66.9836,
+     "S_exacta": 0.8678
+    },
+    "celdas_que_coinciden": 451,
+    "area_km2": 1142,
+    "frac_de_la_region": 0.11,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.6928,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.388,
+     "slope_std_deg": 0.133,
+     "rug_rms_mean_m": 1.958,
+     "relieve_mean_m": 7.172,
+     "dtr_k": 38.746,
+     "amp_anual_k": 17.002
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 1.0,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9995,
+     "amp_anual_k": 0.9667
+    },
+    "contexto": {
+     "elev_mean_m": 3937.9517,
+     "ndvi_max_clim": 0.0832,
+     "aridez_ai": 0.0598,
+     "lst_media_k": 287.7758,
+     "lst_noche_min_k": 262.392,
+     "lst_dia_max_k": 317.262,
+     "dtr_k": 38.7458,
+     "amp_anual_k": 17.002,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": null,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 0.0322,
+     "viento_frac_tau_gt_0p05": 0.5674,
+     "factor_cielo_visible": 0.9991,
+     "slope_p99_deg": 0.6859,
+     "presion_estandar_hpa": 621.4
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 48091,
+    "lat": -23.674,
+    "lon": -66.116,
+    "mejor_celda": {
+     "ipix": 196984645,
+     "lat": -23.5212,
+     "lon": -65.9729,
+     "S_exacta": 0.877
+    },
+    "celdas_que_coinciden": 562,
+    "area_km2": 1423,
+    "frac_de_la_region": 0.137,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.6881,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.18,
+     "slope_std_deg": 0.033,
+     "rug_rms_mean_m": 0.9,
+     "relieve_mean_m": 3.272,
+     "dtr_k": 38.535,
+     "amp_anual_k": 17.824
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 0.9994,
+     "rug_rms_mean_m": 1.0,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9996,
+     "amp_anual_k": 0.9767
+    },
+    "contexto": {
+     "elev_mean_m": 3424.791,
+     "ndvi_max_clim": 0.1191,
+     "aridez_ai": 0.0857,
+     "lst_media_k": 291.3362,
+     "lst_noche_min_k": 264.312,
+     "lst_dia_max_k": 320.004,
+     "dtr_k": 38.5347,
+     "amp_anual_k": 17.824,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": null,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 0.0,
+     "viento_frac_tau_gt_0p05": 0.4806,
+     "factor_cielo_visible": 0.9992,
+     "slope_p99_deg": 0.2606,
+     "presion_estandar_hpa": 664.0
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 24543,
+    "lat": 37.863,
+    "lon": 92.823,
+    "mejor_celda": {
+     "ipix": 100528209,
+     "lat": 37.3329,
+     "lon": 92.9553,
+     "S_exacta": 0.8713
+    },
+    "celdas_que_coinciden": 1976,
+    "area_km2": 5004,
+    "frac_de_la_region": 0.482,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.6485,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.449,
+     "slope_std_deg": 0.221,
+     "rug_rms_mean_m": 2.223,
+     "relieve_mean_m": 8.135,
+     "dtr_k": 35.546,
+     "amp_anual_k": 35.843
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 0.9999,
+     "slope_std_deg": 0.9995,
+     "rug_rms_mean_m": 0.9999,
+     "relieve_mean_m": 0.9999,
+     "dtr_k": 0.9981,
+     "amp_anual_k": 0.9807
+    },
+    "contexto": {
+     "elev_mean_m": 2748.8083,
+     "ndvi_max_clim": 0.0568,
+     "aridez_ai": 0.0188,
+     "lst_media_k": 283.9494,
+     "lst_noche_min_k": 251.306,
+     "lst_dia_max_k": 321.166,
+     "dtr_k": 35.5461,
+     "amp_anual_k": 35.843,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 1.7077,
+     "viento_frac_tau_gt_0p05": 0.3627,
+     "factor_cielo_visible": 0.9999,
+     "slope_p99_deg": 0.9835,
+     "presion_estandar_hpa": 723.8
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 6786,
+    "lat": 37.157,
+    "lon": 94.845,
+    "mejor_celda": {
+     "ipix": 27799275,
+     "lat": 37.6503,
+     "lon": 94.6802,
+     "S_exacta": 0.8653
+    },
+    "celdas_que_coinciden": 1670,
+    "area_km2": 4229,
+    "frac_de_la_region": 0.408,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.6466,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": null,
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.175,
+     "slope_std_deg": 0.064,
+     "rug_rms_mean_m": 0.88,
+     "relieve_mean_m": 3.188,
+     "dtr_k": 35.947,
+     "amp_anual_k": 35.331
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 0.9999,
+     "relieve_mean_m": 1.0,
+     "dtr_k": 0.9999,
+     "amp_anual_k": 0.9846
+    },
+    "contexto": {
+     "elev_mean_m": 2697.0859,
+     "ndvi_max_clim": 0.0605,
+     "aridez_ai": 0.0268,
+     "lst_media_k": 285.6291,
+     "lst_noche_min_k": 253.426,
+     "lst_dia_max_k": 322.62,
+     "dtr_k": 35.9475,
+     "amp_anual_k": 35.331,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 1.5678,
+     "viento_frac_tau_gt_0p05": 0.413,
+     "factor_cielo_visible": 0.9998,
+     "slope_p99_deg": 0.3505,
+     "presion_estandar_hpa": 728.5
+    },
+    "tubo_lava_cercano": null
+   }
+  ],
+  "regiones_conocidas": [
+   {
+    "region_n6": 48114,
+    "lat": -23.247,
+    "lon": -68.203,
+    "mejor_celda": {
+     "ipix": 197078597,
+     "lat": -23.0339,
+     "lon": -68.2581,
+     "S_exacta": 0.8879
+    },
+    "celdas_que_coinciden": 844,
+    "area_km2": 2138,
+    "frac_de_la_region": 0.206,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.7123,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": "Atacama",
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.146,
+     "slope_std_deg": 0.038,
+     "rug_rms_mean_m": 0.73,
+     "relieve_mean_m": 2.615,
+     "dtr_k": 41.767,
+     "amp_anual_k": 16.838
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 1.0,
+     "slope_std_deg": 1.0,
+     "rug_rms_mean_m": 0.9999,
+     "relieve_mean_m": 0.9999,
+     "dtr_k": 0.9994,
+     "amp_anual_k": 0.9645
+    },
+    "contexto": {
+     "elev_mean_m": 2316.9241,
+     "ndvi_max_clim": 0.0844,
+     "aridez_ai": 0.0189,
+     "lst_media_k": 298.5058,
+     "lst_noche_min_k": 270.644,
+     "lst_dia_max_k": 327.318,
+     "dtr_k": 41.7668,
+     "amp_anual_k": 16.838,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": null,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 1.174,
+     "viento_frac_tau_gt_0p05": 0.3666,
+     "factor_cielo_visible": 0.9986,
+     "slope_p99_deg": 0.25,
+     "presion_estandar_hpa": 764.2
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 24564,
+    "lat": 37.933,
+    "lon": 91.472,
+    "mejor_celda": {
+     "ipix": 100615242,
+     "lat": 37.6856,
+     "lon": 91.8127,
+     "S_exacta": 0.9018
+    },
+    "celdas_que_coinciden": 711,
+    "area_km2": 1801,
+    "frac_de_la_region": 0.174,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.6786,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": "ST-41 Cuenca de Qaidam",
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.701,
+     "slope_std_deg": 0.161,
+     "rug_rms_mean_m": 3.475,
+     "relieve_mean_m": 12.861,
+     "dtr_k": 36.292,
+     "amp_anual_k": 34.668
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 0.9982,
+     "slope_std_deg": 0.9956,
+     "rug_rms_mean_m": 0.9976,
+     "relieve_mean_m": 0.9954,
+     "dtr_k": 0.9996,
+     "amp_anual_k": 0.9897
+    },
+    "contexto": {
+     "elev_mean_m": 2913.7168,
+     "ndvi_max_clim": 0.0519,
+     "aridez_ai": 0.0338,
+     "lst_media_k": 283.4265,
+     "lst_noche_min_k": 250.776,
+     "lst_dia_max_k": 320.8,
+     "dtr_k": 36.292,
+     "amp_anual_k": 34.668,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": 0.0,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": 2.9964,
+     "viento_frac_tau_gt_0p05": 0.3531,
+     "factor_cielo_visible": 0.9994,
+     "slope_p99_deg": 1.0148,
+     "presion_estandar_hpa": 708.8
+    },
+    "tubo_lava_cercano": null
+   },
+   {
+    "region_n6": 29013,
+    "lat": -19.353,
+    "lon": -67.994,
+    "mejor_celda": {
+     "ipix": 118838150,
+     "lat": -19.6692,
+     "lon": -68.28,
+     "S_exacta": 0.8324
+    },
+    "celdas_que_coinciden": 598,
+    "area_km2": 1514,
+    "frac_de_la_region": 0.146,
+    "frac_sin_ndvi": 0.0,
+    "S_exacta_media": 0.6313,
+    "calidad_analogo": "alta",
+    "n_vars": 6,
+    "conocido": "Atacama",
+    "advertencia": null,
+    "tierra": {
+     "slope_mean_deg": 0.109,
+     "slope_std_deg": 0.051,
+     "rug_rms_mean_m": 0.571,
+     "relieve_mean_m": 2.029,
+     "dtr_k": 38.788,
+     "amp_anual_k": 14.793
+    },
+    "nota_por_variable": {
+     "slope_mean_deg": 0.9995,
+     "slope_std_deg": 0.9993,
+     "rug_rms_mean_m": 0.9994,
+     "relieve_mean_m": 0.9995,
+     "dtr_k": 0.9988,
+     "amp_anual_k": 0.9315
+    },
+    "contexto": {
+     "elev_mean_m": 3661.9124,
+     "ndvi_max_clim": 0.1174,
+     "aridez_ai": 0.1314,
+     "lst_media_k": 290.0141,
+     "lst_noche_min_k": 264.196,
+     "lst_dia_max_k": 319.934,
+     "dtr_k": 38.7877,
+     "amp_anual_k": 14.793,
+     "hielo_suelo_gam": null,
+     "permafrost_prob": null,
+     "frac_efimero": 0.0,
+     "polvo_frec_dod0p2_pct": null,
+     "viento_frac_tau_gt_0p05": 0.2861,
+     "factor_cielo_visible": 0.9997,
+     "slope_p99_deg": 0.2544,
+     "presion_estandar_hpa": 644.0
+    },
+    "tubo_lava_cercano": null
+   }
+  ],
+  "proxima_pasada_por_vegetacion": [],
+  "coinciden_pero_les_falta_alguna_variable": [
+   {
+    "lat": -81.277,
+    "lon": -48.333,
+    "celdas_que_coinciden": 3191,
+    "frac_de_la_region": 0.779,
+    "frac_sin_ndvi": 1.0,
+    "n_vars": 4,
+    "conocido": "Antartida",
+    "advertencia": "Vegetación sin verificar (NDVI sin dato)"
+   },
+   {
+    "lat": -71.543,
+    "lon": 69.787,
+    "celdas_que_coinciden": 2728,
+    "frac_de_la_region": 0.666,
+    "frac_sin_ndvi": 1.0,
+    "n_vars": 4,
+    "conocido": "Antartida",
+    "advertencia": "Vegetación sin verificar (NDVI sin dato)"
+   },
+   {
+    "lat": -81.815,
+    "lon": -45.123,
+    "celdas_que_coinciden": 2562,
+    "frac_de_la_region": 0.625,
+    "frac_sin_ndvi": 1.0,
+    "n_vars": 4,
+    "conocido": "Antartida",
+    "advertencia": "Vegetación sin verificar (NDVI sin dato)"
+   },
+   {
+    "lat": -73.346,
+    "lon": 168.501,
+    "celdas_que_coinciden": 285,
+    "frac_de_la_region": 0.527,
+    "frac_sin_ndvi": 1.0,
+    "n_vars": 4,
+    "conocido": "Antartida",
+    "advertencia": "Vegetación sin verificar (NDVI sin dato)"
+   },
+   {
+    "lat": -77.871,
+    "lon": 168.081,
+    "celdas_que_coinciden": 965,
+    "frac_de_la_region": 0.466,
+    "frac_sin_ndvi": 1.0,
+    "n_vars": 4,
+    "conocido": "Antartida",
+    "advertencia": "Vegetación sin verificar (NDVI sin dato)"
+   }
+  ]
+ }
+}

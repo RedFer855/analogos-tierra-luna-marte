@@ -1,0 +1,13 @@
+Lut/Kerman         escenas= 54  MB/escena=   107  total=  5.8 GB
+Atacama sur        escenas= 93  MB/escena=   112  total= 10.4 GB
+Great Basin        escenas=101  MB/escena=   108  total= 11.0 GB
+Baluchistan        escenas= 39  MB/escena=   104  total=  4.1 GB
+Mojave sur         escenas= 96  MB/escena=   104  total= 10.0 GB
+Kunlun/Tarim       escenas= 92  MB/escena=   105  total=  9.6 GB
+Qaidam norte       escenas= 48  MB/escena=   119  total=  5.7 GB
+Pamir              escenas= 79  MB/escena=   102  total=  8.0 GB
+Chihuahua          escenas= 51  MB/escena=   103  total=  5.3 GB
+Sahara NO          escenas= 58  MB/escena=   107  total=  6.2 GB
+Mackenzie (control) escenas=  0  MB/escena=     0  total=  0.0 GB
+Taimyr (control)   escenas=  0  MB/escena=     0  total=  0.0 GB
+Svalbard (control) escenas=  0  MB/escena=     0  total=  0.0 GB

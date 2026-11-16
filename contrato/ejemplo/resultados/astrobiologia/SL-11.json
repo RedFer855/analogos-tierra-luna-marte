@@ -1,0 +1,21 @@
+{
+  "version_contrato": "1.0.0",
+  "es_ejemplo": true,
+  "perfil": "astrobiologia",
+  "sitio": "SL-11",
+  "healpix": { "esquema": "nested", "nivel": 12 },
+  "objetivo": {
+    "variables": {
+      "silice": { "valor": 49.0 },
+      "rango_termico": { "valor": null }
+    }
+  },
+  "parametros": {
+    "variables": [
+      { "id": "silice", "peso": 0.5, "tolerancia": 2.0 },
+      { "id": "rango_termico", "peso": 0.5, "tolerancia": 5.0 }
+    ],
+    "filtros": ["hiperarido", "mineral_hidratado"]
+  },
+  "candidatos": []
+}

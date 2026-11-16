@@ -1,0 +1,7623 @@
+{
+ "generado": "2026-11-14T05:17:16.669Z",
+ "reglas_version": 1,
+ "ventana": {
+  "radio_km": 50,
+  "frac_min": 0.1,
+  "celdas_min_con_dato": 20
+ },
+ "n_muestra": 1561290,
+ "cuantiles_tierra": {
+  "viento_frac_tau_gt_0p05": {
+   "90": 0.8133264780044556
+  },
+  "polvo_frec_dod0p2_pct": {
+   "90": 22.561630249023438
+  },
+  "dtr_k": {
+   "90": 26.763166427612305
+  }
+ },
+ "resumen": {
+  "volcanico": {
+   "esperados": 16,
+   "aciertos": [
+    "ST-03",
+    "ST-04",
+    "ST-05",
+    "ST-06",
+    "ST-15",
+    "ST-16",
+    "ST-30",
+    "ST-31",
+    "ST-32",
+    "ST-33",
+    "ST-34",
+    "ST-40"
+   ],
+   "fallos": [
+    "ST-18 (sin_dato, 0 %)",
+    "ST-19 (sin_dato, 0 %)",
+    "ST-27 (no, 2 %)",
+    "ST-29 (no, 0 %)"
+   ],
+   "no_previstos": [
+    "ST-07",
+    "ST-10",
+    "ST-24",
+    "ST-26",
+    "ST-37"
+   ],
+   "sin_dato": [
+    "ST-18",
+    "ST-19",
+    "ST-35",
+    "ST-36"
+   ]
+  },
+  "evaporitas": {
+   "esperados": 6,
+   "aciertos": [
+    "ST-24",
+    "ST-25"
+   ],
+   "fallos": [
+    "ST-07 (no, 1 %)",
+    "ST-09 (no, 8 %)",
+    "ST-13 (no, 0 %)",
+    "ST-41 (no, 1 %)"
+   ],
+   "no_previstos": [
+    "ST-42"
+   ],
+   "sin_dato": []
+  },
+  "hiperarido": {
+   "esperados": 4,
+   "aciertos": [
+    "ST-07",
+    "ST-13",
+    "ST-41"
+   ],
+   "fallos": [
+    "ST-14 (sin_dato, 0 %)"
+   ],
+   "no_previstos": [
+    "ST-08"
+   ],
+   "sin_dato": [
+    "ST-14"
+   ]
+  },
+  "eolico_arena": {
+   "esperados": 4,
+   "aciertos": [],
+   "fallos": [
+    "ST-08 (no, 6 %)",
+    "ST-16 (no, 0 %)",
+    "ST-28 (no, 0 %)",
+    "ST-42 (no, 0 %)"
+   ],
+   "no_previstos": [
+    "ST-41"
+   ],
+   "sin_dato": [
+    "ST-03",
+    "ST-04",
+    "ST-14"
+   ]
+  },
+  "viento_que_mueve_arena": {
+   "esperados": 0,
+   "aciertos": [],
+   "fallos": [],
+   "no_previstos": [
+    "ST-11",
+    "ST-12",
+    "ST-14",
+    "ST-30",
+    "ST-31",
+    "ST-38"
+   ],
+   "sin_dato": []
+  },
+  "polvo": {
+   "esperados": 2,
+   "aciertos": [],
+   "fallos": [
+    "ST-24 (no, 0 %)",
+    "ST-41 (no, 0 %)"
+   ],
+   "no_previstos": [],
+   "sin_dato": [
+    "ST-01",
+    "ST-02",
+    "ST-14",
+    "ST-15",
+    "ST-16",
+    "ST-18",
+    "ST-22",
+    "ST-27",
+    "ST-29",
+    "ST-35",
+    "ST-36",
+    "ST-39",
+    "ST-43"
+   ]
+  },
+  "hielo_o_permafrost": {
+   "esperados": 5,
+   "aciertos": [
+    "ST-01",
+    "ST-02",
+    "ST-29",
+    "ST-39"
+   ],
+   "fallos": [
+    "ST-14 (no, 1 %)"
+   ],
+   "no_previstos": [],
+   "sin_dato": [
+    "ST-18",
+    "ST-19",
+    "ST-35",
+    "ST-36"
+   ]
+  }
+ },
+ "usos": {
+  "movilidad_rover": [
+   "ST-01",
+   "ST-02",
+   "ST-03",
+   "ST-04",
+   "ST-06",
+   "ST-07",
+   "ST-08",
+   "ST-09",
+   "ST-13",
+   "ST-15",
+   "ST-16",
+   "ST-18",
+   "ST-19",
+   "ST-25",
+   "ST-26",
+   "ST-29",
+   "ST-41"
+  ],
+  "aterrizaje_construccion": [
+   "ST-01",
+   "ST-05",
+   "ST-06",
+   "ST-07",
+   "ST-08",
+   "ST-09",
+   "ST-13",
+   "ST-15",
+   "ST-16",
+   "ST-18",
+   "ST-19",
+   "ST-24",
+   "ST-25",
+   "ST-26",
+   "ST-41"
+  ],
+  "ciclos_termicos": [
+   "ST-03",
+   "ST-04",
+   "ST-06",
+   "ST-07",
+   "ST-08",
+   "ST-13",
+   "ST-37",
+   "ST-41"
+  ],
+  "hielo_isru": [
+   "ST-01",
+   "ST-02",
+   "ST-29",
+   "ST-39"
+  ],
+  "mitigacion_polvo": [],
+  "astrobiologia_limite_seco": [
+   "ST-07",
+   "ST-08",
+   "ST-13",
+   "ST-41"
+  ]
+ },
+ "sitios": {
+  "ST-01": {
+   "nombre": "Cráter Haughton",
+   "n_celdas": 2808,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 2709,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "evaporitas": {
+     "con_dato": 2808,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 2808,
+     "disparan": 72,
+     "frac": 0.02564102564102564,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 2808,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 2808,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 2807,
+     "disparan": 2785,
+     "frac": 0.9921624510153189,
+     "estado": "si"
+    },
+    "movilidad_rover": {
+     "con_dato": 2709,
+     "disparan": 953,
+     "frac": 0.3517903285345146,
+     "estado": "si"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 2709,
+     "disparan": 936,
+     "frac": 0.34551495016611294,
+     "estado": "si"
+    },
+    "ciclos_termicos": {
+     "con_dato": 2718,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_isru": {
+     "con_dato": 2785,
+     "disparan": 2785,
+     "frac": 1,
+     "estado": "si"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 2718,
+     "disparan": 22,
+     "frac": 0.008094186902133923,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 2709,
+     "mediana": 5,
+     "p90": 5,
+     "max": 5,
+     "clases": "5:2709"
+    },
+    "humedal_clase": {
+     "n": 2808,
+     "mediana": 23,
+     "p90": 23,
+     "max": 31,
+     "clases": "23:2415 0:216 6:55"
+    },
+    "frac_efimero": {
+     "n": 2808,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.32619693875312805
+    },
+    "aridez_ai": {
+     "n": 2808,
+     "mediana": 1.357699990272522,
+     "p90": 1.6666599631309509,
+     "max": 2.257200002670288
+    },
+    "dunas_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "arena_movil_frac": {
+     "n": 2808,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 2808,
+     "mediana": 0.455768346786499,
+     "p90": 0.49093708395957947,
+     "max": 0.5057569742202759
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "permafrost_prob": {
+     "n": 2784,
+     "mediana": 1,
+     "p90": 1,
+     "max": 1
+    },
+    "magt_c": {
+     "n": 2781,
+     "mediana": -11.848957061767578,
+     "p90": -11.01723861694336,
+     "max": -8.6565523147583
+    },
+    "slope_mean_deg": {
+     "n": 2790,
+     "mediana": 2.4718031883239746,
+     "p90": 6.201949977874756,
+     "max": 16.269723892211914
+    },
+    "ndvi_max_clim": {
+     "n": 2718,
+     "mediana": 0.17292499542236328,
+     "p90": 0.21728914976119995,
+     "max": 0.3367999792098999
+    },
+    "slope_frac_gt15": {
+     "n": 2790,
+     "mediana": 0,
+     "p90": 0.02985074557363987,
+     "max": 0.609375
+    },
+    "dtr_k": {
+     "n": 2718,
+     "mediana": 3.0124998092651367,
+     "p90": 3.381333112716675,
+     "max": 3.559666633605957
+    }
+   }
+  },
+  "ST-02": {
+   "nombre": "Expedition Fiord",
+   "n_celdas": 2844,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 2787,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "evaporitas": {
+     "con_dato": 2844,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 2844,
+     "disparan": 242,
+     "frac": 0.0850914205344585,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 2842,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 2844,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 2840,
+     "disparan": 1505,
+     "frac": 0.5299295774647887,
+     "estado": "si"
+    },
+    "movilidad_rover": {
+     "con_dato": 1281,
+     "disparan": 946,
+     "frac": 0.7384855581576893,
+     "estado": "si"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 1281,
+     "disparan": 71,
+     "frac": 0.05542544886807182,
+     "estado": "no"
+    },
+    "ciclos_termicos": {
+     "con_dato": 2760,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_isru": {
+     "con_dato": 1505,
+     "disparan": 1505,
+     "frac": 1,
+     "estado": "si"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 1293,
+     "disparan": 45,
+     "frac": 0.03480278422273782,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 2787,
+     "mediana": 5,
+     "p90": 5,
+     "max": 5,
+     "clases": "5:2735 3:52"
+    },
+    "humedal_clase": {
+     "n": 2832,
+     "mediana": 7,
+     "p90": 23,
+     "max": 31,
+     "clases": "0:1385 23:1247 15:87"
+    },
+    "frac_efimero": {
+     "n": 2844,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "aridez_ai": {
+     "n": 2844,
+     "mediana": 1.285099983215332,
+     "p90": 6.553499698638916,
+     "max": 6.553499698638916
+    },
+    "dunas_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "arena_movil_frac": {
+     "n": 2842,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 2844,
+     "mediana": 0.12779298424720764,
+     "p90": 0.16695167124271393,
+     "max": 0.30084359645843506
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "permafrost_prob": {
+     "n": 1486,
+     "mediana": 1,
+     "p90": 1,
+     "max": 1
+    },
+    "magt_c": {
+     "n": 1489,
+     "mediana": -14.530531883239746,
+     "p90": -13.467042160034179,
+     "max": -12.101624488830566
+    },
+    "slope_mean_deg": {
+     "n": 2819,
+     "mediana": 9.770953178405762,
+     "p90": 17.737646484375002,
+     "max": 28.682918548583984
+    },
+    "ndvi_max_clim": {
+     "n": 1293,
+     "mediana": 0.17283332347869873,
+     "p90": 0.31682599782943727,
+     "max": 0.4613099992275238
+    },
+    "slope_frac_gt15": {
+     "n": 2819,
+     "mediana": 0.16417910158634186,
+     "p90": 0.6194805383682257,
+     "max": 0.9538461565971375
+    },
+    "dtr_k": {
+     "n": 2760,
+     "mediana": 1.909000039100647,
+     "p90": 2.8994815349578857,
+     "max": 3.938833236694336
+    }
+   }
+  },
+  "ST-03": {
+   "nombre": "Kīlauea",
+   "n_celdas": 2627,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 1940,
+     "disparan": 1940,
+     "frac": 1,
+     "estado": "si"
+    },
+    "evaporitas": {
+     "con_dato": 2627,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 2627,
+     "disparan": 3,
+     "frac": 0.0011419870574800152,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 2627,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 867,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 1940,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "movilidad_rover": {
+     "con_dato": 2596,
+     "disparan": 624,
+     "frac": 0.24036979969183359,
+     "estado": "si"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 2596,
+     "disparan": 85,
+     "frac": 0.032742681047765794,
+     "estado": "no"
+    },
+    "ciclos_termicos": {
+     "con_dato": 2601,
+     "disparan": 577,
+     "frac": 0.22183775470972703,
+     "estado": "si"
+    },
+    "hielo_isru": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 867,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 2601,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 1940,
+     "mediana": 2,
+     "p90": 10,
+     "max": 10,
+     "clases": "2:1038 10:902"
+    },
+    "humedal_clase": {
+     "n": 2595,
+     "mediana": 0,
+     "p90": 26,
+     "max": 31,
+     "clases": "0:1456 24:535 26:289"
+    },
+    "frac_efimero": {
+     "n": 2627,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.034948769956827164
+    },
+    "aridez_ai": {
+     "n": 2627,
+     "mediana": 1.3630999326705933,
+     "p90": 2.234999895095825,
+     "max": 4.694799900054932
+    },
+    "dunas_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "arena_movil_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 2627,
+     "mediana": 0.6709986329078674,
+     "p90": 0.7142612934112549,
+     "max": 0.767042875289917
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 867,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "permafrost_prob": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "magt_c": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "slope_mean_deg": {
+     "n": 2619,
+     "mediana": 4.429927825927734,
+     "p90": 9.154352188110359,
+     "max": 20.75349998474121
+    },
+    "ndvi_max_clim": {
+     "n": 2601,
+     "mediana": 0.5753299593925476,
+     "p90": 0.8034666776657104,
+     "max": 0.8453599810600281
+    },
+    "slope_frac_gt15": {
+     "n": 2619,
+     "mediana": 0,
+     "p90": 0,
+     "max": 1
+    },
+    "dtr_k": {
+     "n": 2601,
+     "mediana": 18.98661231994629,
+     "p90": 30.862998962402344,
+     "max": 37.96833419799805
+    }
+   }
+  },
+  "ST-04": {
+   "nombre": "Mauna Kea",
+   "n_celdas": 2429,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 2217,
+     "disparan": 2217,
+     "frac": 1,
+     "estado": "si"
+    },
+    "evaporitas": {
+     "con_dato": 2429,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 2429,
+     "disparan": 4,
+     "frac": 0.0016467682173734047,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 2429,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 825,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 2282,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "movilidad_rover": {
+     "con_dato": 2398,
+     "disparan": 481,
+     "frac": 0.2005838198498749,
+     "estado": "si"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 2398,
+     "disparan": 62,
+     "frac": 0.02585487906588824,
+     "estado": "no"
+    },
+    "ciclos_termicos": {
+     "con_dato": 2404,
+     "disparan": 428,
+     "frac": 0.17803660565723795,
+     "estado": "si"
+    },
+    "hielo_isru": {
+     "con_dato": 300,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 825,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 2404,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 2217,
+     "mediana": 2,
+     "p90": 10,
+     "max": 10,
+     "clases": "2:1283 10:934"
+    },
+    "humedal_clase": {
+     "n": 2423,
+     "mediana": 0,
+     "p90": 26,
+     "max": 31,
+     "clases": "0:1447 24:418 25:238"
+    },
+    "frac_efimero": {
+     "n": 2429,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.034948769956827164
+    },
+    "aridez_ai": {
+     "n": 2429,
+     "mediana": 1.101699948310852,
+     "p90": 2.0946999549865724,
+     "max": 3.6675000190734863
+    },
+    "dunas_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "arena_movil_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 2429,
+     "mediana": 0.6959074139595032,
+     "p90": 0.7142612934112549,
+     "max": 0.7142612934112549
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 825,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "permafrost_prob": {
+     "n": 300,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "magt_c": {
+     "n": 300,
+     "mediana": 20.494443893432617,
+     "p90": 23.98131675720215,
+     "max": 27.144468307495117
+    },
+    "slope_mean_deg": {
+     "n": 2418,
+     "mediana": 4.744460582733154,
+     "p90": 9.806322288513185,
+     "max": 35.92363357543945
+    },
+    "ndvi_max_clim": {
+     "n": 2404,
+     "mediana": 0.5655999779701233,
+     "p90": 0.8034666776657104,
+     "max": 0.8453599810600281
+    },
+    "slope_frac_gt15": {
+     "n": 2418,
+     "mediana": 0,
+     "p90": 0.015384615398943424,
+     "max": 1
+    },
+    "dtr_k": {
+     "n": 2404,
+     "mediana": 17.59833335876465,
+     "p90": 30.14333152770996,
+     "max": 37.96833419799805
+    }
+   }
+  },
+  "ST-05": {
+   "nombre": "Craters of the Moon",
+   "n_celdas": 3094,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 3094,
+     "disparan": 2376,
+     "frac": 0.7679379444085327,
+     "estado": "si"
+    },
+    "evaporitas": {
+     "con_dato": 3094,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 3094,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 3094,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 3094,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 2386,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 3094,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "movilidad_rover": {
+     "con_dato": 3094,
+     "disparan": 56,
+     "frac": 0.01809954751131222,
+     "estado": "no"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 3094,
+     "disparan": 553,
+     "frac": 0.17873303167420815,
+     "estado": "si"
+    },
+    "ciclos_termicos": {
+     "con_dato": 3094,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_isru": {
+     "con_dato": 3094,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 2386,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 3094,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 3094,
+     "mediana": 2,
+     "p90": 10,
+     "max": 10,
+     "clases": "2:1715 10:661 6:585"
+    },
+    "humedal_clase": {
+     "n": 3094,
+     "mediana": 0,
+     "p90": 0,
+     "max": 25,
+     "clases": "0:2886 7:130 13:43"
+    },
+    "frac_efimero": {
+     "n": 3094,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.09063073247671127
+    },
+    "aridez_ai": {
+     "n": 3094,
+     "mediana": 0.2563999891281128,
+     "p90": 0.4206699877977371,
+     "max": 0.6290000081062317
+    },
+    "dunas_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "arena_movil_frac": {
+     "n": 3094,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 3094,
+     "mediana": 0.40053579211235046,
+     "p90": 0.5121979117393494,
+     "max": 0.5241678357124329
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 2386,
+     "mediana": 0.7179184556007385,
+     "p90": 1.0442879796028137,
+     "max": 1.720104455947876
+    },
+    "permafrost_prob": {
+     "n": 3094,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.2579588294029236
+    },
+    "magt_c": {
+     "n": 3094,
+     "mediana": 9.526912212371826,
+     "p90": 11.408934593200684,
+     "max": 12.46273422241211
+    },
+    "slope_mean_deg": {
+     "n": 3094,
+     "mediana": 1.3619878888130188,
+     "p90": 15.990106010437025,
+     "max": 26.294992446899414
+    },
+    "ndvi_max_clim": {
+     "n": 3094,
+     "mediana": 0.35853999853134155,
+     "p90": 0.521965020895005,
+     "max": 0.7067199945449829
+    },
+    "slope_frac_gt15": {
+     "n": 3094,
+     "mediana": 0,
+     "p90": 0.5751614332199102,
+     "max": 0.9838709831237793
+    },
+    "dtr_k": {
+     "n": 3094,
+     "mediana": 21.755332946777344,
+     "p90": 24.291000366210938,
+     "max": 25.80183219909668
+    }
+   }
+  },
+  "ST-06": {
+   "nombre": "Black Point Lava Flow",
+   "n_celdas": 3095,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 3095,
+     "disparan": 679,
+     "frac": 0.21938610662358643,
+     "estado": "si"
+    },
+    "evaporitas": {
+     "con_dato": 3095,
+     "disparan": 12,
+     "frac": 0.0038772213247172858,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 3095,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 3095,
+     "disparan": 64,
+     "frac": 0.020678513731825526,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 3095,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 3095,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 3095,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "movilidad_rover": {
+     "con_dato": 3095,
+     "disparan": 429,
+     "frac": 0.13861066235864297,
+     "estado": "si"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 3095,
+     "disparan": 1457,
+     "frac": 0.47075928917609045,
+     "estado": "si"
+    },
+    "ciclos_termicos": {
+     "con_dato": 3095,
+     "disparan": 2141,
+     "frac": 0.6917609046849758,
+     "estado": "si"
+    },
+    "hielo_isru": {
+     "con_dato": 3095,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 3095,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 3095,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 3095,
+     "mediana": 3,
+     "p90": 6,
+     "max": 6,
+     "clases": "3:1319 6:1091 2:679"
+    },
+    "humedal_clase": {
+     "n": 3095,
+     "mediana": 0,
+     "p90": 0,
+     "max": 25,
+     "clases": "0:2963 7:56 13:33"
+    },
+    "frac_efimero": {
+     "n": 3095,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.04359437897801399
+    },
+    "aridez_ai": {
+     "n": 3095,
+     "mediana": 0.12439999729394913,
+     "p90": 0.2906199872493744,
+     "max": 0.6685999631881714
+    },
+    "dunas_frac": {
+     "n": 3095,
+     "mediana": 0,
+     "p90": 0,
+     "max": 1
+    },
+    "arena_movil_frac": {
+     "n": 3095,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.3177849352359772
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 3095,
+     "mediana": 0.4770861864089966,
+     "p90": 0.5409256815910339,
+     "max": 0.5409256815910339
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 3095,
+     "mediana": 0.05767212063074112,
+     "p90": 0.24654832482337952,
+     "max": 0.32873108983039856
+    },
+    "permafrost_prob": {
+     "n": 3095,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "magt_c": {
+     "n": 3095,
+     "mediana": 17.291675567626953,
+     "p90": 18.9446590423584,
+     "max": 21.58866310119629
+    },
+    "slope_mean_deg": {
+     "n": 3095,
+     "mediana": 1.6975042819976807,
+     "p90": 5.811241245269775,
+     "max": 34.169822692871094
+    },
+    "ndvi_max_clim": {
+     "n": 3095,
+     "mediana": 0.1748499870300293,
+     "p90": 0.42535555362701416,
+     "max": 0.6806500554084778
+    },
+    "slope_frac_gt15": {
+     "n": 3095,
+     "mediana": 0,
+     "p90": 0.03076923079788685,
+     "max": 0.9523809552192688
+    },
+    "dtr_k": {
+     "n": 3095,
+     "mediana": 28.396499633789062,
+     "p90": 32.1609992980957,
+     "max": 36.38483428955078
+    }
+   }
+  },
+  "ST-07": {
+   "nombre": "Death Valley",
+   "n_celdas": 3094,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 3094,
+     "disparan": 352,
+     "frac": 0.11376858435681965,
+     "estado": "si"
+    },
+    "evaporitas": {
+     "con_dato": 3094,
+     "disparan": 40,
+     "frac": 0.012928248222365869,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 3094,
+     "disparan": 1916,
+     "frac": 0.6192630898513252,
+     "estado": "si"
+    },
+    "eolico_arena": {
+     "con_dato": 3094,
+     "disparan": 2,
+     "frac": 0.0006464124111182935,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 3094,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 3055,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 3094,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "movilidad_rover": {
+     "con_dato": 3094,
+     "disparan": 1893,
+     "frac": 0.6118293471234648,
+     "estado": "si"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 3094,
+     "disparan": 698,
+     "frac": 0.22559793148028442,
+     "estado": "si"
+    },
+    "ciclos_termicos": {
+     "con_dato": 3094,
+     "disparan": 652,
+     "frac": 0.21073044602456367,
+     "estado": "si"
+    },
+    "hielo_isru": {
+     "con_dato": 3094,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 3055,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 3094,
+     "disparan": 1916,
+     "frac": 0.6192630898513252,
+     "estado": "si"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 3094,
+     "mediana": 3,
+     "p90": 7,
+     "max": 9,
+     "clases": "1:1336 3:968 5:400"
+    },
+    "humedal_clase": {
+     "n": 3094,
+     "mediana": 0,
+     "p90": 13,
+     "max": 32,
+     "clases": "0:2748 13:122 17:108"
+    },
+    "frac_efimero": {
+     "n": 3094,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.4410052001476288
+    },
+    "aridez_ai": {
+     "n": 3094,
+     "mediana": 0.043299999088048935,
+     "p90": 0.09136999696493152,
+     "max": 0.31369999051094055
+    },
+    "dunas_frac": {
+     "n": 3094,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "arena_movil_frac": {
+     "n": 3094,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.13971920311450958
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 3094,
+     "mediana": 0.3427382707595825,
+     "p90": 0.4058937430381775,
+     "max": 0.4058937430381775
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 3055,
+     "mediana": 0.3561253547668457,
+     "p90": 1.5948340892791748,
+     "max": 6.784450531005859
+    },
+    "permafrost_prob": {
+     "n": 3094,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "magt_c": {
+     "n": 3094,
+     "mediana": 23.137380599975586,
+     "p90": 28.772427749633792,
+     "max": 30.858430862426758
+    },
+    "slope_mean_deg": {
+     "n": 3094,
+     "mediana": 6.0759313106536865,
+     "p90": 19.22244052886963,
+     "max": 32.16999816894531
+    },
+    "ndvi_max_clim": {
+     "n": 3094,
+     "mediana": 0.11312999576330185,
+     "p90": 0.17915000021457672,
+     "max": 0.3457833230495453
+    },
+    "slope_frac_gt15": {
+     "n": 3094,
+     "mediana": 0,
+     "p90": 0.734375,
+     "max": 1
+    },
+    "dtr_k": {
+     "n": 3094,
+     "mediana": 24.379831314086914,
+     "p90": 28.76900291442871,
+     "max": 33.88467025756836
+    }
+   }
+  },
+  "ST-08": {
+   "nombre": "Mojave",
+   "n_celdas": 3100,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 3100,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "evaporitas": {
+     "con_dato": 3100,
+     "disparan": 14,
+     "frac": 0.004516129032258065,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 3100,
+     "disparan": 2094,
+     "frac": 0.675483870967742,
+     "estado": "si"
+    },
+    "eolico_arena": {
+     "con_dato": 3100,
+     "disparan": 199,
+     "frac": 0.06419354838709677,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 3100,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 3100,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 3100,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "movilidad_rover": {
+     "con_dato": 3100,
+     "disparan": 1213,
+     "frac": 0.39129032258064517,
+     "estado": "si"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 3100,
+     "disparan": 1297,
+     "frac": 0.41838709677419356,
+     "estado": "si"
+    },
+    "ciclos_termicos": {
+     "con_dato": 3100,
+     "disparan": 1834,
+     "frac": 0.5916129032258064,
+     "estado": "si"
+    },
+    "hielo_isru": {
+     "con_dato": 3100,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 3100,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 3100,
+     "disparan": 2094,
+     "frac": 0.675483870967742,
+     "estado": "si"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 3100,
+     "mediana": 1,
+     "p90": 9,
+     "max": 9,
+     "clases": "1:2339 9:761"
+    },
+    "humedal_clase": {
+     "n": 3100,
+     "mediana": 0,
+     "p90": 0,
+     "max": 32,
+     "clases": "0:2962 32:79 13:29"
+    },
+    "frac_efimero": {
+     "n": 3100,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.08464549481868744
+    },
+    "aridez_ai": {
+     "n": 3100,
+     "mediana": 0.04270000010728836,
+     "p90": 0.06950999945402145,
+     "max": 0.17589999735355377
+    },
+    "dunas_frac": {
+     "n": 3100,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "arena_movil_frac": {
+     "n": 3100,
+     "mediana": 0,
+     "p90": 0.03273407891392706,
+     "max": 0.967067301273346
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 3100,
+     "mediana": 0.4110807180404663,
+     "p90": 0.5111719369888306,
+     "max": 0.5132238864898682
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 3100,
+     "mediana": 0.08218277245759964,
+     "p90": 0.2739425599575043,
+     "max": 2.383300542831421
+    },
+    "permafrost_prob": {
+     "n": 3100,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "magt_c": {
+     "n": 3100,
+     "mediana": 25.02818489074707,
+     "p90": 27.716218948364258,
+     "max": 28.986953735351562
+    },
+    "slope_mean_deg": {
+     "n": 3100,
+     "mediana": 2.3331212997436523,
+     "p90": 8.891017150878906,
+     "max": 24.222915649414062
+    },
+    "ndvi_max_clim": {
+     "n": 3100,
+     "mediana": 0.10635999590158463,
+     "p90": 0.14527998864650726,
+     "max": 0.21872000396251678
+    },
+    "slope_frac_gt15": {
+     "n": 3100,
+     "mediana": 0,
+     "p90": 0.095238097012043,
+     "max": 0.9523809552192688
+    },
+    "dtr_k": {
+     "n": 3100,
+     "mediana": 27.395164489746094,
+     "p90": 30.467500686645508,
+     "max": 32.36983108520508
+    }
+   }
+  },
+  "ST-09": {
+   "nombre": "Pilot Valley Playa",
+   "n_celdas": 3092,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 3092,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "evaporitas": {
+     "con_dato": 3092,
+     "disparan": 254,
+     "frac": 0.08214747736093143,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 3092,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 3092,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 3092,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 650,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 3092,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "movilidad_rover": {
+     "con_dato": 3089,
+     "disparan": 694,
+     "frac": 0.22466817740369052,
+     "estado": "si"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 3089,
+     "disparan": 1767,
+     "frac": 0.5720297831013272,
+     "estado": "si"
+    },
+    "ciclos_termicos": {
+     "con_dato": 3092,
+     "disparan": 124,
+     "frac": 0.040103492884864166,
+     "estado": "no"
+    },
+    "hielo_isru": {
+     "con_dato": 3089,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 650,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 3092,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 3092,
+     "mediana": 1,
+     "p90": 6,
+     "max": 6,
+     "clases": "1:2303 6:655 5:134"
+    },
+    "humedal_clase": {
+     "n": 3092,
+     "mediana": 0,
+     "p90": 32,
+     "max": 32,
+     "clases": "0:1967 32:785 2:237"
+    },
+    "frac_efimero": {
+     "n": 3092,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.08286748081445694
+    },
+    "aridez_ai": {
+     "n": 3092,
+     "mediana": 0.1395999938249588,
+     "p90": 0.21948999017477036,
+     "max": 0.43539997935295105
+    },
+    "dunas_frac": {
+     "n": 786,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "arena_movil_frac": {
+     "n": 3092,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 3092,
+     "mediana": 0.380357950925827,
+     "p90": 0.45354536175727844,
+     "max": 0.45354536175727844
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 650,
+     "mediana": 0.2143898457288742,
+     "p90": 0.35645538568496704,
+     "max": 0.3711479902267456
+    },
+    "permafrost_prob": {
+     "n": 3089,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "magt_c": {
+     "n": 3089,
+     "mediana": 12.581402778625488,
+     "p90": 14.721051597595215,
+     "max": 15.900545120239258
+    },
+    "slope_mean_deg": {
+     "n": 3089,
+     "mediana": 1.4115891456604004,
+     "p90": 9.802668380737321,
+     "max": 26.9447078704834
+    },
+    "ndvi_max_clim": {
+     "n": 3092,
+     "mediana": 0.1928499937057495,
+     "p90": 0.3228200078010559,
+     "max": 0.41609999537467957
+    },
+    "slope_frac_gt15": {
+     "n": 3089,
+     "mediana": 0,
+     "p90": 0.1111111119389534,
+     "max": 1
+    },
+    "dtr_k": {
+     "n": 3092,
+     "mediana": 23.03849983215332,
+     "p90": 25.948835372924805,
+     "max": 27.651832580566406
+    }
+   }
+  },
+  "ST-10": {
+   "nombre": "Verde Valley",
+   "n_celdas": 3105,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 3105,
+     "disparan": 885,
+     "frac": 0.28502415458937197,
+     "estado": "si"
+    },
+    "evaporitas": {
+     "con_dato": 3105,
+     "disparan": 27,
+     "frac": 0.008695652173913044,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 3105,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 3105,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 3105,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 3105,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 3105,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "movilidad_rover": {
+     "con_dato": 3105,
+     "disparan": 203,
+     "frac": 0.06537842190016104,
+     "estado": "no"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 3105,
+     "disparan": 78,
+     "frac": 0.025120772946859903,
+     "estado": "no"
+    },
+    "ciclos_termicos": {
+     "con_dato": 3105,
+     "disparan": 271,
+     "frac": 0.08727858293075684,
+     "estado": "no"
+    },
+    "hielo_isru": {
+     "con_dato": 3105,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 3105,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 3105,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 3105,
+     "mediana": 3,
+     "p90": 9,
+     "max": 9,
+     "clases": "3:1692 2:885 9:528"
+    },
+    "humedal_clase": {
+     "n": 3105,
+     "mediana": 0,
+     "p90": 0,
+     "max": 21,
+     "clases": "0:2961 7:81 15:29"
+    },
+    "frac_efimero": {
+     "n": 3105,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.07266677170991898
+    },
+    "aridez_ai": {
+     "n": 3105,
+     "mediana": 0.27239999175071716,
+     "p90": 0.39739999175071716,
+     "max": 0.48319998383522034
+    },
+    "dunas_frac": {
+     "n": 3105,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "arena_movil_frac": {
+     "n": 3105,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 3105,
+     "mediana": 0.47127223014831543,
+     "p90": 0.6419288516044617,
+     "max": 0.6419288516044617
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 3105,
+     "mediana": 0.058182492852211,
+     "p90": 0.13697127997875214,
+     "max": 0.1685800403356552
+    },
+    "permafrost_prob": {
+     "n": 3105,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "magt_c": {
+     "n": 3105,
+     "mediana": 18.412429809570312,
+     "p90": 21.198582458496094,
+     "max": 23.952327728271484
+    },
+    "slope_mean_deg": {
+     "n": 3105,
+     "mediana": 5.0906524658203125,
+     "p90": 13.447760581970215,
+     "max": 23.792322158813477
+    },
+    "ndvi_max_clim": {
+     "n": 3105,
+     "mediana": 0.38773003220558167,
+     "p90": 0.5701900124549866,
+     "max": 0.7012799382209778
+    },
+    "slope_frac_gt15": {
+     "n": 3105,
+     "mediana": 0,
+     "p90": 0.3968254029750824,
+     "max": 0.84375
+    },
+    "dtr_k": {
+     "n": 3105,
+     "mediana": 21.270334243774414,
+     "p90": 26.640468597412106,
+     "max": 31.129669189453125
+    }
+   }
+  },
+  "ST-11": {
+   "nombre": "Mina de carbón Fieg",
+   "n_celdas": 3103,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 3103,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "evaporitas": {
+     "con_dato": 3103,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 3103,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 3103,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 3103,
+     "disparan": 2541,
+     "frac": 0.8188849500483403,
+     "estado": "si"
+    },
+    "polvo": {
+     "con_dato": 3103,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 3103,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "movilidad_rover": {
+     "con_dato": 3092,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 3092,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "ciclos_termicos": {
+     "con_dato": 3103,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_isru": {
+     "con_dato": 3103,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 3103,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 3103,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 3103,
+     "mediana": 3,
+     "p90": 3,
+     "max": 6,
+     "clases": "3:3096 6:7"
+    },
+    "humedal_clase": {
+     "n": 3103,
+     "mediana": 0,
+     "p90": 7,
+     "max": 21,
+     "clases": "0:2716 7:199 12:45"
+    },
+    "frac_efimero": {
+     "n": 3103,
+     "mediana": 0,
+     "p90": 0.005289498157799244,
+     "max": 0.1245751678943634
+    },
+    "aridez_ai": {
+     "n": 3103,
+     "mediana": 1.1583999395370483,
+     "p90": 1.2455799818038942,
+     "max": 1.3385999202728271
+    },
+    "dunas_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "arena_movil_frac": {
+     "n": 3103,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 3103,
+     "mediana": 0.8187414407730103,
+     "p90": 0.8339603543281555,
+     "max": 0.8339603543281555
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 3103,
+     "mediana": 0.06321751326322556,
+     "p90": 0.1276625543832779,
+     "max": 0.16944901645183563
+    },
+    "permafrost_prob": {
+     "n": 3103,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "magt_c": {
+     "n": 3103,
+     "mediana": 10.126264572143555,
+     "p90": 11.466721153259279,
+     "max": 13.323018074035645
+    },
+    "slope_mean_deg": {
+     "n": 3092,
+     "mediana": 5.154291868209839,
+     "p90": 9.325872898101808,
+     "max": 18.444791793823242
+    },
+    "ndvi_max_clim": {
+     "n": 3103,
+     "mediana": 0.8720099329948425,
+     "p90": 0.9034301042556763,
+     "max": 0.9253199696540833
+    },
+    "slope_frac_gt15": {
+     "n": 3092,
+     "mediana": 0,
+     "p90": 0.1269841343164444,
+     "max": 0.7301587462425232
+    },
+    "dtr_k": {
+     "n": 3103,
+     "mediana": 11.473334312438965,
+     "p90": 12.69749927520752,
+     "max": 13.637665748596191
+    }
+   }
+  },
+  "ST-12": {
+   "nombre": "Mina Sheepridge",
+   "n_celdas": 3100,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 3100,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "evaporitas": {
+     "con_dato": 3100,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 3100,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 3100,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 3100,
+     "disparan": 2942,
+     "frac": 0.9490322580645161,
+     "estado": "si"
+    },
+    "polvo": {
+     "con_dato": 3100,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 3100,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "movilidad_rover": {
+     "con_dato": 3089,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 3089,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "ciclos_termicos": {
+     "con_dato": 3100,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_isru": {
+     "con_dato": 3100,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 3100,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 3100,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 3100,
+     "mediana": 3,
+     "p90": 3,
+     "max": 3,
+     "clases": "3:3100"
+    },
+    "humedal_clase": {
+     "n": 3100,
+     "mediana": 0,
+     "p90": 7,
+     "max": 21,
+     "clases": "0:2675 7:177 12:70"
+    },
+    "frac_efimero": {
+     "n": 3100,
+     "mediana": 0,
+     "p90": 0.00764660476706922,
+     "max": 0.0981733500957489
+    },
+    "aridez_ai": {
+     "n": 3100,
+     "mediana": 1.1689500212669373,
+     "p90": 1.2314000129699707,
+     "max": 1.3385999202728271
+    },
+    "dunas_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "arena_movil_frac": {
+     "n": 3100,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 3100,
+     "mediana": 0.8288873434066772,
+     "p90": 0.8339603543281555,
+     "max": 0.8378363251686096
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 3100,
+     "mediana": 0.06383127719163895,
+     "p90": 0.12891414761543274,
+     "max": 0.1933712363243103
+    },
+    "permafrost_prob": {
+     "n": 3100,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "magt_c": {
+     "n": 3100,
+     "mediana": 10.042823314666748,
+     "p90": 10.942702770233154,
+     "max": 11.983851432800293
+    },
+    "slope_mean_deg": {
+     "n": 3089,
+     "mediana": 4.056743621826172,
+     "p90": 7.470950794219971,
+     "max": 21.99933433532715
+    },
+    "ndvi_max_clim": {
+     "n": 3100,
+     "mediana": 0.8508899807929993,
+     "p90": 0.8969098925590515,
+     "max": 0.9253199696540833
+    },
+    "slope_frac_gt15": {
+     "n": 3089,
+     "mediana": 0,
+     "p90": 0.01587301678955555,
+     "max": 0.7777777910232544
+    },
+    "dtr_k": {
+     "n": 3100,
+     "mediana": 11.798999786376953,
+     "p90": 12.953944206237793,
+     "max": 13.665980339050293
+    }
+   }
+  },
+  "ST-13": {
+   "nombre": "Atacama",
+   "n_celdas": 2901,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 2869,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "evaporitas": {
+     "con_dato": 2901,
+     "disparan": 5,
+     "frac": 0.001723543605653223,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 2901,
+     "disparan": 2901,
+     "frac": 1,
+     "estado": "si"
+    },
+    "eolico_arena": {
+     "con_dato": 2901,
+     "disparan": 4,
+     "frac": 0.0013788348845225785,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 2901,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 2825,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 2869,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "movilidad_rover": {
+     "con_dato": 2888,
+     "disparan": 1820,
+     "frac": 0.6301939058171745,
+     "estado": "si"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 2888,
+     "disparan": 727,
+     "frac": 0.2517313019390582,
+     "estado": "si"
+    },
+    "ciclos_termicos": {
+     "con_dato": 2893,
+     "disparan": 2852,
+     "frac": 0.9858278603525752,
+     "estado": "si"
+    },
+    "hielo_isru": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 2825,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 2893,
+     "disparan": 2893,
+     "frac": 1,
+     "estado": "si"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 2869,
+     "mediana": 3,
+     "p90": 13,
+     "max": 13,
+     "clases": "13:1172 1:995 3:702"
+    },
+    "humedal_clase": {
+     "n": 2901,
+     "mediana": 0,
+     "p90": 0,
+     "max": 32,
+     "clases": "0:2843 32:30 13:10"
+    },
+    "frac_efimero": {
+     "n": 2901,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.03288495913147926
+    },
+    "aridez_ai": {
+     "n": 2901,
+     "mediana": 0.00039999998989515007,
+     "p90": 0.00139999995008111,
+     "max": 0.011099999770522118
+    },
+    "dunas_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "arena_movil_frac": {
+     "n": 2901,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.12869317829608917
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 2901,
+     "mediana": 0.3687300384044647,
+     "p90": 0.4153556823730469,
+     "max": 0.4153556823730469
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 2825,
+     "mediana": 0.19175979495048523,
+     "p90": 0.6407470107078552,
+     "max": 6.355467319488525
+    },
+    "permafrost_prob": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "magt_c": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "slope_mean_deg": {
+     "n": 2894,
+     "mediana": 4.446958065032959,
+     "p90": 11.975700855255129,
+     "max": 33.585391998291016
+    },
+    "ndvi_max_clim": {
+     "n": 2893,
+     "mediana": 0.08715999871492386,
+     "p90": 0.10759999603033066,
+     "max": 0.13158001005649567
+    },
+    "slope_frac_gt15": {
+     "n": 2894,
+     "mediana": 0,
+     "p90": 0.2807896614074715,
+     "max": 1
+    },
+    "dtr_k": {
+     "n": 2893,
+     "mediana": 36.70933532714844,
+     "p90": 42.40550231933594,
+     "max": 45.04716491699219
+    }
+   }
+  },
+  "ST-14": {
+   "nombre": "Valles Secos de McMurdo",
+   "n_celdas": 3010,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 2975,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "evaporitas": {
+     "con_dato": 2975,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "eolico_arena": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 3010,
+     "disparan": 361,
+     "frac": 0.11993355481727574,
+     "estado": "si"
+    },
+    "polvo": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 2975,
+     "disparan": 39,
+     "frac": 0.01310924369747899,
+     "estado": "no"
+    },
+    "movilidad_rover": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "ciclos_termicos": {
+     "con_dato": 3007,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_isru": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 2975,
+     "mediana": 5,
+     "p90": 9,
+     "max": 16,
+     "clases": "9:1040 3:1015 5:702"
+    },
+    "humedal_clase": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "frac_efimero": {
+     "n": 3010,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "aridez_ai": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "dunas_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "arena_movil_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 3010,
+     "mediana": 0.5145348906517029,
+     "p90": 0.8633720874786377,
+     "max": 0.9193456172943115
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "permafrost_prob": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "magt_c": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "slope_mean_deg": {
+     "n": 3004,
+     "mediana": 8.903489589691162,
+     "p90": 20.487576484680186,
+     "max": 34.824180603027344
+    },
+    "ndvi_max_clim": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "slope_frac_gt15": {
+     "n": 3004,
+     "mediana": 0.1587301641702652,
+     "p90": 0.6984127163887024,
+     "max": 1
+    },
+    "dtr_k": {
+     "n": 3007,
+     "mediana": 2.687499761581421,
+     "p90": 3.3380000591278076,
+     "max": 4.552833080291748
+    }
+   }
+  },
+  "ST-15": {
+   "nombre": "Caldera de Askja",
+   "n_celdas": 3076,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 3076,
+     "disparan": 3076,
+     "frac": 1,
+     "estado": "si"
+    },
+    "evaporitas": {
+     "con_dato": 3076,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 3076,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 3076,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 3076,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 3076,
+     "disparan": 154,
+     "frac": 0.05006501950585176,
+     "estado": "no"
+    },
+    "movilidad_rover": {
+     "con_dato": 2726,
+     "disparan": 925,
+     "frac": 0.3393250183418929,
+     "estado": "si"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 2726,
+     "disparan": 1199,
+     "frac": 0.43983859134262654,
+     "estado": "si"
+    },
+    "ciclos_termicos": {
+     "con_dato": 3076,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_isru": {
+     "con_dato": 2633,
+     "disparan": 154,
+     "frac": 0.05848841625522218,
+     "estado": "no"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 2737,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 3076,
+     "mediana": 2,
+     "p90": 2,
+     "max": 2,
+     "clases": "2:3076"
+    },
+    "humedal_clase": {
+     "n": 3076,
+     "mediana": 0,
+     "p90": 23,
+     "max": 25,
+     "clases": "0:1765 23:359 6:247"
+    },
+    "frac_efimero": {
+     "n": 3076,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.44589975476264954
+    },
+    "aridez_ai": {
+     "n": 3076,
+     "mediana": 2.497999906539917,
+     "p90": 4.286749839782715,
+     "max": 5.5254998207092285
+    },
+    "dunas_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "arena_movil_frac": {
+     "n": 3076,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 3076,
+     "mediana": 0.5315777659416199,
+     "p90": 0.6156520843505859,
+     "max": 0.6515617966651917
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "permafrost_prob": {
+     "n": 2632,
+     "mediana": 0.12899982184171677,
+     "p90": 0.31664799749851225,
+     "max": 1
+    },
+    "magt_c": {
+     "n": 2628,
+     "mediana": 0.9023360311985016,
+     "p90": 1.5633161902427675,
+     "max": 2.3202130794525146
+    },
+    "slope_mean_deg": {
+     "n": 3065,
+     "mediana": 2.054553985595703,
+     "p90": 6.850735664367676,
+     "max": 24.409996032714844
+    },
+    "ndvi_max_clim": {
+     "n": 2737,
+     "mediana": 0.09349999576807022,
+     "p90": 0.23624999821186066,
+     "max": 0.7464500069618225
+    },
+    "slope_frac_gt15": {
+     "n": 3065,
+     "mediana": 0,
+     "p90": 0.04732142910361283,
+     "max": 0.8709677457809448
+    },
+    "dtr_k": {
+     "n": 3076,
+     "mediana": 7.875167369842529,
+     "p90": 9.731666564941406,
+     "max": 11.369833946228027
+    }
+   }
+  },
+  "ST-16": {
+   "nombre": "Vikursandur",
+   "n_celdas": 3068,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 3068,
+     "disparan": 3068,
+     "frac": 1,
+     "estado": "si"
+    },
+    "evaporitas": {
+     "con_dato": 3068,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 3068,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 3068,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 3068,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 3068,
+     "disparan": 138,
+     "frac": 0.044980443285528034,
+     "estado": "no"
+    },
+    "movilidad_rover": {
+     "con_dato": 2876,
+     "disparan": 991,
+     "frac": 0.3445757997218359,
+     "estado": "si"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 2876,
+     "disparan": 1202,
+     "frac": 0.4179415855354659,
+     "estado": "si"
+    },
+    "ciclos_termicos": {
+     "con_dato": 3068,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_isru": {
+     "con_dato": 2780,
+     "disparan": 138,
+     "frac": 0.04964028776978417,
+     "estado": "no"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 2887,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 3068,
+     "mediana": 2,
+     "p90": 2,
+     "max": 2,
+     "clases": "2:3068"
+    },
+    "humedal_clase": {
+     "n": 3068,
+     "mediana": 0,
+     "p90": 23,
+     "max": 25,
+     "clases": "0:1651 23:416 11:233"
+    },
+    "frac_efimero": {
+     "n": 3068,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.44589975476264954
+    },
+    "aridez_ai": {
+     "n": 3068,
+     "mediana": 2.3808999061584473,
+     "p90": 3.902409839630129,
+     "max": 5.506799697875977
+    },
+    "dunas_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "arena_movil_frac": {
+     "n": 3068,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 3068,
+     "mediana": 0.5315777659416199,
+     "p90": 0.6157090663909912,
+     "max": 0.6515617966651917
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "permafrost_prob": {
+     "n": 2779,
+     "mediana": 0.10490905493497849,
+     "p90": 0.2979532837867737,
+     "max": 1
+    },
+    "magt_c": {
+     "n": 2778,
+     "mediana": 0.9866716861724854,
+     "p90": 1.618422567844391,
+     "max": 2.567688226699829
+    },
+    "slope_mean_deg": {
+     "n": 3057,
+     "mediana": 2.1423449516296387,
+     "p90": 7.316476154327393,
+     "max": 24.409996032714844
+    },
+    "ndvi_max_clim": {
+     "n": 2887,
+     "mediana": 0.10341999679803848,
+     "p90": 0.28294000029563904,
+     "max": 0.7464500069618225
+    },
+    "slope_frac_gt15": {
+     "n": 3057,
+     "mediana": 0,
+     "p90": 0.0634920671582222,
+     "max": 0.8709677457809448
+    },
+    "dtr_k": {
+     "n": 3068,
+     "mediana": 8.104833126068115,
+     "p90": 9.81733226776123,
+     "max": 11.403499603271484
+    }
+   }
+  },
+  "ST-17": {
+   "nombre": "Lago Salda",
+   "n_celdas": 2967,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 2967,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "evaporitas": {
+     "con_dato": 2967,
+     "disparan": 7,
+     "frac": 0.0023592854735422987,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 2967,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 2967,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 2967,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 2826,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 2967,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "movilidad_rover": {
+     "con_dato": 2959,
+     "disparan": 2,
+     "frac": 0.0006759040216289286,
+     "estado": "no"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 2959,
+     "disparan": 3,
+     "frac": 0.001013856032443393,
+     "estado": "no"
+    },
+    "ciclos_termicos": {
+     "con_dato": 2967,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_isru": {
+     "con_dato": 2966,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 2826,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 2967,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 2967,
+     "mediana": 1,
+     "p90": 5,
+     "max": 5,
+     "clases": "1:2137 5:485 3:345"
+    },
+    "humedal_clase": {
+     "n": 2967,
+     "mediana": 0,
+     "p90": 0,
+     "max": 32,
+     "clases": "0:2725 7:59 13:42"
+    },
+    "frac_efimero": {
+     "n": 2967,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.4250902831554413
+    },
+    "aridez_ai": {
+     "n": 2967,
+     "mediana": 0.4407999813556671,
+     "p90": 0.5210799813270569,
+     "max": 0.6729999780654907
+    },
+    "dunas_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "arena_movil_frac": {
+     "n": 2967,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.00022007041843608022
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 2967,
+     "mediana": 0.3996238112449646,
+     "p90": 0.4453374445438385,
+     "max": 0.4453374445438385
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 2826,
+     "mediana": 0.06087612733244896,
+     "p90": 0.6462235450744629,
+     "max": 1.3963797092437744
+    },
+    "permafrost_prob": {
+     "n": 2965,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "magt_c": {
+     "n": 2966,
+     "mediana": 15.609903812408447,
+     "p90": 17.29829216003418,
+     "max": 19.966426849365234
+    },
+    "slope_mean_deg": {
+     "n": 2959,
+     "mediana": 6.118605136871338,
+     "p90": 12.78576564788819,
+     "max": 30.65659523010254
+    },
+    "ndvi_max_clim": {
+     "n": 2967,
+     "mediana": 0.44221997261047363,
+     "p90": 0.5413900017738342,
+     "max": 0.6467999815940857
+    },
+    "slope_frac_gt15": {
+     "n": 2959,
+     "mediana": 0,
+     "p90": 0.3333333432674408,
+     "max": 1
+    },
+    "dtr_k": {
+     "n": 2967,
+     "mediana": 19.002832412719727,
+     "p90": 23.12949562072754,
+     "max": 25.08116340637207
+    }
+   }
+  },
+  "ST-18": {
+   "nombre": "Lanzarote",
+   "n_celdas": 324,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "evaporitas": {
+     "con_dato": 324,
+     "disparan": 4,
+     "frac": 0.012345679012345678,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 324,
+     "disparan": 3,
+     "frac": 0.009259259259259259,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 324,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 324,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "movilidad_rover": {
+     "con_dato": 282,
+     "disparan": 152,
+     "frac": 0.5390070921985816,
+     "estado": "si"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 282,
+     "disparan": 54,
+     "frac": 0.19148936170212766,
+     "estado": "si"
+    },
+    "ciclos_termicos": {
+     "con_dato": 293,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_isru": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 293,
+     "disparan": 3,
+     "frac": 0.010238907849829351,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "humedal_clase": {
+     "n": 324,
+     "mediana": 0,
+     "p90": 0,
+     "max": 32,
+     "clases": "0:292 15:14 6:12"
+    },
+    "frac_efimero": {
+     "n": 324,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.017842629924416542
+    },
+    "aridez_ai": {
+     "n": 324,
+     "mediana": 0.09654999524354935,
+     "p90": 0.11545999646186826,
+     "max": 0.1419999897480011
+    },
+    "dunas_frac": {
+     "n": 324,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "arena_movil_frac": {
+     "n": 324,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 324,
+     "mediana": 0.678864598274231,
+     "p90": 0.678864598274231,
+     "max": 0.6886684894561768
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "permafrost_prob": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "magt_c": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "slope_mean_deg": {
+     "n": 310,
+     "mediana": 3.3515443801879883,
+     "p90": 10.134181594848638,
+     "max": 20.69463539123535
+    },
+    "ndvi_max_clim": {
+     "n": 293,
+     "mediana": 0.1853099763393402,
+     "p90": 0.2858799993991852,
+     "max": 0.35524997115135193
+    },
+    "slope_frac_gt15": {
+     "n": 310,
+     "mediana": 0,
+     "p90": 0.19142857491970083,
+     "max": 0.65625
+    },
+    "dtr_k": {
+     "n": 293,
+     "mediana": 20.725000381469727,
+     "p90": 23.388498306274414,
+     "max": 24.429330825805664
+    }
+   }
+  },
+  "ST-19": {
+   "nombre": "Caldera de Gairía",
+   "n_celdas": 641,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "evaporitas": {
+     "con_dato": 641,
+     "disparan": 3,
+     "frac": 0.0046801872074883,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 641,
+     "disparan": 8,
+     "frac": 0.0124804992199688,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 641,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 641,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 40,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "movilidad_rover": {
+     "con_dato": 580,
+     "disparan": 381,
+     "frac": 0.656896551724138,
+     "estado": "si"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 580,
+     "disparan": 115,
+     "frac": 0.19827586206896552,
+     "estado": "si"
+    },
+    "ciclos_termicos": {
+     "con_dato": 595,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_isru": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 40,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 595,
+     "disparan": 1,
+     "frac": 0.0016806722689075631,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "humedal_clase": {
+     "n": 641,
+     "mediana": 0,
+     "p90": 0,
+     "max": 31,
+     "clases": "0:606 6:21 15:9"
+    },
+    "frac_efimero": {
+     "n": 641,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.016241664066910744
+    },
+    "aridez_ai": {
+     "n": 641,
+     "mediana": 0.0802999958395958,
+     "p90": 0.0916999951004982,
+     "max": 0.11429999768733978
+    },
+    "dunas_frac": {
+     "n": 641,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "arena_movil_frac": {
+     "n": 641,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.010237068869173527
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 641,
+     "mediana": 0.6537847518920898,
+     "p90": 0.6779525876045227,
+     "max": 0.6779525876045227
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 40,
+     "mediana": 1.2137763500213623,
+     "p90": 1.2137763500213623,
+     "max": 1.2137763500213623
+    },
+    "permafrost_prob": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "magt_c": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "slope_mean_deg": {
+     "n": 616,
+     "mediana": 4.817886114120483,
+     "p90": 11.310123920440674,
+     "max": 22.85968017578125
+    },
+    "ndvi_max_clim": {
+     "n": 595,
+     "mediana": 0.1287499964237213,
+     "p90": 0.1847199946641922,
+     "max": 0.21772000193595886
+    },
+    "slope_frac_gt15": {
+     "n": 616,
+     "mediana": 0,
+     "p90": 0.2539682686328888,
+     "max": 0.8888888955116272
+    },
+    "dtr_k": {
+     "n": 595,
+     "mediana": 19.923500061035156,
+     "p90": 22.089500427246094,
+     "max": 23.71849822998047
+    }
+   }
+  },
+  "ST-20": {
+   "nombre": "Cráter de Ries",
+   "n_celdas": 3094,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 3094,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "evaporitas": {
+     "con_dato": 3094,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 3094,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 3094,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 3094,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 3094,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 3094,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "movilidad_rover": {
+     "con_dato": 3087,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 3087,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "ciclos_termicos": {
+     "con_dato": 3094,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_isru": {
+     "con_dato": 3093,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 3094,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 3094,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 3094,
+     "mediana": 5,
+     "p90": 6,
+     "max": 6,
+     "clases": "5:1125 6:801 3:799"
+    },
+    "humedal_clase": {
+     "n": 3094,
+     "mediana": 0,
+     "p90": 7,
+     "max": 25,
+     "clases": "0:2656 7:100 13:88"
+    },
+    "frac_efimero": {
+     "n": 3094,
+     "mediana": 0,
+     "p90": 0.006776941008865838,
+     "max": 0.15630285441875458
+    },
+    "aridez_ai": {
+     "n": 3094,
+     "mediana": 1.1074499487876892,
+     "p90": 1.2521399974822998,
+     "max": 1.618499994277954
+    },
+    "dunas_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "arena_movil_frac": {
+     "n": 3094,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 3094,
+     "mediana": 0.5911422967910767,
+     "p90": 0.6067601442337036,
+     "max": 0.631041944026947
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 3094,
+     "mediana": 1.0380980968475342,
+     "p90": 1.726668357849121,
+     "max": 2.991452932357788
+    },
+    "permafrost_prob": {
+     "n": 3093,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "magt_c": {
+     "n": 3093,
+     "mediana": 9.265385627746582,
+     "p90": 9.620643424987794,
+     "max": 10.28607177734375
+    },
+    "slope_mean_deg": {
+     "n": 3087,
+     "mediana": 2.380542039871216,
+     "p90": 4.425730991363526,
+     "max": 11.810430526733398
+    },
+    "ndvi_max_clim": {
+     "n": 3094,
+     "mediana": 0.7369199991226196,
+     "p90": 0.7969599962234497,
+     "max": 0.852869987487793
+    },
+    "slope_frac_gt15": {
+     "n": 3087,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.3333333432674408
+    },
+    "dtr_k": {
+     "n": 3094,
+     "mediana": 12.026351928710938,
+     "p90": 13.383948040008555,
+     "max": 15.340834617614746
+    }
+   }
+  },
+  "ST-21": {
+   "nombre": "Cañón de Bletterbach",
+   "n_celdas": 3102,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 3102,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "evaporitas": {
+     "con_dato": 3102,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 3102,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 3102,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 3102,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 972,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 3102,
+     "disparan": 34,
+     "frac": 0.01096067053513862,
+     "estado": "no"
+    },
+    "movilidad_rover": {
+     "con_dato": 3097,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 3097,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "ciclos_termicos": {
+     "con_dato": 3102,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_isru": {
+     "con_dato": 3099,
+     "disparan": 34,
+     "frac": 0.010971281058405937,
+     "estado": "no"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 972,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 3102,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 3102,
+     "mediana": 8,
+     "p90": 8,
+     "max": 9,
+     "clases": "8:1858 6:944 9:243"
+    },
+    "humedal_clase": {
+     "n": 3102,
+     "mediana": 0,
+     "p90": 24,
+     "max": 25,
+     "clases": "0:2066 24:640 25:104"
+    },
+    "frac_efimero": {
+     "n": 3102,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.0793432891368866
+    },
+    "aridez_ai": {
+     "n": 3102,
+     "mediana": 1.0399999618530273,
+     "p90": 1.581749999523163,
+     "max": 2.50600004196167
+    },
+    "dunas_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "arena_movil_frac": {
+     "n": 3102,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 3102,
+     "mediana": 0.3706110417842865,
+     "p90": 0.3960898220539093,
+     "max": 0.49184906482696533
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 972,
+     "mediana": 0.1027284637093544,
+     "p90": 0.4204699993133545,
+     "max": 1.145018458366394
+    },
+    "permafrost_prob": {
+     "n": 3099,
+     "mediana": 0,
+     "p90": 0.005387870687991396,
+     "max": 0.8164358735084534
+    },
+    "magt_c": {
+     "n": 3099,
+     "mediana": 6.339498043060303,
+     "p90": 10.846772766113283,
+     "max": 13.892096519470215
+    },
+    "slope_mean_deg": {
+     "n": 3097,
+     "mediana": 20.276491165161133,
+     "p90": 27.775954437255862,
+     "max": 40.56867980957031
+    },
+    "ndvi_max_clim": {
+     "n": 3102,
+     "mediana": 0.7724599838256836,
+     "p90": 0.8141199946403503,
+     "max": 0.86968994140625
+    },
+    "slope_frac_gt15": {
+     "n": 3097,
+     "mediana": 0.7460317611694336,
+     "p90": 0.9365079402923584,
+     "max": 1
+    },
+    "dtr_k": {
+     "n": 3102,
+     "mediana": 10.342833518981934,
+     "p90": 12.499500274658203,
+     "max": 15.277335166931152
+    }
+   }
+  },
+  "ST-22": {
+   "nombre": "Lofoten",
+   "n_celdas": 337,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 215,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "evaporitas": {
+     "con_dato": 337,
+     "disparan": 10,
+     "frac": 0.02967359050445104,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 337,
+     "disparan": 25,
+     "frac": 0.07418397626112759,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 337,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 337,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 335,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "movilidad_rover": {
+     "con_dato": 218,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 218,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "ciclos_termicos": {
+     "con_dato": 280,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_isru": {
+     "con_dato": 334,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 280,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 215,
+     "mediana": 13,
+     "p90": 13,
+     "max": 13,
+     "clases": "13:144 8:71"
+    },
+    "humedal_clase": {
+     "n": 331,
+     "mediana": 15,
+     "p90": 31,
+     "max": 31,
+     "clases": "0:92 25:45 31:43"
+    },
+    "frac_efimero": {
+     "n": 337,
+     "mediana": 0,
+     "p90": 0.03823070973157885,
+     "max": 0.1401885598897934
+    },
+    "aridez_ai": {
+     "n": 337,
+     "mediana": 3.5463998317718506,
+     "p90": 3.9849799156188968,
+     "max": 4.581599712371826
+    },
+    "dunas_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "arena_movil_frac": {
+     "n": 337,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 337,
+     "mediana": 0.6321819424629211,
+     "p90": 0.6500797867774963,
+     "max": 0.6647287011146545
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "permafrost_prob": {
+     "n": 334,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "magt_c": {
+     "n": 334,
+     "mediana": 3.9158787727355957,
+     "p90": 5.138432264328003,
+     "max": 6.605928421020508
+    },
+    "slope_mean_deg": {
+     "n": 255,
+     "mediana": 17.8780460357666,
+     "p90": 28.126023101806638,
+     "max": 38.11339569091797
+    },
+    "ndvi_max_clim": {
+     "n": 280,
+     "mediana": 0.7716400027275085,
+     "p90": 0.8082869946956635,
+     "max": 0.8176699876785278
+    },
+    "slope_frac_gt15": {
+     "n": 255,
+     "mediana": 0.60317462682724,
+     "p90": 0.9016393423080444,
+     "max": 0.9750000238418579
+    },
+    "dtr_k": {
+     "n": 280,
+     "mediana": 4.725832939147949,
+     "p90": 5.1259989738464355,
+     "max": 5.3349995613098145
+    }
+   }
+  },
+  "ST-23": {
+   "nombre": "Río Tinto",
+   "n_celdas": 3091,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 3091,
+     "disparan": 129,
+     "frac": 0.041734066645098676,
+     "estado": "no"
+    },
+    "evaporitas": {
+     "con_dato": 3091,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 3091,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 3091,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 3091,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 3091,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 3091,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "movilidad_rover": {
+     "con_dato": 3076,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 3076,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "ciclos_termicos": {
+     "con_dato": 3091,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_isru": {
+     "con_dato": 3091,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 3091,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 3091,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 3091,
+     "mediana": 4,
+     "p90": 6,
+     "max": 10,
+     "clases": "5:1135 4:891 3:429"
+    },
+    "humedal_clase": {
+     "n": 3091,
+     "mediana": 0,
+     "p90": 7,
+     "max": 31,
+     "clases": "0:2655 15:128 7:122"
+    },
+    "frac_efimero": {
+     "n": 3091,
+     "mediana": 0,
+     "p90": 0.005274910479784012,
+     "max": 0.1834673285484314
+    },
+    "aridez_ai": {
+     "n": 3091,
+     "mediana": 0.3944000005722046,
+     "p90": 0.4702000021934509,
+     "max": 0.574400007724762
+    },
+    "dunas_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "arena_movil_frac": {
+     "n": 3091,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 3091,
+     "mediana": 0.5939352512359619,
+     "p90": 0.6174190640449524,
+     "max": 0.6174190640449524
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 3091,
+     "mediana": 0,
+     "p90": 0.05667777359485626,
+     "max": 0.08965393155813217
+    },
+    "permafrost_prob": {
+     "n": 3091,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "magt_c": {
+     "n": 3091,
+     "mediana": 18.920921325683594,
+     "p90": 19.929134368896484,
+     "max": 20.557254791259766
+    },
+    "slope_mean_deg": {
+     "n": 3076,
+     "mediana": 3.61404025554657,
+     "p90": 7.469603776931763,
+     "max": 13.708290100097656
+    },
+    "ndvi_max_clim": {
+     "n": 3091,
+     "mediana": 0.6178199648857117,
+     "p90": 0.6931199431419373,
+     "max": 0.73785001039505
+    },
+    "slope_frac_gt15": {
+     "n": 3076,
+     "mediana": 0,
+     "p90": 0.03125,
+     "max": 0.4375
+    },
+    "dtr_k": {
+     "n": 3091,
+     "mediana": 17.577665328979492,
+     "p90": 20.126501083374023,
+     "max": 22.518667221069336
+    }
+   }
+  },
+  "ST-24": {
+   "nombre": "Salares de Makgadikgadi",
+   "n_celdas": 3086,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 3086,
+     "disparan": 712,
+     "frac": 0.23071937783538563,
+     "estado": "si"
+    },
+    "evaporitas": {
+     "con_dato": 3086,
+     "disparan": 2028,
+     "frac": 0.6571613739468568,
+     "estado": "si"
+    },
+    "hiperarido": {
+     "con_dato": 3086,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 3086,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 3086,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 239,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 3086,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "movilidad_rover": {
+     "con_dato": 3086,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 3086,
+     "disparan": 1477,
+     "frac": 0.47861309138042774,
+     "estado": "si"
+    },
+    "ciclos_termicos": {
+     "con_dato": 3086,
+     "disparan": 83,
+     "frac": 0.026895657809462088,
+     "estado": "no"
+    },
+    "hielo_isru": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 239,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 3086,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 3086,
+     "mediana": 2,
+     "p90": 14,
+     "max": 14,
+     "clases": "14:1336 1:1038 2:712"
+    },
+    "humedal_clase": {
+     "n": 3086,
+     "mediana": 2,
+     "p90": 32,
+     "max": 32,
+     "clases": "2:1326 0:1156 32:468"
+    },
+    "frac_efimero": {
+     "n": 3086,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.4859856367111206
+    },
+    "aridez_ai": {
+     "n": 3086,
+     "mediana": 0.1476999968290329,
+     "p90": 0.15729999542236328,
+     "max": 0.1648000031709671
+    },
+    "dunas_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "arena_movil_frac": {
+     "n": 3086,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.002704326994717121
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 3086,
+     "mediana": 0.598609209060669,
+     "p90": 0.6479707956314087,
+     "max": 0.6954514384269714
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 239,
+     "mediana": 0.5818248987197876,
+     "p90": 1.6436553001403809,
+     "max": 1.6436553001403809
+    },
+    "permafrost_prob": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "magt_c": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "slope_mean_deg": {
+     "n": 3086,
+     "mediana": 0.0657472163438797,
+     "p90": 0.2731669843196869,
+     "max": 1.7710380554199219
+    },
+    "ndvi_max_clim": {
+     "n": 3086,
+     "mediana": 0.3143400251865387,
+     "p90": 0.4754299521446228,
+     "max": 0.5481199622154236
+    },
+    "slope_frac_gt15": {
+     "n": 3086,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "dtr_k": {
+     "n": 3086,
+     "mediana": 24.335662841796875,
+     "p90": 26.048500061035156,
+     "max": 28.37996482849121
+    }
+   }
+  },
+  "ST-25": {
+   "nombre": "Depresión de Danakil",
+   "n_celdas": 3074,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 3004,
+     "disparan": 86,
+     "frac": 0.02862849533954727,
+     "estado": "no"
+    },
+    "evaporitas": {
+     "con_dato": 3074,
+     "disparan": 429,
+     "frac": 0.13955757970071567,
+     "estado": "si"
+    },
+    "hiperarido": {
+     "con_dato": 3074,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 3074,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 3074,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 2877,
+     "disparan": 16,
+     "frac": 0.005561348627042058,
+     "estado": "no"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 3004,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "movilidad_rover": {
+     "con_dato": 3064,
+     "disparan": 1039,
+     "frac": 0.3390992167101828,
+     "estado": "si"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 3064,
+     "disparan": 1781,
+     "frac": 0.581266318537859,
+     "estado": "si"
+    },
+    "ciclos_termicos": {
+     "con_dato": 3074,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_isru": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 2877,
+     "disparan": 16,
+     "frac": 0.005561348627042058,
+     "estado": "no"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 3074,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 3004,
+     "mediana": 3,
+     "p90": 14,
+     "max": 14,
+     "clases": "1:1179 3:989 14:389"
+    },
+    "humedal_clase": {
+     "n": 3074,
+     "mediana": 0,
+     "p90": 7,
+     "max": 32,
+     "clases": "0:2491 7:280 32:133"
+    },
+    "frac_efimero": {
+     "n": 3074,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.1691419631242752
+    },
+    "aridez_ai": {
+     "n": 3074,
+     "mediana": 0.14569999277591705,
+     "p90": 0.2909399867057801,
+     "max": 0.503600001335144
+    },
+    "dunas_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "arena_movil_frac": {
+     "n": 3074,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.02213541604578495
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 3074,
+     "mediana": 0.40897172689437866,
+     "p90": 0.4899110794067383,
+     "max": 0.4899110794067383
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 2877,
+     "mediana": 8.618831634521484,
+     "p90": 17.915843963623047,
+     "max": 23.202938079833984
+    },
+    "permafrost_prob": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "magt_c": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "slope_mean_deg": {
+     "n": 3064,
+     "mediana": 1.338481843471527,
+     "p90": 12.949237155914307,
+     "max": 27.517520904541016
+    },
+    "ndvi_max_clim": {
+     "n": 3074,
+     "mediana": 0.08736999332904816,
+     "p90": 0.13249000906944275,
+     "max": 0.3086400032043457
+    },
+    "slope_frac_gt15": {
+     "n": 3064,
+     "mediana": 0,
+     "p90": 0.3692307770252228,
+     "max": 0.9833333492279053
+    },
+    "dtr_k": {
+     "n": 3074,
+     "mediana": 21.608582496643066,
+     "p90": 23.707000732421875,
+     "max": 25.04033088684082
+    }
+   }
+  },
+  "ST-26": {
+   "nombre": "Andes argentinos",
+   "n_celdas": 3090,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 3090,
+     "disparan": 1826,
+     "frac": 0.5909385113268608,
+     "estado": "si"
+    },
+    "evaporitas": {
+     "con_dato": 3090,
+     "disparan": 89,
+     "frac": 0.028802588996763755,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 3090,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 3090,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 3090,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 3090,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 3090,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "movilidad_rover": {
+     "con_dato": 3086,
+     "disparan": 1019,
+     "frac": 0.33020090732339596,
+     "estado": "si"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 3086,
+     "disparan": 1444,
+     "frac": 0.4679196370706416,
+     "estado": "si"
+    },
+    "ciclos_termicos": {
+     "con_dato": 3090,
+     "disparan": 62,
+     "frac": 0.020064724919093852,
+     "estado": "no"
+    },
+    "hielo_isru": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 3090,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 3090,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 3090,
+     "mediana": 2,
+     "p90": 10,
+     "max": 12,
+     "clases": "2:1136 1:935 10:684"
+    },
+    "humedal_clase": {
+     "n": 3090,
+     "mediana": 0,
+     "p90": 7,
+     "max": 32,
+     "clases": "0:2756 7:118 15:91"
+    },
+    "frac_efimero": {
+     "n": 3090,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.24838970601558685
+    },
+    "aridez_ai": {
+     "n": 3090,
+     "mediana": 0.15940000116825104,
+     "p90": 0.19209998846054077,
+     "max": 0.21959999203681946
+    },
+    "dunas_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "arena_movil_frac": {
+     "n": 3090,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 3090,
+     "mediana": 0.7162562608718872,
+     "p90": 0.7405380606651306,
+     "max": 0.7883036732673645
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 3090,
+     "mediana": 0.14048336446285248,
+     "p90": 0.3591180145740509,
+     "max": 0.6407470107078552
+    },
+    "permafrost_prob": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "magt_c": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "slope_mean_deg": {
+     "n": 3086,
+     "mediana": 2.122312307357788,
+     "p90": 4.9624247550964355,
+     "max": 9.047890663146973
+    },
+    "ndvi_max_clim": {
+     "n": 3090,
+     "mediana": 0.16788889467716217,
+     "p90": 0.19477777183055878,
+     "max": 0.307699978351593
+    },
+    "slope_frac_gt15": {
+     "n": 3086,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.10000000149011612
+    },
+    "dtr_k": {
+     "n": 3090,
+     "mediana": 24.427000999450684,
+     "p90": 25.972333908081055,
+     "max": 27.4498348236084
+    }
+   }
+  },
+  "ST-27": {
+   "nombre": "Izu-Oshima",
+   "n_celdas": 360,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 176,
+     "disparan": 4,
+     "frac": 0.022727272727272728,
+     "estado": "no"
+    },
+    "evaporitas": {
+     "con_dato": 360,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 360,
+     "disparan": 4,
+     "frac": 0.011111111111111112,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 360,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 360,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 358,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "movilidad_rover": {
+     "con_dato": 311,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 311,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "ciclos_termicos": {
+     "con_dato": 319,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_isru": {
+     "con_dato": 358,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 319,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 176,
+     "mediana": 5,
+     "p90": 5,
+     "max": 5,
+     "clases": "5:172 2:4"
+    },
+    "humedal_clase": {
+     "n": 360,
+     "mediana": 0,
+     "p90": 14.100000000000023,
+     "max": 31,
+     "clases": "0:291 24:21 6:15"
+    },
+    "frac_efimero": {
+     "n": 360,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.034062378108501434
+    },
+    "aridez_ai": {
+     "n": 360,
+     "mediana": 1.813349962234497,
+     "p90": 2.0676798582077027,
+     "max": 2.338599920272827
+    },
+    "dunas_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "arena_movil_frac": {
+     "n": 360,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 360,
+     "mediana": 0.6658686995506287,
+     "p90": 0.6708846092224121,
+     "max": 0.7702348232269287
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "permafrost_prob": {
+     "n": 358,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "magt_c": {
+     "n": 358,
+     "mediana": 15.318569660186768,
+     "p90": 16.623127365112303,
+     "max": 17.808021545410156
+    },
+    "slope_mean_deg": {
+     "n": 341,
+     "mediana": 10.22436237335205,
+     "p90": 15.095576286315918,
+     "max": 20.67264175415039
+    },
+    "ndvi_max_clim": {
+     "n": 319,
+     "mediana": 0.8739124536514282,
+     "p90": 0.9088999629020691,
+     "max": 0.9167399406433105
+    },
+    "slope_frac_gt15": {
+     "n": 341,
+     "mediana": 0.1269841343164444,
+     "p90": 0.5322580933570862,
+     "max": 0.8870967626571655
+    },
+    "dtr_k": {
+     "n": 319,
+     "mediana": 7.986667156219482,
+     "p90": 9.075333595275879,
+     "max": 9.483092308044434
+    }
+   }
+  },
+  "ST-28": {
+   "nombre": "Dunas de Tottori",
+   "n_celdas": 1687,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 1354,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "evaporitas": {
+     "con_dato": 1687,
+     "disparan": 4,
+     "frac": 0.0023710729104919974,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 1687,
+     "disparan": 5,
+     "frac": 0.002963841138114997,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 1687,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 1687,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 1247,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 1687,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "movilidad_rover": {
+     "con_dato": 1637,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 1637,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "ciclos_termicos": {
+     "con_dato": 1643,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_isru": {
+     "con_dato": 1687,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 1247,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 1643,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 1354,
+     "mediana": 9,
+     "p90": 9,
+     "max": 9,
+     "clases": "9:1093 4:261"
+    },
+    "humedal_clase": {
+     "n": 1687,
+     "mediana": 0,
+     "p90": 24,
+     "max": 33,
+     "clases": "0:1240 24:178 7:99"
+    },
+    "frac_efimero": {
+     "n": 1687,
+     "mediana": 0,
+     "p90": 0.00040443715988658466,
+     "max": 0.08970659226179123
+    },
+    "aridez_ai": {
+     "n": 1687,
+     "mediana": 1.9684998989105225,
+     "p90": 2.2929399967193604,
+     "max": 2.816699981689453
+    },
+    "dunas_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "arena_movil_frac": {
+     "n": 1687,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 1687,
+     "mediana": 0.6254559755325317,
+     "p90": 0.690093457698822,
+     "max": 0.690093457698822
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 1247,
+     "mediana": 0.03913465142250061,
+     "p90": 0.21915405988693237,
+     "max": 0.2644962966442108
+    },
+    "permafrost_prob": {
+     "n": 1687,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "magt_c": {
+     "n": 1686,
+     "mediana": 13.747809410095215,
+     "p90": 15.431470394134521,
+     "max": 16.71283531188965
+    },
+    "slope_mean_deg": {
+     "n": 1676,
+     "mediana": 12.050517082214355,
+     "p90": 16.740983963012695,
+     "max": 21.98773193359375
+    },
+    "ndvi_max_clim": {
+     "n": 1643,
+     "mediana": 0.8663777709007263,
+     "p90": 0.8955860018730164,
+     "max": 0.9092499613761902
+    },
+    "slope_frac_gt15": {
+     "n": 1676,
+     "mediana": 0.27419355511665344,
+     "p90": 0.6507936716079712,
+     "max": 0.90625
+    },
+    "dtr_k": {
+     "n": 1643,
+     "mediana": 7.208027362823486,
+     "p90": 9.320333480834961,
+     "max": 11.927666664123535
+    }
+   }
+  },
+  "ST-29": {
+   "nombre": "Volcán Bockfjord",
+   "n_celdas": 2427,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 2295,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "evaporitas": {
+     "con_dato": 2427,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 2427,
+     "disparan": 57,
+     "frac": 0.023485784919653894,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 2427,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 2427,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 2407,
+     "disparan": 1156,
+     "frac": 0.48026589115081014,
+     "estado": "si"
+    },
+    "movilidad_rover": {
+     "con_dato": 883,
+     "disparan": 463,
+     "frac": 0.5243488108720272,
+     "estado": "si"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 883,
+     "disparan": 73,
+     "frac": 0.08267270668176671,
+     "estado": "no"
+    },
+    "ciclos_termicos": {
+     "con_dato": 2312,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_isru": {
+     "con_dato": 1156,
+     "disparan": 1156,
+     "frac": 1,
+     "estado": "si"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 910,
+     "disparan": 16,
+     "frac": 0.017582417582417582,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 2295,
+     "mediana": 5,
+     "p90": 8,
+     "max": 8,
+     "clases": "5:1333 8:962"
+    },
+    "humedal_clase": {
+     "n": 2416,
+     "mediana": 0,
+     "p90": 23,
+     "max": 31,
+     "clases": "0:1697 23:551 7:70"
+    },
+    "frac_efimero": {
+     "n": 2427,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "aridez_ai": {
+     "n": 2427,
+     "mediana": 3.452199935913086,
+     "p90": 6.079739761352539,
+     "max": 6.553499698638916
+    },
+    "dunas_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "arena_movil_frac": {
+     "n": 2427,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 2427,
+     "mediana": 0.33681029081344604,
+     "p90": 0.5039329528808594,
+     "max": 0.6227770447731018
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "permafrost_prob": {
+     "n": 1141,
+     "mediana": 1,
+     "p90": 1,
+     "max": 1
+    },
+    "magt_c": {
+     "n": 1139,
+     "mediana": -3.5092504024505615,
+     "p90": -2.378453111648559,
+     "max": -0.5260770320892334
+    },
+    "slope_mean_deg": {
+     "n": 2346,
+     "mediana": 13.368495464324951,
+     "p90": 21.527177810668945,
+     "max": 30.301851272583008
+    },
+    "ndvi_max_clim": {
+     "n": 910,
+     "mediana": 0.14203999191522598,
+     "p90": 0.29647141695022583,
+     "max": 0.6800000071525574
+    },
+    "slope_frac_gt15": {
+     "n": 2346,
+     "mediana": 0.380952388048172,
+     "p90": 0.7777777910232544,
+     "max": 1
+    },
+    "dtr_k": {
+     "n": 2312,
+     "mediana": 1.4765000343322754,
+     "p90": 1.9423333406448364,
+     "max": 2.931666374206543
+    }
+   }
+  },
+  "ST-30": {
+   "nombre": "Volcán Poás",
+   "n_celdas": 3103,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 3040,
+     "disparan": 1996,
+     "frac": 0.656578947368421,
+     "estado": "si"
+    },
+    "evaporitas": {
+     "con_dato": 3103,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 3103,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 3103,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 3103,
+     "disparan": 973,
+     "frac": 0.31356751530776666,
+     "estado": "si"
+    },
+    "polvo": {
+     "con_dato": 380,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 3040,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "movilidad_rover": {
+     "con_dato": 3103,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 3103,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "ciclos_termicos": {
+     "con_dato": 2983,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_isru": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 380,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 3103,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 3040,
+     "mediana": 10,
+     "p90": 10,
+     "max": 10,
+     "clases": "10:1693 6:543 3:464"
+    },
+    "humedal_clase": {
+     "n": 3103,
+     "mediana": 0,
+     "p90": 26,
+     "max": 27,
+     "clases": "0:1903 26:400 7:300"
+    },
+    "frac_efimero": {
+     "n": 3103,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.1559864580631256
+    },
+    "aridez_ai": {
+     "n": 3103,
+     "mediana": 2.3471999168395996,
+     "p90": 2.7845999240875243,
+     "max": 4.3180999755859375
+    },
+    "dunas_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "arena_movil_frac": {
+     "n": 3103,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 3103,
+     "mediana": 0.7583789229393005,
+     "p90": 0.8554491400718689,
+     "max": 0.8554491400718689
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 380,
+     "mediana": 0,
+     "p90": 0.037355806678533554,
+     "max": 0.037355806678533554
+    },
+    "permafrost_prob": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "magt_c": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "slope_mean_deg": {
+     "n": 3103,
+     "mediana": 5.862707614898682,
+     "p90": 15.12059555053711,
+     "max": 28.002178192138672
+    },
+    "ndvi_max_clim": {
+     "n": 3103,
+     "mediana": 0.8255099058151245,
+     "p90": 0.8609700202941895,
+     "max": 0.8844199180603027
+    },
+    "slope_frac_gt15": {
+     "n": 3103,
+     "mediana": 0,
+     "p90": 0.4920634925365448,
+     "max": 1
+    },
+    "dtr_k": {
+     "n": 2983,
+     "mediana": 10.967909812927246,
+     "p90": 14.644767761230469,
+     "max": 19.86414337158203
+    }
+   }
+  },
+  "ST-31": {
+   "nombre": "Rincón de la Vieja",
+   "n_celdas": 2623,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 2156,
+     "disparan": 1265,
+     "frac": 0.5867346938775511,
+     "estado": "si"
+    },
+    "evaporitas": {
+     "con_dato": 2623,
+     "disparan": 2,
+     "frac": 0.0007624857033930614,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 2623,
+     "disparan": 6,
+     "frac": 0.002287457110179184,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 2623,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 2623,
+     "disparan": 802,
+     "frac": 0.3057567670606176,
+     "estado": "si"
+    },
+    "polvo": {
+     "con_dato": 482,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 2156,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "movilidad_rover": {
+     "con_dato": 2599,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 2599,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "ciclos_termicos": {
+     "con_dato": 2617,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_isru": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 482,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 2617,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 2156,
+     "mediana": 12,
+     "p90": 12,
+     "max": 12,
+     "clases": "12:1218 1:440 11:285"
+    },
+    "humedal_clase": {
+     "n": 2623,
+     "mediana": 0,
+     "p90": 33,
+     "max": 33,
+     "clases": "0:1741 33:455 7:170"
+    },
+    "frac_efimero": {
+     "n": 2623,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.31561169028282166
+    },
+    "aridez_ai": {
+     "n": 2623,
+     "mediana": 1.2980999946594238,
+     "p90": 2.1295199871063235,
+     "max": 2.726599931716919
+    },
+    "dunas_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "arena_movil_frac": {
+     "n": 2623,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 2623,
+     "mediana": 0.7932056784629822,
+     "p90": 0.8271203637123108,
+     "max": 0.8271203637123108
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 482,
+     "mediana": 0.036124296486377716,
+     "p90": 0.046831134334206624,
+     "max": 0.04696158319711685
+    },
+    "permafrost_prob": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "magt_c": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "slope_mean_deg": {
+     "n": 2602,
+     "mediana": 2.6938830614089966,
+     "p90": 9.111055374145508,
+     "max": 22.730016708374023
+    },
+    "ndvi_max_clim": {
+     "n": 2617,
+     "mediana": 0.8303499221801758,
+     "p90": 0.8615099787712097,
+     "max": 0.8920000195503235
+    },
+    "slope_frac_gt15": {
+     "n": 2602,
+     "mediana": 0,
+     "p90": 0.08051715120673192,
+     "max": 1
+    },
+    "dtr_k": {
+     "n": 2617,
+     "mediana": 9.297032356262207,
+     "p90": 12.99349308013916,
+     "max": 14.30534839630127
+    }
+   }
+  },
+  "ST-32": {
+   "nombre": "Cerro Negro",
+   "n_celdas": 2514,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 2444,
+     "disparan": 2315,
+     "frac": 0.9472176759410802,
+     "estado": "si"
+    },
+    "evaporitas": {
+     "con_dato": 2514,
+     "disparan": 6,
+     "frac": 0.002386634844868735,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 2514,
+     "disparan": 4,
+     "frac": 0.0015910898965791568,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 2514,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 2514,
+     "disparan": 146,
+     "frac": 0.05807478122513922,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 1702,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 2444,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "movilidad_rover": {
+     "con_dato": 2479,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 2479,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "ciclos_termicos": {
+     "con_dato": 2496,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_isru": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 1702,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 2496,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 2444,
+     "mediana": 7,
+     "p90": 7,
+     "max": 11,
+     "clases": "7:2315 11:129"
+    },
+    "humedal_clase": {
+     "n": 2514,
+     "mediana": 0,
+     "p90": 14,
+     "max": 33,
+     "clases": "0:1924 7:156 33:91"
+    },
+    "frac_efimero": {
+     "n": 2514,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.3712441325187683
+    },
+    "aridez_ai": {
+     "n": 2514,
+     "mediana": 0.8319999575614929,
+     "p90": 0.9316699862480164,
+     "max": 1.0842000246047974
+    },
+    "dunas_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "arena_movil_frac": {
+     "n": 2514,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 2514,
+     "mediana": 0.5066689252853394,
+     "p90": 0.6912334561347961,
+     "max": 0.8264933824539185
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 1702,
+     "mediana": 0.13697127997875214,
+     "p90": 0.3090634047985077,
+     "max": 0.47359564900398254
+    },
+    "permafrost_prob": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "magt_c": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "slope_mean_deg": {
+     "n": 2493,
+     "mediana": 1.4248785972595215,
+     "p90": 8.121175956726079,
+     "max": 28.170591354370117
+    },
+    "ndvi_max_clim": {
+     "n": 2496,
+     "mediana": 0.8340699076652527,
+     "p90": 0.8621799349784851,
+     "max": 0.8882399797439575
+    },
+    "slope_frac_gt15": {
+     "n": 2493,
+     "mediana": 0,
+     "p90": 0.0625,
+     "max": 0.9841269850730896
+    },
+    "dtr_k": {
+     "n": 2496,
+     "mediana": 13.99793529510498,
+     "p90": 16.639911651611328,
+     "max": 18.395784378051758
+    }
+   }
+  },
+  "ST-33": {
+   "nombre": "Volcán Momotombo",
+   "n_celdas": 2497,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 2477,
+     "disparan": 2012,
+     "frac": 0.8122729107791683,
+     "estado": "si"
+    },
+    "evaporitas": {
+     "con_dato": 2497,
+     "disparan": 5,
+     "frac": 0.002002402883460152,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 2497,
+     "disparan": 2,
+     "frac": 0.0008009611533840609,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 2497,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 2497,
+     "disparan": 149,
+     "frac": 0.059671605927112535,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 1501,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 2477,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "movilidad_rover": {
+     "con_dato": 2467,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 2467,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "ciclos_termicos": {
+     "con_dato": 2480,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_isru": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 1501,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 2480,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 2477,
+     "mediana": 7,
+     "p90": 11,
+     "max": 11,
+     "clases": "7:2012 11:455 6:10"
+    },
+    "humedal_clase": {
+     "n": 2497,
+     "mediana": 0,
+     "p90": 11,
+     "max": 33,
+     "clases": "0:2021 7:163 33:54"
+    },
+    "frac_efimero": {
+     "n": 2497,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.3712441325187683
+    },
+    "aridez_ai": {
+     "n": 2497,
+     "mediana": 0.7864999771118164,
+     "p90": 0.9017799735069274,
+     "max": 1.0713000297546387
+    },
+    "dunas_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "arena_movil_frac": {
+     "n": 2497,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 2497,
+     "mediana": 0.6644436717033386,
+     "p90": 0.6912334561347961,
+     "max": 0.8264933824539185
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 1501,
+     "mediana": 0.09574691951274872,
+     "p90": 0.2550499737262726,
+     "max": 0.3090634047985077
+    },
+    "permafrost_prob": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "magt_c": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "slope_mean_deg": {
+     "n": 2480,
+     "mediana": 1.8187416195869446,
+     "p90": 8.632312202453614,
+     "max": 28.170591354370117
+    },
+    "ndvi_max_clim": {
+     "n": 2480,
+     "mediana": 0.8354499936103821,
+     "p90": 0.8621799349784851,
+     "max": 0.8923800587654114
+    },
+    "slope_frac_gt15": {
+     "n": 2480,
+     "mediana": 0,
+     "p90": 0.09104895368218409,
+     "max": 0.9841269850730896
+    },
+    "dtr_k": {
+     "n": 2480,
+     "mediana": 13.430221557617188,
+     "p90": 16.378976821899414,
+     "max": 18.395784378051758
+    }
+   }
+  },
+  "ST-34": {
+   "nombre": "Volcán Telica",
+   "n_celdas": 2625,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 2554,
+     "disparan": 2527,
+     "frac": 0.9894283476898982,
+     "estado": "si"
+    },
+    "evaporitas": {
+     "con_dato": 2625,
+     "disparan": 8,
+     "frac": 0.0030476190476190477,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 2625,
+     "disparan": 9,
+     "frac": 0.0034285714285714284,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 2625,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 2625,
+     "disparan": 97,
+     "frac": 0.03695238095238095,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 1952,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 2554,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "movilidad_rover": {
+     "con_dato": 2578,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 2578,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "ciclos_termicos": {
+     "con_dato": 2610,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_isru": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 1952,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 2610,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 2554,
+     "mediana": 7,
+     "p90": 7,
+     "max": 11,
+     "clases": "7:2527 11:24 1:3"
+    },
+    "humedal_clase": {
+     "n": 2625,
+     "mediana": 0,
+     "p90": 15,
+     "max": 33,
+     "clases": "0:1884 7:156 28:103"
+    },
+    "frac_efimero": {
+     "n": 2625,
+     "mediana": 0,
+     "p90": 0.006549783982336521,
+     "max": 0.28766217827796936
+    },
+    "aridez_ai": {
+     "n": 2625,
+     "mediana": 0.8828999996185303,
+     "p90": 0.9413599848747254,
+     "max": 1.0842000246047974
+    },
+    "dunas_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "arena_movil_frac": {
+     "n": 2625,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 2625,
+     "mediana": 0.4915640652179718,
+     "p90": 0.6644436717033386,
+     "max": 0.8264933824539185
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 1952,
+     "mediana": 0.17301636934280396,
+     "p90": 0.390019953250885,
+     "max": 0.8909534215927124
+    },
+    "permafrost_prob": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "magt_c": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "slope_mean_deg": {
+     "n": 2588,
+     "mediana": 1.015993356704712,
+     "p90": 7.061667060852051,
+     "max": 28.170591354370117
+    },
+    "ndvi_max_clim": {
+     "n": 2610,
+     "mediana": 0.8291999697685242,
+     "p90": 0.861299991607666,
+     "max": 0.8746199607849121
+    },
+    "slope_frac_gt15": {
+     "n": 2588,
+     "mediana": 0,
+     "p90": 0.016129031777381897,
+     "max": 0.9841269850730896
+    },
+    "dtr_k": {
+     "n": 2610,
+     "mediana": 14.136296272277832,
+     "p90": 16.677846908569336,
+     "max": 18.395784378051758
+    }
+   }
+  },
+  "ST-35": {
+   "nombre": "Little Ambergris Cay",
+   "n_celdas": 60,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "evaporitas": {
+     "con_dato": 60,
+     "disparan": 2,
+     "frac": 0.03333333333333333,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 60,
+     "disparan": 2,
+     "frac": 0.03333333333333333,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 50,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 60,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "movilidad_rover": {
+     "con_dato": 18,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 18,
+     "disparan": 2,
+     "frac": 0.1111111111111111,
+     "estado": "sin_dato"
+    },
+    "ciclos_termicos": {
+     "con_dato": 42,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_isru": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 42,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "humedal_clase": {
+     "n": 60,
+     "mediana": 16,
+     "p90": 31,
+     "max": 33,
+     "clases": "28:16 9:10 0:8"
+    },
+    "frac_efimero": {
+     "n": 60,
+     "mediana": 0.00875833397731185,
+     "p90": 0.047991145402193076,
+     "max": 0.10883283615112305
+    },
+    "aridez_ai": {
+     "n": 60,
+     "mediana": 0.41749998927116394,
+     "p90": 0.43310998678207396,
+     "max": 0.4486999809741974
+    },
+    "dunas_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "arena_movil_frac": {
+     "n": 50,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 60,
+     "mediana": 0.7625969052314758,
+     "p90": 0.7625969052314758,
+     "max": 0.7625969052314758
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "permafrost_prob": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "magt_c": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "slope_mean_deg": {
+     "n": 23,
+     "mediana": 0.26050278544425964,
+     "p90": 0.787534523010254,
+     "max": 1.1535768508911133
+    },
+    "ndvi_max_clim": {
+     "n": 42,
+     "mediana": 0.34836553037166595,
+     "p90": 0.5084099769592285,
+     "max": 0.6660299301147461
+    },
+    "slope_frac_gt15": {
+     "n": 23,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "dtr_k": {
+     "n": 42,
+     "mediana": 7.697499752044678,
+     "p90": 8.692166328430176,
+     "max": 8.692166328430176
+    }
+   }
+  },
+  "ST-36": {
+   "nombre": "Pigeon Cay",
+   "n_celdas": 132,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "evaporitas": {
+     "con_dato": 132,
+     "disparan": 7,
+     "frac": 0.05303030303030303,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 132,
+     "disparan": 5,
+     "frac": 0.03787878787878788,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 130,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 132,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "movilidad_rover": {
+     "con_dato": 79,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 79,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "ciclos_termicos": {
+     "con_dato": 95,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_isru": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 95,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "humedal_clase": {
+     "n": 132,
+     "mediana": 31,
+     "p90": 31,
+     "max": 32,
+     "clases": "31:71 26:20 0:15"
+    },
+    "frac_efimero": {
+     "n": 132,
+     "mediana": 0,
+     "p90": 0.02859070971608163,
+     "max": 0.08083747327327728
+    },
+    "aridez_ai": {
+     "n": 132,
+     "mediana": 0.5460000038146973,
+     "p90": 0.5602699935436248,
+     "max": 0.5667999982833862
+    },
+    "dunas_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "arena_movil_frac": {
+     "n": 130,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 132,
+     "mediana": 0.5650364756584167,
+     "p90": 0.5737004280090332,
+     "max": 0.5848153233528137
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "permafrost_prob": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "magt_c": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "slope_mean_deg": {
+     "n": 102,
+     "mediana": 0.8353224396705627,
+     "p90": 1.544050514698029,
+     "max": 2.8270623683929443
+    },
+    "ndvi_max_clim": {
+     "n": 95,
+     "mediana": 0.8100399971008301,
+     "p90": 0.865150046348572,
+     "max": 0.8991500735282898
+    },
+    "slope_frac_gt15": {
+     "n": 102,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "dtr_k": {
+     "n": 95,
+     "mediana": 5.276333332061768,
+     "p90": 6.19683313369751,
+     "max": 7.558332920074463
+    }
+   }
+  },
+  "ST-37": {
+   "nombre": "Lago Alchichica",
+   "n_celdas": 3088,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 3088,
+     "disparan": 1818,
+     "frac": 0.5887305699481865,
+     "estado": "si"
+    },
+    "evaporitas": {
+     "con_dato": 3088,
+     "disparan": 7,
+     "frac": 0.0022668393782383418,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 3088,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 3088,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 3088,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 3043,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 3088,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "movilidad_rover": {
+     "con_dato": 3088,
+     "disparan": 8,
+     "frac": 0.0025906735751295338,
+     "estado": "no"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 3088,
+     "disparan": 19,
+     "frac": 0.006152849740932643,
+     "estado": "no"
+    },
+    "ciclos_termicos": {
+     "con_dato": 3088,
+     "disparan": 1003,
+     "frac": 0.3248056994818653,
+     "estado": "si"
+    },
+    "hielo_isru": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 3043,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 3088,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 3088,
+     "mediana": 12,
+     "p90": 12,
+     "max": 12,
+     "clases": "12:1787 1:703 6:476"
+    },
+    "humedal_clase": {
+     "n": 3088,
+     "mediana": 0,
+     "p90": 7,
+     "max": 33,
+     "clases": "0:2706 7:237 13:56"
+    },
+    "frac_efimero": {
+     "n": 3088,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.4164442718029022
+    },
+    "aridez_ai": {
+     "n": 3088,
+     "mediana": 0.5861499607563019,
+     "p90": 1.2687599778175356,
+     "max": 1.6058999300003052
+    },
+    "dunas_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "arena_movil_frac": {
+     "n": 3088,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 3088,
+     "mediana": 0.5741564035415649,
+     "p90": 0.580768346786499,
+     "max": 0.580768346786499
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 3043,
+     "mediana": 0,
+     "p90": 0.06777960807085037,
+     "max": 0.6574622392654419
+    },
+    "permafrost_prob": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "magt_c": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "slope_mean_deg": {
+     "n": 3088,
+     "mediana": 5.394808292388916,
+     "p90": 16.529324340820317,
+     "max": 31.069799423217773
+    },
+    "ndvi_max_clim": {
+     "n": 3088,
+     "mediana": 0.6256399750709534,
+     "p90": 0.8259777426719666,
+     "max": 0.8574999570846558
+    },
+    "slope_frac_gt15": {
+     "n": 3088,
+     "mediana": 0,
+     "p90": 0.5881603121757513,
+     "max": 1
+    },
+    "dtr_k": {
+     "n": 3088,
+     "mediana": 20.78700065612793,
+     "p90": 29.885000228881836,
+     "max": 31.518999099731445
+    }
+   }
+  },
+  "ST-38": {
+   "nombre": "Laguna Bacalar",
+   "n_celdas": 2570,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 2564,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "evaporitas": {
+     "con_dato": 2570,
+     "disparan": 12,
+     "frac": 0.004669260700389105,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 2570,
+     "disparan": 13,
+     "frac": 0.005058365758754864,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 2570,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 2570,
+     "disparan": 663,
+     "frac": 0.2579766536964981,
+     "estado": "si"
+    },
+    "polvo": {
+     "con_dato": 1462,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 2564,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "movilidad_rover": {
+     "con_dato": 2465,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 2465,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "ciclos_termicos": {
+     "con_dato": 2532,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_isru": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 1462,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 2532,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 2564,
+     "mediana": 6,
+     "p90": 6,
+     "max": 6,
+     "clases": "6:2121 1:443"
+    },
+    "humedal_clase": {
+     "n": 2569,
+     "mediana": 20,
+     "p90": 31,
+     "max": 33,
+     "clases": "0:813 26:811 31:249"
+    },
+    "frac_efimero": {
+     "n": 2570,
+     "mediana": 0,
+     "p90": 0.006416503805667157,
+     "max": 0.24426235258579254
+    },
+    "aridez_ai": {
+     "n": 2570,
+     "mediana": 0.7630999684333801,
+     "p90": 0.880299985408783,
+     "max": 0.9160999655723572
+    },
+    "dunas_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "arena_movil_frac": {
+     "n": 2570,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 2570,
+     "mediana": 0.7858527302742004,
+     "p90": 0.8907318711280823,
+     "max": 0.8907318711280823
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 1462,
+     "mediana": 0.14502842724323273,
+     "p90": 0.2054569274187088,
+     "max": 0.3434503972530365
+    },
+    "permafrost_prob": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "magt_c": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "slope_mean_deg": {
+     "n": 2491,
+     "mediana": 0.4819117486476898,
+     "p90": 1.528876781463623,
+     "max": 5.571402549743652
+    },
+    "ndvi_max_clim": {
+     "n": 2532,
+     "mediana": 0.8431400060653687,
+     "p90": 0.8762999773025513,
+     "max": 0.9044400453567505
+    },
+    "slope_frac_gt15": {
+     "n": 2491,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "dtr_k": {
+     "n": 2532,
+     "mediana": 9.10925006866455,
+     "p90": 10.855499267578125,
+     "max": 12.30049991607666
+    }
+   }
+  },
+  "ST-39": {
+   "nombre": "Kangerlussuaq",
+   "n_celdas": 3062,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 3062,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "evaporitas": {
+     "con_dato": 3062,
+     "disparan": 1,
+     "frac": 0.00032658393207054214,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 3062,
+     "disparan": 71,
+     "frac": 0.023187459177008492,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 3061,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 3062,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 3062,
+     "disparan": 2948,
+     "frac": 0.9627694317439582,
+     "estado": "si"
+    },
+    "movilidad_rover": {
+     "con_dato": 1849,
+     "disparan": 11,
+     "frac": 0.005949161709031909,
+     "estado": "no"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 1849,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "ciclos_termicos": {
+     "con_dato": 3043,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_isru": {
+     "con_dato": 1879,
+     "disparan": 1879,
+     "frac": 1,
+     "estado": "si"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 1856,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 3062,
+     "mediana": 8,
+     "p90": 16,
+     "max": 16,
+     "clases": "8:1803 16:1259"
+    },
+    "humedal_clase": {
+     "n": 3026,
+     "mediana": 6,
+     "p90": 23,
+     "max": 31,
+     "clases": "23:1327 0:934 6:400"
+    },
+    "frac_efimero": {
+     "n": 3062,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.042080674320459366
+    },
+    "aridez_ai": {
+     "n": 3062,
+     "mediana": 0.6615999639034271,
+     "p90": 1.291040015220642,
+     "max": 1.5374999046325684
+    },
+    "dunas_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "arena_movil_frac": {
+     "n": 3061,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 3062,
+     "mediana": 0.472811222076416,
+     "p90": 0.5283857583999634,
+     "max": 0.6137140989303589
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "permafrost_prob": {
+     "n": 1870,
+     "mediana": 0.9793716967105865,
+     "p90": 0.9944117307662964,
+     "max": 1
+    },
+    "magt_c": {
+     "n": 1867,
+     "mediana": -3.5422379970550537,
+     "p90": -2.872966432571411,
+     "max": -1.7563217878341675
+    },
+    "slope_mean_deg": {
+     "n": 3050,
+     "mediana": 5.330086708068848,
+     "p90": 10.918393898010253,
+     "max": 22.221206665039062
+    },
+    "ndvi_max_clim": {
+     "n": 1856,
+     "mediana": 0.5617700219154358,
+     "p90": 0.6169099807739258,
+     "max": 0.6585599780082703
+    },
+    "slope_frac_gt15": {
+     "n": 3050,
+     "mediana": 0,
+     "p90": 0.26157510578632354,
+     "max": 0.7857142686843872
+    },
+    "dtr_k": {
+     "n": 3043,
+     "mediana": 8.835831642150879,
+     "p90": 10.270500183105469,
+     "max": 11.259498596191406
+    }
+   }
+  },
+  "ST-40": {
+   "nombre": "Lava Beds National Monument",
+   "n_celdas": 3033,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 3033,
+     "disparan": 2844,
+     "frac": 0.9376854599406528,
+     "estado": "si"
+    },
+    "evaporitas": {
+     "con_dato": 3033,
+     "disparan": 7,
+     "frac": 0.0023079459281239697,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 3033,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 3033,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 3033,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 3033,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 3033,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "movilidad_rover": {
+     "con_dato": 3020,
+     "disparan": 6,
+     "frac": 0.001986754966887417,
+     "estado": "no"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 3020,
+     "disparan": 102,
+     "frac": 0.03377483443708609,
+     "estado": "no"
+    },
+    "ciclos_termicos": {
+     "con_dato": 3033,
+     "disparan": 105,
+     "frac": 0.03461918892185954,
+     "estado": "no"
+    },
+    "hielo_isru": {
+     "con_dato": 3031,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 3033,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 3033,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 3033,
+     "mediana": 2,
+     "p90": 10,
+     "max": 10,
+     "clases": "2:1818 10:1026 3:189"
+    },
+    "humedal_clase": {
+     "n": 3033,
+     "mediana": 0,
+     "p90": 9,
+     "max": 32,
+     "clases": "0:2518 7:102 25:84"
+    },
+    "frac_efimero": {
+     "n": 3033,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.4015987813472748
+    },
+    "aridez_ai": {
+     "n": 3033,
+     "mediana": 0.33239999413490295,
+     "p90": 0.5903399825096131,
+     "max": 1.0893999338150024
+    },
+    "dunas_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "arena_movil_frac": {
+     "n": 3033,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 3033,
+     "mediana": 0.6678066849708557,
+     "p90": 0.6963634490966797,
+     "max": 0.6963634490966797
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 3033,
+     "mediana": 0.9220506548881531,
+     "p90": 1.67409348487854,
+     "max": 2.074516534805298
+    },
+    "permafrost_prob": {
+     "n": 3030,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "magt_c": {
+     "n": 3029,
+     "mediana": 10.83059310913086,
+     "p90": 12.229194641113281,
+     "max": 13.31888198852539
+    },
+    "slope_mean_deg": {
+     "n": 3020,
+     "mediana": 1.7037948369979858,
+     "p90": 8.248010635375975,
+     "max": 19.714094161987305
+    },
+    "ndvi_max_clim": {
+     "n": 3033,
+     "mediana": 0.5344499349594116,
+     "p90": 0.7485000491142273,
+     "max": 0.8176999688148499
+    },
+    "slope_frac_gt15": {
+     "n": 3020,
+     "mediana": 0,
+     "p90": 0.07949308976531017,
+     "max": 0.7460317611694336
+    },
+    "dtr_k": {
+     "n": 3033,
+     "mediana": 21.846166610717773,
+     "p90": 25.71049690246582,
+     "max": 29.23283576965332
+    }
+   }
+  },
+  "ST-41": {
+   "nombre": "Cuenca de Qaidam",
+   "n_celdas": 3085,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 3085,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "evaporitas": {
+     "con_dato": 3085,
+     "disparan": 26,
+     "frac": 0.008427876823338737,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 3085,
+     "disparan": 2706,
+     "frac": 0.8771474878444084,
+     "estado": "si"
+    },
+    "eolico_arena": {
+     "con_dato": 3085,
+     "disparan": 583,
+     "frac": 0.18897893030794166,
+     "estado": "si"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 3085,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 2409,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 3085,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "movilidad_rover": {
+     "con_dato": 3082,
+     "disparan": 747,
+     "frac": 0.24237508111615833,
+     "estado": "si"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 3082,
+     "disparan": 1816,
+     "frac": 0.5892277741726152,
+     "estado": "si"
+    },
+    "ciclos_termicos": {
+     "con_dato": 3085,
+     "disparan": 3051,
+     "frac": 0.9889789303079417,
+     "estado": "si"
+    },
+    "hielo_isru": {
+     "con_dato": 3085,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 2409,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 3085,
+     "disparan": 2706,
+     "frac": 0.8771474878444084,
+     "estado": "si"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 3085,
+     "mediana": 3,
+     "p90": 3,
+     "max": 9,
+     "clases": "3:1573 1:1483 9:29"
+    },
+    "humedal_clase": {
+     "n": 3085,
+     "mediana": 0,
+     "p90": 0,
+     "max": 32,
+     "clases": "0:2957 25:81 7:21"
+    },
+    "frac_efimero": {
+     "n": 3085,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.3026932179927826
+    },
+    "aridez_ai": {
+     "n": 3085,
+     "mediana": 0.034299999475479126,
+     "p90": 0.0510999970138073,
+     "max": 0.06579999625682831
+    },
+    "dunas_frac": {
+     "n": 3085,
+     "mediana": 0,
+     "p90": 0,
+     "max": 1
+    },
+    "arena_movil_frac": {
+     "n": 3085,
+     "mediana": 0,
+     "p90": 0.28638329505920407,
+     "max": 1
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 3085,
+     "mediana": 0.3110465109348297,
+     "p90": 0.3798449635505676,
+     "max": 0.4394664764404297
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 2409,
+     "mediana": 2.328511953353882,
+     "p90": 3.4790704250335693,
+     "max": 4.739206314086914
+    },
+    "permafrost_prob": {
+     "n": 3085,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "magt_c": {
+     "n": 3085,
+     "mediana": 7.895920276641846,
+     "p90": 8.782979774475098,
+     "max": 9.856685638427734
+    },
+    "slope_mean_deg": {
+     "n": 3082,
+     "mediana": 1.5631985664367676,
+     "p90": 4.793783807754517,
+     "max": 12.493804931640625
+    },
+    "ndvi_max_clim": {
+     "n": 3085,
+     "mediana": 0.05182499811053276,
+     "p90": 0.06441999971866608,
+     "max": 0.22277000546455383
+    },
+    "slope_frac_gt15": {
+     "n": 3082,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.460317462682724
+    },
+    "dtr_k": {
+     "n": 3085,
+     "mediana": 35.68733215332031,
+     "p90": 37.83416748046875,
+     "max": 39.65116882324219
+    }
+   }
+  },
+  "ST-42": {
+   "nombre": "Moses Lake Sand Dunes",
+   "n_celdas": 3064,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 3064,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "evaporitas": {
+     "con_dato": 3064,
+     "disparan": 580,
+     "frac": 0.18929503916449086,
+     "estado": "si"
+    },
+    "hiperarido": {
+     "con_dato": 3064,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 3064,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 3064,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 3064,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 3064,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "movilidad_rover": {
+     "con_dato": 3030,
+     "disparan": 1,
+     "frac": 0.00033003300330033004,
+     "estado": "no"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 3030,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "ciclos_termicos": {
+     "con_dato": 3064,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_isru": {
+     "con_dato": 3064,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 3064,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 3064,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 3064,
+     "mediana": 1,
+     "p90": 3,
+     "max": 3,
+     "clases": "1:1884 3:1180"
+    },
+    "humedal_clase": {
+     "n": 3064,
+     "mediana": 0,
+     "p90": 0,
+     "max": 21,
+     "clases": "0:2763 7:79 15:49"
+    },
+    "frac_efimero": {
+     "n": 3064,
+     "mediana": 0,
+     "p90": 0.010569013282656688,
+     "max": 0.35302990674972534
+    },
+    "aridez_ai": {
+     "n": 3064,
+     "mediana": 0.16040000319480896,
+     "p90": 0.20319999754428864,
+     "max": 0.2450999915599823
+    },
+    "dunas_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "arena_movil_frac": {
+     "n": 3064,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 3064,
+     "mediana": 0.5229707956314087,
+     "p90": 0.5735864043235779,
+     "max": 0.5735864043235779
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 3064,
+     "mediana": 1.1063064336776733,
+     "p90": 1.6282943487167358,
+     "max": 1.8784635066986084
+    },
+    "permafrost_prob": {
+     "n": 3064,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "magt_c": {
+     "n": 3064,
+     "mediana": 12.368487358093262,
+     "p90": 13.97652158737183,
+     "max": 15.874667167663574
+    },
+    "slope_mean_deg": {
+     "n": 3030,
+     "mediana": 1.1913215517997742,
+     "p90": 3.5071621894836427,
+     "max": 17.275035858154297
+    },
+    "ndvi_max_clim": {
+     "n": 3064,
+     "mediana": 0.48344001173973083,
+     "p90": 0.6687299609184265,
+     "max": 0.7327699065208435
+    },
+    "slope_frac_gt15": {
+     "n": 3030,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0.45652174949645996
+    },
+    "dtr_k": {
+     "n": 3064,
+     "mediana": 20.16166877746582,
+     "p90": 22.53133201599121,
+     "max": 25.012664794921875
+    }
+   }
+  },
+  "ST-43": {
+   "nombre": "Cráter Kamestastin",
+   "n_celdas": 2950,
+   "etiquetas": {
+    "volcanico": {
+     "con_dato": 2950,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "evaporitas": {
+     "con_dato": 2950,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hiperarido": {
+     "con_dato": 2950,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "eolico_arena": {
+     "con_dato": 2950,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "viento_que_mueve_arena": {
+     "con_dato": 2950,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "polvo": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "hielo_o_permafrost": {
+     "con_dato": 2950,
+     "disparan": 9,
+     "frac": 0.0030508474576271187,
+     "estado": "no"
+    },
+    "movilidad_rover": {
+     "con_dato": 2676,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "aterrizaje_construccion": {
+     "con_dato": 2676,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "ciclos_termicos": {
+     "con_dato": 2950,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    },
+    "hielo_isru": {
+     "con_dato": 2945,
+     "disparan": 9,
+     "frac": 0.0030560271646859084,
+     "estado": "no"
+    },
+    "mitigacion_polvo": {
+     "con_dato": 0,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "sin_dato"
+    },
+    "astrobiologia_limite_seco": {
+     "con_dato": 2950,
+     "disparan": 0,
+     "frac": 0,
+     "estado": "no"
+    }
+   },
+   "columnas": {
+    "litologia_glim": {
+     "n": 2950,
+     "mediana": 8,
+     "p90": 9,
+     "max": 9,
+     "clases": "8:2338 9:607 4:5"
+    },
+    "humedal_clase": {
+     "n": 2950,
+     "mediana": 9,
+     "p90": 23,
+     "max": 23,
+     "clases": "0:821 1:447 19:317"
+    },
+    "frac_efimero": {
+     "n": 2950,
+     "mediana": 0.014452839270234108,
+     "p90": 0.056372569873929024,
+     "max": 0.17496345937252045
+    },
+    "aridez_ai": {
+     "n": 2950,
+     "mediana": 1.6236499547958374,
+     "p90": 1.7138099551200867,
+     "max": 1.8435999155044556
+    },
+    "dunas_frac": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "arena_movil_frac": {
+     "n": 2950,
+     "mediana": 0,
+     "p90": 0,
+     "max": 0
+    },
+    "viento_frac_tau_gt_0p05": {
+     "n": 2950,
+     "mediana": 0.765617847442627,
+     "p90": 0.7769038081169128,
+     "max": 0.7955426573753357
+    },
+    "polvo_frec_dod0p2_pct": {
+     "n": 0,
+     "mediana": null,
+     "p90": null,
+     "max": null
+    },
+    "permafrost_prob": {
+     "n": 2944,
+     "mediana": 0.23382190614938736,
+     "p90": 0.3219621032476425,
+     "max": 0.49817949533462524
+    },
+    "magt_c": {
+     "n": 2945,
+     "mediana": 0.8765835762023926,
+     "p90": 1.4940306425094603,
+     "max": 2.388014554977417
+    },
+    "slope_mean_deg": {
+     "n": 2676,
+     "mediana": 3.3840314149856567,
+     "p90": 6.911149024963379,
+     "max": 18.627714157104492
+    },
+    "ndvi_max_clim": {
+     "n": 2950,
+     "mediana": 0.6691443920135498,
+     "p90": 0.7053200006484985,
+     "max": 0.7556555271148682
+    },
+    "slope_frac_gt15": {
+     "n": 2676,
+     "mediana": 0,
+     "p90": 0.03960784338414669,
+     "max": 0.7843137383460999
+    },
+    "dtr_k": {
+     "n": 2950,
+     "mediana": 9.202666282653809,
+     "p90": 9.725998878479004,
+     "max": 10.857333183288574
+    }
+   }
+  }
+ },
+ "segundos": 11
+}

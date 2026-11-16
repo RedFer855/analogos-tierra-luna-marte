@@ -1,0 +1,18 @@
+[package]
+name = "nucleo"
+description = "Puntaje de similitud (ADR-006 + tolerancia de ADR-008): sin E/S, sin unsafe, sin dependencias."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+
+# Sin dependencias en producción: tiene que compilar a wasm32-unknown-unknown (ADR-003).
+[dependencies]
+
+[dev-dependencies]
+# Contraste independiente del álgebra propia (I-42, recomendación 1) y pruebas de propiedades (ADR-004, prueba 4).
+nalgebra = "0.35"
+proptest = "1"
+
+[lints]
+workspace = true

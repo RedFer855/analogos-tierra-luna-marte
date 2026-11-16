@@ -1,0 +1,29 @@
+[
+  {
+    "id": "EJ-01",
+    "lat": 25.0,
+    "lon": -15.0,
+    "radio_km": 100.0,
+    "estado": "documentado",
+    "fuente": "EJEMPLO, no es dato real",
+    "fecha": "2026-11-12"
+  },
+  {
+    "id": "EJ-02",
+    "lat": -23.5,
+    "lon": -68.0,
+    "radio_km": 250.0,
+    "estado": "verificado_remoto",
+    "fuente": "EJEMPLO, no es dato real",
+    "fecha": "2026-11-12"
+  },
+  {
+    "id": "EJ-03",
+    "lat": 65.0,
+    "lon": -17.0,
+    "radio_km": 75.0,
+    "estado": "verificado_campo",
+    "fuente": "EJEMPLO, no es dato real",
+    "fecha": "2026-11-12"
+  }
+]

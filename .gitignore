@@ -1,0 +1,21 @@
+# Ignorar todo lo que no es código o artefacto publicado
+node_modules/
+motor/target/
+visor/dist/
+.env
+*.log
+salidas/
+datos/
+
+# Sistema y editores
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# Rust y Node
+*.rlib
+*.pdb
+.npm
+.eslintcache

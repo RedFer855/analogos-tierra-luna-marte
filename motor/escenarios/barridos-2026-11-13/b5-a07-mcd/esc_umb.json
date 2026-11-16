@@ -1,0 +1,149 @@
+{
+ "escenarios": [
+  {
+   "id": "A07-UMB-f050",
+   "objetivo": "SL-20",
+   "perfil": "caso_A-07_mcd_umbral",
+   "variables": [
+    "slope_mean_deg",
+    "rug_rms_p90_m",
+    "dtr_k",
+    "viento_frac_tau_gt_0p05",
+    "polvo_frec_dod0p2_pct",
+    "arena_movil_frac"
+   ],
+   "factor_tolerancia": 0.5,
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "A07-UMB-f075",
+   "objetivo": "SL-20",
+   "perfil": "caso_A-07_mcd_umbral",
+   "variables": [
+    "slope_mean_deg",
+    "rug_rms_p90_m",
+    "dtr_k",
+    "viento_frac_tau_gt_0p05",
+    "polvo_frec_dod0p2_pct",
+    "arena_movil_frac"
+   ],
+   "factor_tolerancia": 0.75,
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "A07-UMB-f100",
+   "objetivo": "SL-20",
+   "perfil": "caso_A-07_mcd_umbral",
+   "variables": [
+    "slope_mean_deg",
+    "rug_rms_p90_m",
+    "dtr_k",
+    "viento_frac_tau_gt_0p05",
+    "polvo_frec_dod0p2_pct",
+    "arena_movil_frac"
+   ],
+   "factor_tolerancia": 1.0,
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "A07-UMB-f150",
+   "objetivo": "SL-20",
+   "perfil": "caso_A-07_mcd_umbral",
+   "variables": [
+    "slope_mean_deg",
+    "rug_rms_p90_m",
+    "dtr_k",
+    "viento_frac_tau_gt_0p05",
+    "polvo_frec_dod0p2_pct",
+    "arena_movil_frac"
+   ],
+   "factor_tolerancia": 1.5,
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "A07-UMB-f200",
+   "objetivo": "SL-20",
+   "perfil": "caso_A-07_mcd_umbral",
+   "variables": [
+    "slope_mean_deg",
+    "rug_rms_p90_m",
+    "dtr_k",
+    "viento_frac_tau_gt_0p05",
+    "polvo_frec_dod0p2_pct",
+    "arena_movil_frac"
+   ],
+   "factor_tolerancia": 2.0,
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "A07-UMB-sinarena-f050",
+   "objetivo": "SL-20",
+   "perfil": "caso_A-07_mcd_umbral",
+   "variables": [
+    "slope_mean_deg",
+    "rug_rms_p90_m",
+    "dtr_k",
+    "viento_frac_tau_gt_0p05",
+    "polvo_frec_dod0p2_pct"
+   ],
+   "factor_tolerancia": 0.5,
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "A07-UMB-sinarena-f075",
+   "objetivo": "SL-20",
+   "perfil": "caso_A-07_mcd_umbral",
+   "variables": [
+    "slope_mean_deg",
+    "rug_rms_p90_m",
+    "dtr_k",
+    "viento_frac_tau_gt_0p05",
+    "polvo_frec_dod0p2_pct"
+   ],
+   "factor_tolerancia": 0.75,
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "A07-UMB-sinarena-f100",
+   "objetivo": "SL-20",
+   "perfil": "caso_A-07_mcd_umbral",
+   "variables": [
+    "slope_mean_deg",
+    "rug_rms_p90_m",
+    "dtr_k",
+    "viento_frac_tau_gt_0p05",
+    "polvo_frec_dod0p2_pct"
+   ],
+   "factor_tolerancia": 1.0,
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "A07-UMB-sinarena-f150",
+   "objetivo": "SL-20",
+   "perfil": "caso_A-07_mcd_umbral",
+   "variables": [
+    "slope_mean_deg",
+    "rug_rms_p90_m",
+    "dtr_k",
+    "viento_frac_tau_gt_0p05",
+    "polvo_frec_dod0p2_pct"
+   ],
+   "factor_tolerancia": 1.5,
+   "ndvi_max": 0.3
+  },
+  {
+   "id": "A07-UMB-sinarena-f200",
+   "objetivo": "SL-20",
+   "perfil": "caso_A-07_mcd_umbral",
+   "variables": [
+    "slope_mean_deg",
+    "rug_rms_p90_m",
+    "dtr_k",
+    "viento_frac_tau_gt_0p05",
+    "polvo_frec_dod0p2_pct"
+   ],
+   "factor_tolerancia": 2.0,
+   "ndvi_max": 0.3
+  }
+ ]
+}

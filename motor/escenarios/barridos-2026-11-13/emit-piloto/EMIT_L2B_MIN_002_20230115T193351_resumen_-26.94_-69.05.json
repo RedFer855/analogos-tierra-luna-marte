@@ -1,0 +1,129 @@
+{
+ "ventana_grados": 0.25,
+ "prof_min": 0.0,
+ "pixeles": 563406,
+ "group_1": {
+  "con_mineral": 520972,
+  "total": 563406,
+  "top": [
+   {
+    "id": 45,
+    "mineral": "fe3+_hematite.nano.BR34b2",
+    "pix": 213751,
+    "pct_ventana": 37.94,
+    "band_depth_mediana": 0.1039
+   },
+   {
+    "id": 47,
+    "mineral": "fe3+_hematite.nano.BR34b2b",
+    "pix": 133396,
+    "pct_ventana": 23.68,
+    "band_depth_mediana": 0.1039
+   },
+   {
+    "id": 302,
+    "mineral": "fe3+_hematite.1+goeth.4+qtz",
+    "pix": 59235,
+    "pct_ventana": 10.51,
+    "band_depth_mediana": 0.0706
+   },
+   {
+    "id": 46,
+    "mineral": "fe3+_hematite-nano+goethite-fg-amix",
+    "pix": 44169,
+    "pct_ventana": 7.84,
+    "band_depth_mediana": 0.0608
+   },
+   {
+    "id": 4,
+    "mineral": "fe3+_goethite+qtz.medgr.gds240",
+    "pix": 18272,
+    "pct_ventana": 3.24,
+    "band_depth_mediana": 0.0922
+   },
+   {
+    "id": 8,
+    "mineral": "fe3+_goethite.thincoat",
+    "pix": 10408,
+    "pct_ventana": 1.85,
+    "band_depth_mediana": 0.0569
+   },
+   {
+    "id": 2,
+    "mineral": "fe3+_hematite.fine.gr.gds76",
+    "pix": 10248,
+    "pct_ventana": 1.82,
+    "band_depth_mediana": 0.1157
+   },
+   {
+    "id": 303,
+    "mineral": "fe3+_hematite.4+goeth.1+qtz",
+    "pix": 6690,
+    "pct_ventana": 1.19,
+    "band_depth_mediana": 0.0314
+   }
+  ]
+ },
+ "group_2": {
+  "con_mineral": 501636,
+  "total": 563406,
+  "top": [
+   {
+    "id": 144,
+    "mineral": "sioh_hydrated_basaltic_glass",
+    "pix": 150138,
+    "pct_ventana": 26.65,
+    "band_depth_mediana": 0.0529
+   },
+   {
+    "id": 135,
+    "mineral": "kaolgrp_halloysite",
+    "pix": 86942,
+    "pct_ventana": 15.43,
+    "band_depth_mediana": 0.0961
+   },
+   {
+    "id": 141,
+    "mineral": "smectite_montmorillonite_na_highswelling",
+    "pix": 85537,
+    "pct_ventana": 15.18,
+    "band_depth_mediana": 0.0451
+   },
+   {
+    "id": 168,
+    "mineral": "kaolin+musc.intimat",
+    "pix": 28035,
+    "pct_ventana": 4.98,
+    "band_depth_mediana": 0.0961
+   },
+   {
+    "id": 152,
+    "mineral": "sioh_chalcedony",
+    "pix": 21124,
+    "pct_ventana": 3.75,
+    "band_depth_mediana": 0.0412
+   },
+   {
+    "id": 131,
+    "mineral": "micagrp_muscovite-low-Al",
+    "pix": 18591,
+    "pct_ventana": 3.3,
+    "band_depth_mediana": 0.0549
+   },
+   {
+    "id": 140,
+    "mineral": "kaolin.3+smect.7",
+    "pix": 14335,
+    "pct_ventana": 2.54,
+    "band_depth_mediana": 0.0725
+   },
+   {
+    "id": 125,
+    "mineral": "micagrp_muscovite-med-Al",
+    "pix": 11097,
+    "pct_ventana": 1.97,
+    "band_depth_mediana": 0.0843
+   }
+  ]
+ }
+}

@@ -1,0 +1,389 @@
+[
+ {
+  "id": "ST-01",
+  "lat": 75.3833,
+  "lon": -89.6667,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-02",
+  "lat": 79.4333,
+  "lon": -90.7667,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-03",
+  "lat": 19.5,
+  "lon": -155.3731,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-04",
+  "lat": 19.8206,
+  "lon": -155.4681,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-05",
+  "lat": 43.4614,
+  "lon": -113.5594,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-06",
+  "lat": 35.7,
+  "lon": -111.45,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-07",
+  "lat": 36.2503,
+  "lon": -116.8258,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-08",
+  "lat": 34.5444,
+  "lon": -115.7903,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-09",
+  "lat": 41.05,
+  "lon": -114.05,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-10",
+  "lat": 34.5711,
+  "lon": -111.8861,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-11",
+  "lat": 39.9311,
+  "lon": -78.9556,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-12",
+  "lat": 40.355,
+  "lon": -78.91,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-13",
+  "lat": -24.1021,
+  "lon": -70.1381,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-14",
+  "lat": -77.5167,
+  "lon": 161.8333,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-15",
+  "lat": 65.0333,
+  "lon": -16.75,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-16",
+  "lat": 65.0833,
+  "lon": -16.65,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-17",
+  "lat": 37.5533,
+  "lon": 29.715,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-18",
+  "lat": 29.1833,
+  "lon": -13.4833,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-19",
+  "lat": 28.3608,
+  "lon": -14.0203,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-20",
+  "lat": 48.8833,
+  "lon": 10.55,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-21",
+  "lat": 46.3667,
+  "lon": 11.45,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-22",
+  "lat": 68.04,
+  "lon": 13.35,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-23",
+  "lat": 37.695,
+  "lon": -6.561,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-24",
+  "lat": -20.8,
+  "lon": 25.5,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-25",
+  "lat": 14.2417,
+  "lon": 40.2989,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-26",
+  "lat": -41.1833,
+  "lon": -69.4167,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-27",
+  "lat": 34.7264,
+  "lon": 139.3972,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-28",
+  "lat": 35.5411,
+  "lon": 134.2281,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-29",
+  "lat": 79.4333,
+  "lon": 13.3167,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-30",
+  "lat": 10.198,
+  "lon": -84.233,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-31",
+  "lat": 10.83,
+  "lon": -85.324,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-32",
+  "lat": 12.506,
+  "lon": -86.702,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-33",
+  "lat": 12.422,
+  "lon": -86.54,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-34",
+  "lat": 12.602,
+  "lon": -86.845,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-35",
+  "lat": 21.3,
+  "lon": -71.7,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-36",
+  "lat": 24.53,
+  "lon": -75.6,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-37",
+  "lat": 19.412,
+  "lon": -97.401,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-38",
+  "lat": 18.678,
+  "lon": -88.39,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-39",
+  "lat": 67.153,
+  "lon": -50.17,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-40",
+  "lat": 41.714,
+  "lon": -121.508,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-41",
+  "lat": 38.05,
+  "lon": 91.5,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-42",
+  "lat": 47.05,
+  "lon": -119.3,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ },
+ {
+  "id": "ST-43",
+  "lat": 55.8833,
+  "lon": -63.3,
+  "radio_km": 50.0,
+  "estado": "documentado",
+  "fuente": "scripts/etl/sitios.json",
+  "fecha": "2026-11-13"
+ }
+]

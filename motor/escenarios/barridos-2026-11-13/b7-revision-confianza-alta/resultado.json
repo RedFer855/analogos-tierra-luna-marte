@@ -1,0 +1,804 @@
+{
+ "HZ-b3-arcadia-01": {
+  "lat": 67.725,
+  "lon": -134.28,
+  "radio_km": 150,
+  "celdas_en_radio": 27788,
+  "dist_celda_km": 0.0,
+  "centro": {
+   "ndvi_max_clim": 0.3092,
+   "litologia_glim": 5.0,
+   "elev_mean_m": 4.8516,
+   "arcilla_gkg": 277.0,
+   "limo_gkg": 442.0,
+   "aster_qi": 1.0021,
+   "aster_mi": 0.9836,
+   "aster_ci": 0.9979,
+   "emit_montmorillonite": null,
+   "emit_kaolinite": null,
+   "slope_p90_deg": 0.5506,
+   "permafrost_prob": 0.968,
+   "hielo_suelo_gam": 54.0,
+   "aridez_ai": 0.6914
+  },
+  "perfiles": {
+   "SL-17/hielo_basalto": {
+    "centro_ok": 1.0,
+    "centro_cerc": 0.38,
+    "centro_sin_dato": 0.0,
+    "zona_ok_mediana": 0.429,
+    "zona_ok_p25": 0.429,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.103
+   }
+  }
+ },
+ "HZ-b3-crateres-04": {
+  "lat": 36.656,
+  "lon": 84.672,
+  "radio_km": 150,
+  "celdas_en_radio": 27894,
+  "dist_celda_km": 0.0,
+  "centro": {
+   "ndvi_max_clim": 0.0677,
+   "litologia_glim": 15.0,
+   "elev_mean_m": 4706.082,
+   "arcilla_gkg": 293.0,
+   "limo_gkg": 328.0,
+   "aster_qi": 0.9956,
+   "aster_mi": 0.9262,
+   "aster_ci": 1.0021,
+   "emit_montmorillonite": 0.0087,
+   "emit_kaolinite": 0.0013,
+   "slope_p90_deg": 8.4913,
+   "permafrost_prob": 0.7312,
+   "hielo_suelo_gam": 29.0,
+   "aridez_ai": 0.0811
+  },
+  "perfiles": {
+   "SL-20/crater_hielo_alterado": {
+    "centro_ok": 1.0,
+    "centro_cerc": 0.377,
+    "centro_sin_dato": 0.0,
+    "zona_ok_mediana": 0.333,
+    "zona_ok_p25": 0.167,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.067
+   }
+  }
+ },
+ "HZ-b3-crateres-05": {
+  "lat": 39.548,
+  "lon": 73.378,
+  "radio_km": 150,
+  "celdas_en_radio": 27908,
+  "dist_celda_km": 0.1,
+  "centro": {
+   "ndvi_max_clim": 0.3976,
+   "litologia_glim": 5.0,
+   "elev_mean_m": 3545.9871,
+   "arcilla_gkg": 309.0,
+   "limo_gkg": 384.0,
+   "aster_qi": 0.9979,
+   "aster_mi": 0.9969,
+   "aster_ci": 1.0041,
+   "emit_montmorillonite": null,
+   "emit_kaolinite": null,
+   "slope_p90_deg": 8.1128,
+   "permafrost_prob": 0.3249,
+   "hielo_suelo_gam": 35.0,
+   "aridez_ai": 0.363
+  },
+  "perfiles": {
+   "SL-20/crater_hielo_alterado": {
+    "centro_ok": 0.833,
+    "centro_cerc": 0.484,
+    "centro_sin_dato": 0.0,
+    "zona_ok_mediana": 0.333,
+    "zona_ok_p25": 0.167,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.121
+   }
+  }
+ },
+ "SL-12-02-sudafrica": {
+  "lat": -28.43992,
+  "lon": 18.20435,
+  "radio_km": 50,
+  "celdas_en_radio": 3103,
+  "dist_celda_km": 0.0,
+  "centro": {
+   "ndvi_max_clim": 0.0708,
+   "litologia_glim": 2.0,
+   "elev_mean_m": 863.0323,
+   "arcilla_gkg": 64.0,
+   "limo_gkg": 114.0,
+   "aster_qi": 1.0055,
+   "aster_mi": 0.9533,
+   "aster_ci": 1.0,
+   "emit_montmorillonite": null,
+   "emit_kaolinite": null,
+   "slope_p90_deg": 2.5888,
+   "permafrost_prob": null,
+   "hielo_suelo_gam": null,
+   "aridez_ai": 0.046
+  },
+  "perfiles": {
+   "SL-12/terreno_termico": {
+    "centro_ok": 0.833,
+    "centro_cerc": 0.38,
+    "centro_sin_dato": 0.0,
+    "zona_ok_mediana": 0.333,
+    "zona_ok_p25": 0.167,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.0
+   }
+  }
+ },
+ "tuktoyaktuk": {
+  "lat": 69.44,
+  "lon": -133.03,
+  "radio_km": 50,
+  "celdas_en_radio": 1654,
+  "dist_celda_km": 2.0,
+  "centro": {
+   "ndvi_max_clim": null,
+   "litologia_glim": 5.0,
+   "elev_mean_m": 2.6906,
+   "arcilla_gkg": 103.0,
+   "limo_gkg": 95.0,
+   "aster_qi": 1.0021,
+   "aster_mi": 0.9948,
+   "aster_ci": 1.0083,
+   "emit_montmorillonite": null,
+   "emit_kaolinite": null,
+   "slope_p90_deg": null,
+   "permafrost_prob": 0.9956,
+   "hielo_suelo_gam": null,
+   "aridez_ai": 0.5294
+  },
+  "perfiles": {
+   "SL-17/hielo_basalto": {
+    "centro_ok": 0.286,
+    "centro_cerc": 0.176,
+    "centro_sin_dato": 0.571,
+    "zona_ok_mediana": 0.429,
+    "zona_ok_p25": 0.286,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.278
+   },
+   "SL-20/hielo_arcilla": {
+    "centro_ok": 0.143,
+    "centro_cerc": 0.024,
+    "centro_sin_dato": 0.571,
+    "zona_ok_mediana": 0.0,
+    "zona_ok_p25": 0.0,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.281
+   },
+   "SL-20/crater_hielo_alterado": {
+    "centro_ok": 0.167,
+    "centro_cerc": 0.028,
+    "centro_sin_dato": 0.5,
+    "zona_ok_mediana": 0.0,
+    "zona_ok_p25": 0.0,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.287
+   },
+   "SL-12/terreno_termico": {
+    "centro_ok": 0.0,
+    "centro_cerc": 0.0,
+    "centro_sin_dato": 1.0,
+    "zona_ok_mediana": 0.167,
+    "zona_ok_p25": 0.0,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.209
+   }
+  }
+ },
+ "adventdalen-svalbard": {
+  "lat": 78.2,
+  "lon": 15.8,
+  "radio_km": 50,
+  "celdas_en_radio": 2104,
+  "dist_celda_km": 1.1,
+  "centro": {
+   "ndvi_max_clim": 0.3295,
+   "litologia_glim": 5.0,
+   "elev_mean_m": 38.6234,
+   "arcilla_gkg": 174.0,
+   "limo_gkg": 418.0,
+   "aster_qi": 1.0063,
+   "aster_mi": 0.9897,
+   "aster_ci": 1.0041,
+   "emit_montmorillonite": null,
+   "emit_kaolinite": null,
+   "slope_p90_deg": 23.809,
+   "permafrost_prob": 0.979,
+   "hielo_suelo_gam": null,
+   "aridez_ai": 1.2492
+  },
+  "perfiles": {
+   "SL-17/hielo_basalto": {
+    "centro_ok": 0.286,
+    "centro_cerc": 0.168,
+    "centro_sin_dato": 0.143,
+    "zona_ok_mediana": 0.286,
+    "zona_ok_p25": 0.143,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.178
+   },
+   "SL-20/hielo_arcilla": {
+    "centro_ok": 0.286,
+    "centro_cerc": 0.207,
+    "centro_sin_dato": 0.143,
+    "zona_ok_mediana": 0.286,
+    "zona_ok_p25": 0.286,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.209
+   },
+   "SL-20/crater_hielo_alterado": {
+    "centro_ok": 0.333,
+    "centro_cerc": 0.241,
+    "centro_sin_dato": 0.167,
+    "zona_ok_mediana": 0.333,
+    "zona_ok_p25": 0.333,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.241
+   },
+   "SL-12/terreno_termico": {
+    "centro_ok": 0.167,
+    "centro_cerc": 0.14,
+    "centro_sin_dato": 0.0,
+    "zona_ok_mediana": 0.167,
+    "zona_ok_p25": 0.167,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.032
+   }
+  }
+ },
+ "haughton-devon": {
+  "lat": 75.38,
+  "lon": -89.68,
+  "radio_km": 50,
+  "celdas_en_radio": 2828,
+  "dist_celda_km": 0.5,
+  "centro": {
+   "ndvi_max_clim": 0.1397,
+   "litologia_glim": 5.0,
+   "elev_mean_m": 156.478,
+   "arcilla_gkg": 263.0,
+   "limo_gkg": 391.0,
+   "aster_qi": 1.001,
+   "aster_mi": 0.9887,
+   "aster_ci": 1.0083,
+   "emit_montmorillonite": null,
+   "emit_kaolinite": null,
+   "slope_p90_deg": 3.3607,
+   "permafrost_prob": 1.0,
+   "hielo_suelo_gam": 53.0,
+   "aridez_ai": 1.1457
+  },
+  "perfiles": {
+   "SL-17/hielo_basalto": {
+    "centro_ok": 0.571,
+    "centro_cerc": 0.368,
+    "centro_sin_dato": 0.0,
+    "zona_ok_mediana": 0.429,
+    "zona_ok_p25": 0.286,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.016
+   },
+   "SL-20/hielo_arcilla": {
+    "centro_ok": 0.286,
+    "centro_cerc": 0.115,
+    "centro_sin_dato": 0.0,
+    "zona_ok_mediana": 0.143,
+    "zona_ok_p25": 0.143,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.019
+   },
+   "SL-20/crater_hielo_alterado": {
+    "centro_ok": 0.333,
+    "centro_cerc": 0.03,
+    "centro_sin_dato": 0.0,
+    "zona_ok_mediana": 0.333,
+    "zona_ok_p25": 0.333,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.021
+   },
+   "SL-12/terreno_termico": {
+    "centro_ok": 0.667,
+    "centro_cerc": 0.419,
+    "centro_sin_dato": 0.0,
+    "zona_ok_mediana": 0.5,
+    "zona_ok_p25": 0.333,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.014
+   }
+  }
+ },
+ "axel-heiberg": {
+  "lat": 79.4,
+  "lon": -90.8,
+  "radio_km": 50,
+  "celdas_en_radio": 2813,
+  "dist_celda_km": 0.6,
+  "centro": {
+   "ndvi_max_clim": 0.2613,
+   "litologia_glim": 5.0,
+   "elev_mean_m": 47.4667,
+   "arcilla_gkg": 242.0,
+   "limo_gkg": 433.0,
+   "aster_qi": 1.0115,
+   "aster_mi": 0.9917,
+   "aster_ci": 1.0063,
+   "emit_montmorillonite": null,
+   "emit_kaolinite": null,
+   "slope_p90_deg": 12.1033,
+   "permafrost_prob": 1.0,
+   "hielo_suelo_gam": 45.0,
+   "aridez_ai": 0.6098
+  },
+  "perfiles": {
+   "SL-17/hielo_basalto": {
+    "centro_ok": 0.429,
+    "centro_cerc": 0.294,
+    "centro_sin_dato": 0.0,
+    "zona_ok_mediana": 0.286,
+    "zona_ok_p25": 0.286,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.153
+   },
+   "SL-20/hielo_arcilla": {
+    "centro_ok": 0.286,
+    "centro_cerc": 0.152,
+    "centro_sin_dato": 0.0,
+    "zona_ok_mediana": 0.143,
+    "zona_ok_p25": 0.143,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.227
+   },
+   "SL-20/crater_hielo_alterado": {
+    "centro_ok": 0.5,
+    "centro_cerc": 0.343,
+    "centro_sin_dato": 0.0,
+    "zona_ok_mediana": 0.333,
+    "zona_ok_p25": 0.167,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.264
+   },
+   "SL-12/terreno_termico": {
+    "centro_ok": 0.0,
+    "centro_cerc": 0.0,
+    "centro_sin_dato": 0.0,
+    "zona_ok_mediana": 0.0,
+    "zona_ok_p25": 0.0,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.015
+   }
+  }
+ },
+ "qaidam-oeste": {
+  "lat": 38.5,
+  "lon": 91.0,
+  "radio_km": 50,
+  "celdas_en_radio": 3105,
+  "dist_celda_km": 1.0,
+  "centro": {
+   "ndvi_max_clim": 0.0458,
+   "litologia_glim": 3.0,
+   "elev_mean_m": 3236.4646,
+   "arcilla_gkg": 159.0,
+   "limo_gkg": 270.0,
+   "aster_qi": 1.0057,
+   "aster_mi": 0.9206,
+   "aster_ci": 1.001,
+   "emit_montmorillonite": 0.0109,
+   "emit_kaolinite": 0.0003,
+   "slope_p90_deg": 22.3745,
+   "permafrost_prob": 0.0,
+   "hielo_suelo_gam": null,
+   "aridez_ai": 0.0621
+  },
+  "perfiles": {
+   "SL-17/hielo_basalto": {
+    "centro_ok": 0.143,
+    "centro_cerc": 0.031,
+    "centro_sin_dato": 0.143,
+    "zona_ok_mediana": 0.143,
+    "zona_ok_p25": 0.0,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.145
+   },
+   "SL-20/hielo_arcilla": {
+    "centro_ok": 0.286,
+    "centro_cerc": 0.015,
+    "centro_sin_dato": 0.143,
+    "zona_ok_mediana": 0.143,
+    "zona_ok_p25": 0.143,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.146
+   },
+   "SL-20/crater_hielo_alterado": {
+    "centro_ok": 0.333,
+    "centro_cerc": 0.017,
+    "centro_sin_dato": 0.167,
+    "zona_ok_mediana": 0.167,
+    "zona_ok_p25": 0.167,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.167
+   },
+   "SL-12/terreno_termico": {
+    "centro_ok": 0.0,
+    "centro_cerc": 0.0,
+    "centro_sin_dato": 0.0,
+    "zona_ok_mediana": 0.167,
+    "zona_ok_p25": 0.0,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.015
+   }
+  }
+ },
+ "kunlun-paso-pingos": {
+  "lat": 35.65,
+  "lon": 94.07,
+  "radio_km": 50,
+  "celdas_en_radio": 3098,
+  "dist_celda_km": 0.5,
+  "centro": {
+   "ndvi_max_clim": 0.1474,
+   "litologia_glim": 5.0,
+   "elev_mean_m": 4755.4678,
+   "arcilla_gkg": 234.0,
+   "limo_gkg": 332.0,
+   "aster_qi": 1.0111,
+   "aster_mi": 0.9405,
+   "aster_ci": 0.9958,
+   "emit_montmorillonite": null,
+   "emit_kaolinite": null,
+   "slope_p90_deg": 8.581,
+   "permafrost_prob": 1.0,
+   "hielo_suelo_gam": 19.0,
+   "aridez_ai": 0.3181
+  },
+  "perfiles": {
+   "SL-17/hielo_basalto": {
+    "centro_ok": 0.0,
+    "centro_cerc": 0.0,
+    "centro_sin_dato": 0.0,
+    "zona_ok_mediana": 0.143,
+    "zona_ok_p25": 0.0,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.018
+   },
+   "SL-20/hielo_arcilla": {
+    "centro_ok": 0.143,
+    "centro_cerc": 0.004,
+    "centro_sin_dato": 0.0,
+    "zona_ok_mediana": 0.143,
+    "zona_ok_p25": 0.143,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.021
+   },
+   "SL-20/crater_hielo_alterado": {
+    "centro_ok": 0.333,
+    "centro_cerc": 0.153,
+    "centro_sin_dato": 0.0,
+    "zona_ok_mediana": 0.333,
+    "zona_ok_p25": 0.167,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.025
+   },
+   "SL-12/terreno_termico": {
+    "centro_ok": 0.167,
+    "centro_cerc": 0.087,
+    "centro_sin_dato": 0.0,
+    "zona_ok_mediana": 0.167,
+    "zona_ok_p25": 0.167,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.0
+   }
+  }
+ },
+ "karakul-crater": {
+  "lat": 39.02,
+  "lon": 73.45,
+  "radio_km": 50,
+  "celdas_en_radio": 3101,
+  "dist_celda_km": 0.6,
+  "centro": {
+   "ndvi_max_clim": 0.1056,
+   "litologia_glim": 10.0,
+   "elev_mean_m": null,
+   "arcilla_gkg": 195.0,
+   "limo_gkg": 419.0,
+   "aster_qi": 1.0042,
+   "aster_mi": 0.9804,
+   "aster_ci": 1.0021,
+   "emit_montmorillonite": null,
+   "emit_kaolinite": null,
+   "slope_p90_deg": null,
+   "permafrost_prob": 0.0605,
+   "hielo_suelo_gam": null,
+   "aridez_ai": 0.1934
+  },
+  "perfiles": {
+   "SL-17/hielo_basalto": {
+    "centro_ok": 0.286,
+    "centro_cerc": 0.138,
+    "centro_sin_dato": 0.429,
+    "zona_ok_mediana": 0.143,
+    "zona_ok_p25": 0.143,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.076
+   },
+   "SL-20/hielo_arcilla": {
+    "centro_ok": 0.286,
+    "centro_cerc": 0.093,
+    "centro_sin_dato": 0.429,
+    "zona_ok_mediana": 0.143,
+    "zona_ok_p25": 0.0,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.1
+   },
+   "SL-20/crater_hielo_alterado": {
+    "centro_ok": 0.333,
+    "centro_cerc": 0.108,
+    "centro_sin_dato": 0.333,
+    "zona_ok_mediana": 0.167,
+    "zona_ok_p25": 0.167,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.107
+   },
+   "SL-12/terreno_termico": {
+    "centro_ok": 0.0,
+    "centro_cerc": 0.0,
+    "centro_sin_dato": 0.667,
+    "zona_ok_mediana": 0.0,
+    "zona_ok_p25": 0.0,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.039
+   }
+  }
+ },
+ "painted-desert": {
+  "lat": 35.1,
+  "lon": -109.8,
+  "radio_km": 50,
+  "celdas_en_radio": 3095,
+  "dist_celda_km": 0.3,
+  "centro": {
+   "ndvi_max_clim": 0.1343,
+   "litologia_glim": 1.0,
+   "elev_mean_m": 1676.6678,
+   "arcilla_gkg": 246.0,
+   "limo_gkg": 226.0,
+   "aster_qi": 1.0098,
+   "aster_mi": 0.9575,
+   "aster_ci": 1.001,
+   "emit_montmorillonite": 0.0112,
+   "emit_kaolinite": 0.0,
+   "slope_p90_deg": 2.8929,
+   "permafrost_prob": 0.0,
+   "hielo_suelo_gam": null,
+   "aridez_ai": 0.1299
+  },
+  "perfiles": {
+   "SL-17/hielo_basalto": {
+    "centro_ok": 0.286,
+    "centro_cerc": 0.003,
+    "centro_sin_dato": 0.143,
+    "zona_ok_mediana": 0.286,
+    "zona_ok_p25": 0.286,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.143
+   },
+   "SL-20/hielo_arcilla": {
+    "centro_ok": 0.286,
+    "centro_cerc": 0.103,
+    "centro_sin_dato": 0.143,
+    "zona_ok_mediana": 0.143,
+    "zona_ok_p25": 0.143,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.143
+   },
+   "SL-20/crater_hielo_alterado": {
+    "centro_ok": 0.333,
+    "centro_cerc": 0.12,
+    "centro_sin_dato": 0.167,
+    "zona_ok_mediana": 0.167,
+    "zona_ok_p25": 0.167,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.167
+   },
+   "SL-12/terreno_termico": {
+    "centro_ok": 0.833,
+    "centro_cerc": 0.397,
+    "centro_sin_dato": 0.0,
+    "zona_ok_mediana": 0.667,
+    "zona_ok_p25": 0.333,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.0
+   }
+  }
+ },
+ "rio-tinto": {
+  "lat": 37.7,
+  "lon": -6.6,
+  "radio_km": 50,
+  "celdas_en_radio": 3098,
+  "dist_celda_km": 0.8,
+  "centro": {
+   "ndvi_max_clim": 0.4888,
+   "litologia_glim": 5.0,
+   "elev_mean_m": 419.1177,
+   "arcilla_gkg": 191.0,
+   "limo_gkg": 375.0,
+   "aster_qi": 1.0074,
+   "aster_mi": 0.9783,
+   "aster_ci": 1.001,
+   "emit_montmorillonite": null,
+   "emit_kaolinite": null,
+   "slope_p90_deg": 7.5647,
+   "permafrost_prob": 0.0,
+   "hielo_suelo_gam": null,
+   "aridez_ai": 0.4245
+  },
+  "perfiles": {
+   "SL-17/hielo_basalto": {
+    "centro_ok": 0.286,
+    "centro_cerc": 0.106,
+    "centro_sin_dato": 0.143,
+    "zona_ok_mediana": 0.286,
+    "zona_ok_p25": 0.286,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.145
+   },
+   "SL-20/hielo_arcilla": {
+    "centro_ok": 0.143,
+    "centro_cerc": 0.001,
+    "centro_sin_dato": 0.143,
+    "zona_ok_mediana": 0.143,
+    "zona_ok_p25": 0.143,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.147
+   },
+   "SL-20/crater_hielo_alterado": {
+    "centro_ok": 0.333,
+    "centro_cerc": 0.113,
+    "centro_sin_dato": 0.167,
+    "zona_ok_mediana": 0.333,
+    "zona_ok_p25": 0.333,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.17
+   },
+   "SL-12/terreno_termico": {
+    "centro_ok": 0.167,
+    "centro_cerc": 0.077,
+    "centro_sin_dato": 0.0,
+    "zona_ok_mediana": 0.333,
+    "zona_ok_p25": 0.167,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.003
+   }
+  }
+ },
+ "beacon-valley": {
+  "lat": -77.8,
+  "lon": 160.6,
+  "radio_km": 50,
+  "celdas_en_radio": 3093,
+  "dist_celda_km": 0.6,
+  "centro": {
+   "ndvi_max_clim": null,
+   "litologia_glim": 3.0,
+   "elev_mean_m": 1548.8835,
+   "arcilla_gkg": null,
+   "limo_gkg": null,
+   "aster_qi": null,
+   "aster_mi": null,
+   "aster_ci": null,
+   "emit_montmorillonite": null,
+   "emit_kaolinite": null,
+   "slope_p90_deg": 41.3581,
+   "permafrost_prob": null,
+   "hielo_suelo_gam": null,
+   "aridez_ai": null
+  },
+  "perfiles": {
+   "SL-17/hielo_basalto": {
+    "centro_ok": 0.0,
+    "centro_cerc": 0.0,
+    "centro_sin_dato": 0.571,
+    "zona_ok_mediana": 0.0,
+    "zona_ok_p25": 0.0,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.571
+   },
+   "SL-20/hielo_arcilla": {
+    "centro_ok": 0.143,
+    "centro_cerc": 0.086,
+    "centro_sin_dato": 0.571,
+    "zona_ok_mediana": 0.143,
+    "zona_ok_p25": 0.143,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.571
+   },
+   "SL-20/crater_hielo_alterado": {
+    "centro_ok": 0.167,
+    "centro_cerc": 0.1,
+    "centro_sin_dato": 0.667,
+    "zona_ok_mediana": 0.167,
+    "zona_ok_p25": 0.167,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.667
+   },
+   "SL-12/terreno_termico": {
+    "centro_ok": 0.167,
+    "centro_cerc": 0.151,
+    "centro_sin_dato": 0.0,
+    "zona_ok_mediana": 0.167,
+    "zona_ok_p25": 0.167,
+    "zona_frac_celdas_todo_ok": 0.0,
+    "zona_frac_sin_dato_media": 0.0
+   }
+  }
+ },
+ "_percentiles_tierra_ndvi_le_0p3": {
+  "aster_qi": {
+   "1": 0.9821,
+   "5": 0.9928,
+   "25": 1.0031,
+   "50": 1.0137,
+   "75": 1.0367,
+   "95": 1.0971,
+   "99": 1.1131
+  },
+  "aster_mi": {
+   "1": 0.7495,
+   "5": 0.7761,
+   "25": 0.8628,
+   "50": 0.9279,
+   "75": 0.9689,
+   "95": 0.9928,
+   "99": 1.0
+  },
+  "aster_ci": {
+   "1": 0.9833,
+   "5": 0.9864,
+   "25": 0.9917,
+   "50": 0.9979,
+   "75": 1.001,
+   "95": 1.0074,
+   "99": 1.0136
+  },
+  "arcilla_gkg": {
+   "1": 84.0,
+   "5": 125.0,
+   "25": 181.0,
+   "50": 221.0,
+   "75": 266.0,
+   "95": 335.0,
+   "99": 396.0
+  },
+  "hielo_suelo_gam": {
+   "1": 1.0,
+   "5": 2.0,
+   "25": 14.0,
+   "50": 27.0,
+   "75": 47.0,
+   "95": 57.0,
+   "99": 63.0
+  },
+  "permafrost_prob": {
+   "1": 0.0,
+   "5": 0.0,
+   "25": 0.0,
+   "50": 0.0,
+   "75": 0.0,
+   "95": 1.0,
+   "99": 1.0
+  }
+ }
+}

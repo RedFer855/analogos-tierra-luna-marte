@@ -1,0 +1,11 @@
+{
+  "nota": "Escrito el 2026-11-13 ANTES de correr ensayo-procesos-43.mjs, a partir del nombre de cada sitio y de lo que se sabe de él, sin mirar la tabla maestra. Solo se listan los procesos que esperamos ver con seguridad; un sitio fuera de la lista no es un 'no esperado', es 'sin expectativa'. Cráteres de impacto (ST-01, ST-20, ST-43), minas (ST-11, ST-12), cayos y lagos con microbialitos (ST-35 a ST-38), Río Tinto (ST-23), Lofoten (ST-22), Verde Valley (ST-10), Bletterbach (ST-21) y Salda (ST-17) no tienen regla que los detecte con estas columnas.",
+  "esperados": {
+    "volcanico": ["ST-03", "ST-04", "ST-05", "ST-06", "ST-15", "ST-16", "ST-18", "ST-19", "ST-27", "ST-29", "ST-30", "ST-31", "ST-32", "ST-33", "ST-34", "ST-40"],
+    "evaporitas": ["ST-07", "ST-09", "ST-13", "ST-24", "ST-25", "ST-41"],
+    "hiperarido": ["ST-07", "ST-13", "ST-14", "ST-41"],
+    "eolico_arena": ["ST-08", "ST-16", "ST-28", "ST-42"],
+    "polvo": ["ST-24", "ST-41"],
+    "hielo_o_permafrost": ["ST-01", "ST-02", "ST-14", "ST-29", "ST-39"]
+  }
+}

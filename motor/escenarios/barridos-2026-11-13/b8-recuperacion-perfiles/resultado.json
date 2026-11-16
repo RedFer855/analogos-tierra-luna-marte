@@ -1,0 +1,393 @@
+{
+ "ventana_km": 50,
+ "n_azar": 300,
+ "aster_ci_p50": 0.9989615678787231,
+ "aster_ci_p90": 1.0052083730697632,
+ "filas": [
+  {
+   "objetivo": "SL-17",
+   "perfil": "terreno_termico",
+   "analogo": "tuktoyaktuk",
+   "relacion": "modelo: hielo en exceso bajo llanura",
+   "variables": [
+    "slope_mean_deg",
+    "slope_std_deg",
+    "rug_rms_mean_m",
+    "relieve_mean_m",
+    "dtr_k",
+    "amp_anual_k"
+   ],
+   "p90_ajuste": 0.676,
+   "top_pct": 11.0,
+   "azar_validas": 300
+  },
+  {
+   "objetivo": "SL-17",
+   "perfil": "terreno_termico",
+   "analogo": "haughton-devon",
+   "relacion": "modelo: desierto polar con permafrost",
+   "variables": [
+    "slope_mean_deg",
+    "slope_std_deg",
+    "rug_rms_mean_m",
+    "relieve_mean_m",
+    "dtr_k",
+    "amp_anual_k"
+   ],
+   "p90_ajuste": 0.491,
+   "top_pct": 69.3,
+   "azar_validas": 300
+  },
+  {
+   "objetivo": "SL-17",
+   "perfil": "terreno_termico",
+   "analogo": "axel-heiberg",
+   "relacion": "modelo: desierto polar con permafrost",
+   "variables": [
+    "slope_mean_deg",
+    "slope_std_deg",
+    "rug_rms_mean_m",
+    "relieve_mean_m",
+    "dtr_k",
+    "amp_anual_k"
+   ],
+   "p90_ajuste": 0.148,
+   "top_pct": 83.3,
+   "azar_validas": 300
+  },
+  {
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto (viejo)",
+   "analogo": "tuktoyaktuk",
+   "relacion": "modelo: hielo en exceso bajo llanura",
+   "variables": [
+    "slope_mean_deg",
+    "rug_rms_mean_m",
+    "amp_anual_k",
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_mi",
+    "aster_qi"
+   ],
+   "p90_ajuste": 0.591,
+   "top_pct": 35.9,
+   "azar_validas": 270
+  },
+  {
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto (viejo)",
+   "analogo": "haughton-devon",
+   "relacion": "modelo: desierto polar con permafrost",
+   "variables": [
+    "slope_mean_deg",
+    "rug_rms_mean_m",
+    "amp_anual_k",
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_mi",
+    "aster_qi"
+   ],
+   "p90_ajuste": 0.516,
+   "top_pct": 57.0,
+   "azar_validas": 270
+  },
+  {
+   "objetivo": "SL-17",
+   "perfil": "hielo_basalto (viejo)",
+   "analogo": "axel-heiberg",
+   "relacion": "modelo: desierto polar con permafrost",
+   "variables": [
+    "slope_mean_deg",
+    "rug_rms_mean_m",
+    "amp_anual_k",
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "aster_mi",
+    "aster_qi"
+   ],
+   "p90_ajuste": 0.433,
+   "top_pct": 68.9,
+   "azar_validas": 270
+  },
+  {
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado (viejo)",
+   "analogo": "tuktoyaktuk",
+   "relacion": "modelo: hielo en exceso bajo llanura",
+   "variables": [
+    "slope_mean_deg",
+    "amp_anual_k",
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "arcilla_gkg",
+    "aster_ci"
+   ],
+   "p90_ajuste": 0.202,
+   "top_pct": 77.4,
+   "azar_validas": 270
+  },
+  {
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado (viejo)",
+   "analogo": "haughton-devon",
+   "relacion": "modelo: desierto polar con permafrost",
+   "variables": [
+    "slope_mean_deg",
+    "amp_anual_k",
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "arcilla_gkg",
+    "aster_ci"
+   ],
+   "p90_ajuste": 0.508,
+   "top_pct": 4.4,
+   "azar_validas": 270
+  },
+  {
+   "objetivo": "SL-17",
+   "perfil": "crater_hielo_alterado (viejo)",
+   "analogo": "axel-heiberg",
+   "relacion": "modelo: desierto polar con permafrost",
+   "variables": [
+    "slope_mean_deg",
+    "amp_anual_k",
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "arcilla_gkg",
+    "aster_ci"
+   ],
+   "p90_ajuste": 0.511,
+   "top_pct": 4.4,
+   "azar_validas": 270
+  },
+  {
+   "objetivo": "SL-17",
+   "perfil": "hielo_medido",
+   "analogo": "tuktoyaktuk",
+   "relacion": "modelo: hielo en exceso bajo llanura",
+   "variables": [
+    "slope_mean_deg",
+    "slope_std_deg",
+    "rug_rms_mean_m",
+    "relieve_mean_m",
+    "dtr_k",
+    "amp_anual_k",
+    "permafrost_prob"
+   ],
+   "p90_ajuste": 0.723,
+   "top_pct": 5.3,
+   "azar_validas": 300
+  },
+  {
+   "objetivo": "SL-17",
+   "perfil": "hielo_medido",
+   "analogo": "haughton-devon",
+   "relacion": "modelo: desierto polar con permafrost",
+   "variables": [
+    "slope_mean_deg",
+    "slope_std_deg",
+    "rug_rms_mean_m",
+    "relieve_mean_m",
+    "dtr_k",
+    "amp_anual_k",
+    "permafrost_prob"
+   ],
+   "p90_ajuste": 0.564,
+   "top_pct": 37.0,
+   "azar_validas": 300
+  },
+  {
+   "objetivo": "SL-17",
+   "perfil": "hielo_medido",
+   "analogo": "axel-heiberg",
+   "relacion": "modelo: desierto polar con permafrost",
+   "variables": [
+    "slope_mean_deg",
+    "slope_std_deg",
+    "rug_rms_mean_m",
+    "relieve_mean_m",
+    "dtr_k",
+    "amp_anual_k",
+    "permafrost_prob"
+   ],
+   "p90_ajuste": 0.268,
+   "top_pct": 81.3,
+   "azar_validas": 300
+  },
+  {
+   "objetivo": "SL-20",
+   "perfil": "terreno_termico",
+   "analogo": "tuktoyaktuk",
+   "relacion": "verificado: Soare et al. 2011, periglaciar húmedo de Utopia",
+   "variables": [
+    "slope_mean_deg",
+    "slope_std_deg",
+    "rug_rms_mean_m",
+    "relieve_mean_m",
+    "dtr_k",
+    "amp_anual_k"
+   ],
+   "p90_ajuste": 0.349,
+   "top_pct": 46.0,
+   "azar_validas": 300
+  },
+  {
+   "objetivo": "SL-20",
+   "perfil": "terreno_termico",
+   "analogo": "adventdalen-svalbard",
+   "relacion": "modelo: periglaciar con permafrost",
+   "variables": [
+    "slope_mean_deg",
+    "slope_std_deg",
+    "rug_rms_mean_m",
+    "relieve_mean_m",
+    "dtr_k",
+    "amp_anual_k"
+   ],
+   "p90_ajuste": 0.159,
+   "top_pct": 56.0,
+   "azar_validas": 300
+  },
+  {
+   "objetivo": "SL-20",
+   "perfil": "hielo_arcilla (viejo)",
+   "analogo": "tuktoyaktuk",
+   "relacion": "verificado: Soare et al. 2011, periglaciar húmedo de Utopia",
+   "variables": [
+    "slope_mean_deg",
+    "rug_rms_mean_m",
+    "amp_anual_k",
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "arcilla_gkg",
+    "aster_ci"
+   ],
+   "p90_ajuste": 0.232,
+   "top_pct": 71.1,
+   "azar_validas": 270
+  },
+  {
+   "objetivo": "SL-20",
+   "perfil": "hielo_arcilla (viejo)",
+   "analogo": "adventdalen-svalbard",
+   "relacion": "modelo: periglaciar con permafrost",
+   "variables": [
+    "slope_mean_deg",
+    "rug_rms_mean_m",
+    "amp_anual_k",
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "arcilla_gkg",
+    "aster_ci"
+   ],
+   "p90_ajuste": 0.375,
+   "top_pct": 25.9,
+   "azar_validas": 270
+  },
+  {
+   "objetivo": "SL-20",
+   "perfil": "crater_hielo_alterado (viejo)",
+   "analogo": "tuktoyaktuk",
+   "relacion": "verificado: Soare et al. 2011, periglaciar húmedo de Utopia",
+   "variables": [
+    "slope_mean_deg",
+    "amp_anual_k",
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "arcilla_gkg",
+    "aster_ci"
+   ],
+   "p90_ajuste": 0.152,
+   "top_pct": 91.5,
+   "azar_validas": 270
+  },
+  {
+   "objetivo": "SL-20",
+   "perfil": "crater_hielo_alterado (viejo)",
+   "analogo": "adventdalen-svalbard",
+   "relacion": "modelo: periglaciar con permafrost",
+   "variables": [
+    "slope_mean_deg",
+    "amp_anual_k",
+    "permafrost_prob",
+    "hielo_suelo_gam",
+    "arcilla_gkg",
+    "aster_ci"
+   ],
+   "p90_ajuste": 0.494,
+   "top_pct": 6.7,
+   "azar_validas": 270
+  },
+  {
+   "objetivo": "SL-20",
+   "perfil": "hielo_medido",
+   "analogo": "tuktoyaktuk",
+   "relacion": "verificado: Soare et al. 2011, periglaciar húmedo de Utopia",
+   "variables": [
+    "slope_mean_deg",
+    "slope_std_deg",
+    "rug_rms_mean_m",
+    "relieve_mean_m",
+    "dtr_k",
+    "amp_anual_k",
+    "permafrost_prob"
+   ],
+   "p90_ajuste": 0.449,
+   "top_pct": 29.7,
+   "azar_validas": 300
+  },
+  {
+   "objetivo": "SL-20",
+   "perfil": "hielo_medido",
+   "analogo": "adventdalen-svalbard",
+   "relacion": "modelo: periglaciar con permafrost",
+   "variables": [
+    "slope_mean_deg",
+    "slope_std_deg",
+    "rug_rms_mean_m",
+    "relieve_mean_m",
+    "dtr_k",
+    "amp_anual_k",
+    "permafrost_prob"
+   ],
+   "p90_ajuste": 0.276,
+   "top_pct": 47.7,
+   "azar_validas": 300
+  },
+  {
+   "objetivo": "SL-12",
+   "perfil": "terreno_termico",
+   "analogo": "painted-desert",
+   "relacion": "propuesto en el repo: arcillas sobre llanura (no publicado)",
+   "variables": [
+    "slope_mean_deg",
+    "slope_std_deg",
+    "rug_rms_mean_m",
+    "relieve_mean_m",
+    "dtr_k",
+    "amp_anual_k"
+   ],
+   "p90_ajuste": 0.637,
+   "top_pct": 7.0,
+   "azar_validas": 300
+  },
+  {
+   "objetivo": "SL-12",
+   "perfil": "arcillas_medido",
+   "analogo": "painted-desert",
+   "relacion": "propuesto en el repo: arcillas sobre llanura (no publicado)",
+   "variables": [
+    "slope_mean_deg",
+    "slope_std_deg",
+    "rug_rms_mean_m",
+    "relieve_mean_m",
+    "dtr_k",
+    "amp_anual_k",
+    "aster_ci"
+   ],
+   "p90_ajuste": 0.599,
+   "top_pct": 13.3,
+   "azar_validas": 300
+  }
+ ]
+}

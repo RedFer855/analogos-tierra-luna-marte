@@ -1,0 +1,72 @@
+{
+  "version_contrato": "1.0.0",
+  "es_ejemplo": true,
+  "perfil": "base_lunar",
+  "sitio": "SL-03",
+  "healpix": { "esquema": "nested", "nivel": 12 },
+  "objetivo": {
+    "variables": {
+      "iluminacion": { "valor": 0.82 },
+      "pendiente": { "valor": 4.5 },
+      "rugosidad": { "valor": 1.8 }
+    }
+  },
+  "parametros": {
+    "variables": [
+      { "id": "iluminacion", "peso": 0.4, "tolerancia": 0.05 },
+      { "id": "pendiente", "peso": 0.3, "tolerancia": 3.0 },
+      { "id": "rugosidad", "peso": 0.3, "tolerancia": 0.5 }
+    ],
+    "filtros": ["frio_extremo"]
+  },
+  "candidatos": [
+    {
+      "rango": 1,
+      "ipix": 151870044,
+      "centro": { "lat": -23.5, "lon": -67.5 },
+      "vertices": [[-67.5, -23.492], [-67.492, -23.5], [-67.5, -23.508], [-67.508, -23.5]],
+      "nota": 0.58,
+      "variables": {
+        "iluminacion": { "valor": 0.61, "nota": 0.71, "coincide": false },
+        "pendiente": { "valor": 5.9, "nota": 1.0, "coincide": true },
+        "rugosidad": { "valor": 2.1, "nota": 1.0, "coincide": true }
+      },
+      "cobertura": { "usadas": 3, "total": 3 },
+      "marcas": ["frio_extremo"],
+      "analogo_conocido": null,
+      "region": "Puna de Atacama"
+    },
+    {
+      "rango": 2,
+      "ipix": 41207733,
+      "centro": { "lat": 33.0, "lon": 86.0 },
+      "vertices": [[86.0, 33.008], [86.008, 33.0], [86.0, 32.992], [85.992, 33.0]],
+      "nota": 0.52,
+      "variables": {
+        "iluminacion": { "valor": 0.58, "nota": 0.66, "coincide": false },
+        "pendiente": { "valor": 9.2, "nota": 0.9, "coincide": false },
+        "rugosidad": { "valor": 2.0, "nota": 1.0, "coincide": true }
+      },
+      "cobertura": { "usadas": 3, "total": 3 },
+      "marcas": ["frio_extremo", "sin_dato_mineral"],
+      "analogo_conocido": null,
+      "region": "Meseta del Tíbet"
+    },
+    {
+      "rango": 3,
+      "ipix": 12088915,
+      "centro": { "lat": 63.0, "lon": -138.0 },
+      "vertices": [[-138.0, 63.008], [-137.992, 63.0], [-138.0, 62.992], [-138.008, 63.0]],
+      "nota": 0.31,
+      "variables": {
+        "iluminacion": { "valor": 0.5, "nota": 0.52, "coincide": false },
+        "pendiente": { "valor": 12.4, "nota": 0.74, "coincide": false },
+        "rugosidad": { "valor": null, "nota": null, "coincide": null }
+      },
+      "cobertura": { "usadas": 2, "total": 3 },
+      "marcas": ["frio_extremo", "hielo"],
+      "analogo_conocido": null,
+      "region": null
+    }
+  ]
+}

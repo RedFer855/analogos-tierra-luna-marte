@@ -1,0 +1,27 @@
+{
+ "generado": "2026-11-14T00:08:10.826Z",
+ "parametros": {"R_KM":50,"N_ALEATORIAS":300,"TAU":0.2,"tiempo_s":50},
+ "celdas": {"elegibles":16070582,"con_emit":11169104},
+ "pares": [
+  {"st":"ST-07","nombre":"Death Valley","sl":"SL-11","categoria":"terreno","certeza":"C","A":{"maximo":0.7665,"top_pct":35.7},"B":{"maximo":0.7012,"top_pct":33}},
+  {"st":"ST-07","nombre":"Death Valley","sl":"SL-10","categoria":"terreno","certeza":"P","A":{"maximo":0.6779,"top_pct":64.7},"B":{"maximo":0.6622,"top_pct":47.7}},
+  {"st":"ST-07","nombre":"Death Valley","sl":"SL-20","categoria":"terreno","certeza":"P","A":{"maximo":0.8238,"top_pct":19.3},"B":{"maximo":0.8464,"top_pct":7.3}},
+  {"st":"ST-09","nombre":"Pilot Valley Playa","sl":"SL-21","categoria":"astrobiologia","certeza":"C","A":{"maximo":0.8453,"top_pct":7},"B":{"maximo":0.7074,"top_pct":60}},
+  {"st":"ST-10","nombre":"Verde Valley","sl":"SL-10","categoria":"astrobiologia","certeza":"P","A":{"maximo":0.7117,"top_pct":46},"B":null},
+  {"st":"ST-10","nombre":"Verde Valley","sl":"SL-11","categoria":"astrobiologia","certeza":"P","A":{"maximo":0.8192,"top_pct":13.3},"B":null},
+  {"st":"ST-13","nombre":"Atacama","sl":"SL-10","categoria":"terreno","certeza":"C","A":{"maximo":0.9863,"top_pct":0.7},"B":{"maximo":0.7635,"top_pct":12}},
+  {"st":"ST-13","nombre":"Atacama","sl":"SL-11","categoria":"terreno","certeza":"C","A":{"maximo":0.8639,"top_pct":2},"B":{"maximo":0.7937,"top_pct":7.7}},
+  {"st":"ST-14","nombre":"Valles Secos de McMurdo","sl":"SL-11","categoria":"astrobiologia","certeza":"C","A":null,"B":null},
+  {"st":"ST-14","nombre":"Valles Secos de McMurdo","sl":"SL-21","categoria":"astrobiologia","certeza":"C","A":null,"B":null},
+  {"st":"ST-15","nombre":"Caldera de Askja","sl":"SL-11","categoria":"proceso","certeza":"C","A":{"maximo":0.8217,"top_pct":11.7},"B":null},
+  {"st":"ST-17","nombre":"Lago Salda","sl":"SL-10","categoria":"astrobiologia","certeza":"C","A":{"maximo":0.6859,"top_pct":60.3},"B":null},
+  {"st":"ST-24","nombre":"Salares de Makgadikgadi","sl":"SL-10","categoria":"proceso","certeza":"P","A":{"maximo":0.5951,"top_pct":89},"B":{"maximo":0.5938,"top_pct":74.3}},
+  {"st":"ST-31","nombre":"Rincón de la Vieja","sl":"SL-11","categoria":"astrobiologia","certeza":"C","A":null,"B":null},
+  {"st":"ST-32","nombre":"Cerro Negro","sl":"SL-11","categoria":"astrobiologia","certeza":"C","A":{"maximo":0.3711,"top_pct":100},"B":null},
+  {"st":"ST-35","nombre":"Little Ambergris Cay","sl":"SL-10","categoria":"astrobiologia","certeza":"P","A":{"maximo":0.5142,"top_pct":95},"B":null},
+  {"st":"ST-36","nombre":"Pigeon Cay","sl":"SL-10","categoria":"astrobiologia","certeza":"P","A":null,"B":null},
+  {"st":"ST-37","nombre":"Lago Alchichica","sl":"SL-10","categoria":"astrobiologia","certeza":"C","A":{"maximo":0.7222,"top_pct":42.3},"B":null},
+  {"st":"ST-41","nombre":"Cuenca de Qaidam","sl":"SL-11","categoria":"proceso","certeza":"C","A":{"maximo":0.7885,"top_pct":29},"B":{"maximo":0.6347,"top_pct":68}}
+ ],
+ "resumen": {"terreno":{"pares":5,"A":{"evaluables":5,"en_top10":2,"esperado_al_azar":0.5,"mediana_top_pct":19.3},"B":{"evaluables":5,"en_top10":2,"esperado_al_azar":0.5,"mediana_top_pct":12}},"proceso":{"pares":3,"A":{"evaluables":3,"en_top10":0,"esperado_al_azar":0.3,"mediana_top_pct":29},"B":{"evaluables":2,"en_top10":0,"esperado_al_azar":0.2,"mediana_top_pct":74.3}},"astrobiologia":{"pares":11,"A":{"evaluables":7,"en_top10":1,"esperado_al_azar":0.7,"mediana_top_pct":46},"B":{"evaluables":1,"en_top10":0,"esperado_al_azar":0.1,"mediana_top_pct":60}}}
+}

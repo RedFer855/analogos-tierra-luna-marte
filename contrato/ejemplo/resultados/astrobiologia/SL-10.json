@@ -1,0 +1,71 @@
+{
+  "version_contrato": "1.0.0",
+  "es_ejemplo": true,
+  "perfil": "astrobiologia",
+  "sitio": "SL-10",
+  "healpix": { "esquema": "nested", "nivel": 12 },
+  "objetivo": {
+    "variables": {
+      "silice": { "valor": 52.0 },
+      "rango_termico": { "valor": 75.0 }
+    }
+  },
+  "parametros": {
+    "variables": [
+      { "id": "silice", "peso": 0.5, "tolerancia": 2.0 },
+      { "id": "rango_termico", "peso": 0.5, "tolerancia": 5.0 }
+    ],
+    "filtros": ["hiperarido", "mineral_hidratado"]
+  },
+  "candidatos": [
+    {
+      "rango": 1,
+      "ipix": 152003118,
+      "centro": { "lat": -24.1, "lon": -70.14 },
+      "vertices": [[-70.14, -24.092], [-70.132, -24.1], [-70.14, -24.108], [-70.148, -24.1]],
+      "nota": 0.81,
+      "variables": {
+        "silice": { "valor": 53.4, "nota": 0.97, "coincide": true },
+        "rango_termico": { "valor": 38.2, "nota": 0.84, "coincide": false }
+      },
+      "cobertura": { "usadas": 2, "total": 2 },
+      "marcas": ["hiperarido", "salar"],
+      "analogo_conocido": "ST-13",
+      "region": "Desierto de Atacama",
+      "ficha": {
+        "temperatura_media": { "valor": 291.5, "unidad": "K" },
+        "mineral": { "valor": "evaporitas", "unidad": "clase" }
+      }
+    },
+    {
+      "rango": 2,
+      "ipix": 98731402,
+      "centro": { "lat": 14.24, "lon": 40.3 },
+      "vertices": [[40.3, 14.248], [40.308, 14.24], [40.3, 14.232], [40.292, 14.24]],
+      "nota": 0.66,
+      "variables": {
+        "silice": { "valor": 48.9, "nota": 0.88, "coincide": false },
+        "rango_termico": { "valor": 31.0, "nota": 0.75, "coincide": false }
+      },
+      "cobertura": { "usadas": 2, "total": 2 },
+      "marcas": ["hiperarido", "evaporitas", "volcan"],
+      "analogo_conocido": "ST-25",
+      "region": "Depresión de Danakil"
+    },
+    {
+      "rango": 3,
+      "ipix": 63390821,
+      "centro": { "lat": 37.7, "lon": -6.56 },
+      "vertices": [[-6.56, 37.708], [-6.552, 37.7], [-6.56, 37.692], [-6.568, 37.7]],
+      "nota": 0.42,
+      "variables": {
+        "silice": { "valor": null, "nota": null, "coincide": null },
+        "rango_termico": { "valor": 24.6, "nota": 0.42, "coincide": false }
+      },
+      "cobertura": { "usadas": 1, "total": 2 },
+      "marcas": ["mineral_hidratado"],
+      "analogo_conocido": "ST-23",
+      "region": null
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "version": 2,
+  "estado": "ensayo (ADR-005). v1 escrita antes de correr sobre los 43; v2 corrige lecturas después de ver v1 (cambios_post_hoc)",
+  "nota": "Banderas de presencia por celda (I-18, opción 1). No suman al puntaje: se muestran con el valor medido como evidencia. 'si' es una lista de alternativas (basta una); dentro de cada alternativa deben cumplirse todas las condiciones. Operadores: lt, lte, gt, gte, en (clases), gte_q y lt_q (cuantil de la Tierra, de 0 a 100, calculado sobre las celdas con frac_tierra >= 0.5; HEALPix es de igual área, así que no hace falta ponderar). Un dato faltante nunca cumple.",
+  "ventana": {
+    "radio_km": 50,
+    "frac_min": 0.1,
+    "celdas_min_con_dato": 20
+  },
+  "procesos": [
+    {
+      "id": "volcanico",
+      "nombre": "Superficie volcánica",
+      "si": [
+        {
+          "litologia_glim": {
+            "en": [
+              2,
+              7,
+              10,
+              12
+            ]
+          }
+        }
+      ],
+      "enseña_sobre": "Llanuras basálticas y flujos de lava: mares lunares y provincias volcánicas de Marte",
+      "cuerpos": [
+        "luna",
+        "marte"
+      ],
+      "base": "Clases vb, va, vi y py de GLiM (Hartmann y Moosdorf 2012). Sin umbral propio. Malla de 0,5°: no ve flujos pequeños ni islas"
+    },
+    {
+      "id": "evaporitas",
+      "nombre": "Evaporitas, salar o playa",
+      "si": [
+        {
+          "litologia_glim": {
+            "en": [
+              14
+            ]
+          }
+        },
+        {
+          "humedal_clase": {
+            "en": [
+              2,
+              32
+            ]
+          }
+        },
+        {
+          "frac_efimero": {
+            "gt": 0
+          },
+          "aridez_ai": {
+            "lt": 0.2
+          }
+        }
+      ],
+      "enseña_sobre": "Alteración por agua y sales en cuencas de lagos antiguos (Jezero, Gale, Meridiani)",
+      "cuerpos": [
+        "marte"
+      ],
+      "base": "Evaporitas de GLiM, lago salino o salar de GLWD v2 (clases 2 y 32) o lago efímero en zona árida (AI < 0,2, límite árido de UNEP usado por Global-AI)"
+    },
+    {
+      "id": "hiperarido",
+      "nombre": "Hiperárido",
+      "si": [
+        {
+          "aridez_ai": {
+            "lt": 0.05
+          }
+        }
+      ],
+      "enseña_sobre": "Suelos casi sin agua ni vida: preservación de biofirmas y pruebas de detección de vida (Marte)",
+      "cuerpos": [
+        "marte"
+      ],
+      "base": "Clase hiperárida de Global-AI_PET v3.1 (AI < 0,05; Zomer et al. 2022)"
+    },
+    {
+      "id": "eolico_arena",
+      "nombre": "Dunas o arena móvil",
+      "si": [
+        {
+          "dunas_frac": {
+            "gte": 0.1
+          }
+        },
+        {
+          "arena_movil_frac": {
+            "gte": 0.1
+          }
+        }
+      ],
+      "enseña_sobre": "Dunas y transporte de arena por el viento en Marte (MGD3, Nili Patera)",
+      "cuerpos": [
+        "marte"
+      ],
+      "base": "GSDP30 y GSDS30. El 10 % del área es un supuesto, no viene de la literatura"
+    },
+    {
+      "id": "viento_que_mueve_arena",
+      "nombre": "Viento capaz de mover arena con frecuencia",
+      "si": [
+        {
+          "viento_frac_tau_gt_0p20": {
+            "gte_q": 90
+          }
+        }
+      ],
+      "enseña_sobre": "Arrastre eólico comparado por número de Shields (Kok et al. 2012, P-008)",
+      "cuerpos": [
+        "marte"
+      ],
+      "base": "Fracción de horas con tau > 0,20 Pa (MERRA-2) en el 10 % superior de la Tierra. Malla de 0,5°; cerca de la costa mezcla mar"
+    },
+    {
+      "id": "polvo",
+      "nombre": "Fuente de polvo",
+      "si": [
+        {
+          "polvo_emision_kg_m2_s": {
+            "gte_q": 90
+          }
+        }
+      ],
+      "enseña_sobre": "Levantamiento y depósito de polvo, tormentas de polvo de Marte",
+      "cuerpos": [
+        "marte"
+      ],
+      "base": "Emisión media de polvo de MERRA-2 (2013-2022) en el 10 % superior de la Tierra. Malla de 0,5°"
+    },
+    {
+      "id": "hielo_o_permafrost",
+      "nombre": "Hielo en el suelo o permafrost",
+      "si": [
+        {
+          "permafrost_prob": {
+            "gte": 0.5
+          }
+        },
+        {
+          "magt_c": {
+            "lt": 0
+          }
+        },
+        {
+          "litologia_glim": {
+            "en": [
+              16
+            ]
+          }
+        }
+      ],
+      "enseña_sobre": "Hielo en el subsuelo de latitudes medias de Marte (Arcadia) y trampas frías lunares",
+      "cuerpos": [
+        "luna",
+        "marte"
+      ],
+      "base": "Obu et al. 2018 (probabilidad >= 0,5 o suelo bajo 0 °C, solo hemisferio norte) o hielo y glaciares de GLiM"
+    }
+  ],
+  "usos": [
+    {
+      "id": "movilidad_rover",
+      "texto": "Pruebas de movilidad de rover y caminatas en pendientes sobre suelo desnudo",
+      "si": [
+        {
+          "slope_mean_deg": {
+            "gte": 3,
+            "lte": 20
+          },
+          "ndvi_max_clim": {
+            "lt": 0.3
+          }
+        }
+      ],
+      "base": "Pendiente de 3° a 20° (supuesto) y NDVI < 0,30 (el corte de vegetación de ADR-014)"
+    },
+    {
+      "id": "aterrizaje_construccion",
+      "texto": "Pruebas de plataformas de aterrizaje, manejo de regolito y construcción en suelo plano y desnudo",
+      "si": [
+        {
+          "slope_mean_deg": {
+            "lt": 2
+          },
+          "slope_frac_gt15": {
+            "lt": 0.01
+          },
+          "ndvi_max_clim": {
+            "lt": 0.3
+          }
+        }
+      ],
+      "base": "Pendiente media < 2° y menos del 1 % del área sobre 15° (supuestos); NDVI < 0,30"
+    },
+    {
+      "id": "ciclos_termicos",
+      "texto": "Pruebas de instrumentos y hábitats con grandes oscilaciones de temperatura entre el día y la noche",
+      "si": [
+        {
+          "dtr_k": {
+            "gte_q": 90
+          }
+        }
+      ],
+      "base": "Rango diurno de MODIS en el 10 % superior de la Tierra. La Luna está muy por encima: es una brecha, no un parecido"
+    },
+    {
+      "id": "hielo_isru",
+      "texto": "Prospección de hielo, perforación y ensayos de uso de recursos locales en suelo congelado",
+      "si": [
+        {
+          "permafrost_prob": {
+            "gte": 0.5
+          }
+        },
+        {
+          "magt_c": {
+            "lt": 0
+          }
+        }
+      ],
+      "base": "Igual que hielo_o_permafrost, sin la clase de glaciar"
+    },
+    {
+      "id": "mitigacion_polvo",
+      "texto": "Pruebas de sellos, paneles solares y trajes contra el polvo",
+      "si": [
+        {
+          "polvo_emision_kg_m2_s": {
+            "gte_q": 90
+          }
+        }
+      ],
+      "base": "Igual que polvo"
+    },
+    {
+      "id": "astrobiologia_limite_seco",
+      "texto": "Pruebas de instrumentos de detección de vida en el límite seco de la vida",
+      "si": [
+        {
+          "aridez_ai": {
+            "lt": 0.05
+          },
+          "ndvi_max_clim": {
+            "lt": 0.3
+          }
+        }
+      ],
+      "base": "Hiperárido y casi sin vegetación"
+    }
+  ],
+  "cambios_post_hoc": [
+    "v2 (2026-11-13, después de ver v1 sobre los 43; no es validación independiente): evaporitas suma la clase 32 de GLWD v2 (salar, humedal salino o salobre), omitida en v1 por leer la leyenda cortada.",
+    "v2: polvo usa la emisión de MERRA-2 (polvo_emision_kg_m2_s) en lugar de la frecuencia de días con polvo de MODIS, que mide polvo en el aire y no la fuente, y falta en latitudes altas.",
+    "v2: viento usa tau > 0,20 Pa; con 0,05 Pa la fracción de horas está saturada (p90 terrestre 0,81, igual en minas y costas).",
+    "Sin cambio: eolico_arena. GSDP30 no cubre dunas pequeñas (Tottori, Vikursandur, Moses Lake: sin dato) y la regla del 10 % de la ventana no ve campos de dunas chicos (Mojave: máximo 0,97, p90 0,03). Se corrige con datos o con otra regla de ventana, no con el umbral."
+  ]
+}

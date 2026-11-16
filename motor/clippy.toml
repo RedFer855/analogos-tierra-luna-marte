@@ -1,0 +1,9 @@
+# I-41: permitir unwrap/expect/panic/dbg/indexación solo dentro de pruebas; en producción siguen en "deny".
+allow-unwrap-in-tests = true
+allow-expect-in-tests = true
+allow-panic-in-tests = true
+allow-dbg-in-tests = true
+allow-indexing-slicing-in-tests = true
+
+# Código numérico: i, j, k, m, p, q, r, s, u, w son los nombres de la matemática; el umbral por defecto (4) los rechaza.
+single-char-binding-names-threshold = 12

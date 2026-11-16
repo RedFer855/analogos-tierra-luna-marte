@@ -1,0 +1,202 @@
+{
+ "escenarios": 67,
+ "radio_km": 150.0,
+ "zonas": [
+  {
+   "lat": 37.497,
+   "lon": 75.751,
+   "max_apariciones": 33,
+   "s_max": 0.9997662155019982,
+   "objetivos": {
+    "SL-20": 33,
+    "SL-17": 17
+   }
+  },
+  {
+   "lat": 58.327,
+   "lon": 139.257,
+   "max_apariciones": 32,
+   "s_max": 0.9894090047274033,
+   "objetivos": {
+    "SL-17": 32
+   }
+  },
+  {
+   "lat": 74.027,
+   "lon": 92.873,
+   "max_apariciones": 29,
+   "s_max": 0.9990147494737773,
+   "objetivos": {
+    "SL-17": 31,
+    "SL-20": 10
+   }
+  },
+  {
+   "lat": 36.656,
+   "lon": 84.672,
+   "max_apariciones": 29,
+   "s_max": 1.0,
+   "objetivos": {
+    "SL-20": 31,
+    "SL-17": 14
+   }
+  },
+  {
+   "lat": 39.548,
+   "lon": 73.378,
+   "max_apariciones": 29,
+   "s_max": 0.999985224863055,
+   "objetivos": {
+    "SL-20": 33,
+    "SL-17": 14
+   }
+  },
+  {
+   "lat": 56.423,
+   "lon": -95.14,
+   "max_apariciones": 28,
+   "s_max": 1.0,
+   "objetivos": {
+    "SL-17": 33,
+    "SL-20": 7
+   }
+  },
+  {
+   "lat": 71.74,
+   "lon": -55.317,
+   "max_apariciones": 27,
+   "s_max": 1.0,
+   "objetivos": {
+    "SL-17": 28,
+    "SL-20": 31
+   }
+  },
+  {
+   "lat": 65.825,
+   "lon": 63.034,
+   "max_apariciones": 26,
+   "s_max": 1.0,
+   "objetivos": {
+    "SL-17": 29,
+    "SL-20": 27
+   }
+  },
+  {
+   "lat": 43.183,
+   "lon": -109.429,
+   "max_apariciones": 26,
+   "s_max": 1.0,
+   "objetivos": {
+    "SL-20": 27
+   }
+  },
+  {
+   "lat": 43.121,
+   "lon": 85.028,
+   "max_apariciones": 25,
+   "s_max": 1.0,
+   "objetivos": {
+    "SL-17": 34,
+    "SL-20": 25
+   }
+  },
+  {
+   "lat": 46.609,
+   "lon": 98.141,
+   "max_apariciones": 25,
+   "s_max": 1.0,
+   "objetivos": {
+    "SL-17": 42,
+    "SL-20": 19
+   }
+  },
+  {
+   "lat": 62.438,
+   "lon": -125.831,
+   "max_apariciones": 24,
+   "s_max": 1.0,
+   "objetivos": {
+    "SL-20": 33,
+    "SL-17": 24
+   }
+  },
+  {
+   "lat": 77.181,
+   "lon": -84.656,
+   "max_apariciones": 23,
+   "s_max": 0.9990434321136284,
+   "objetivos": {
+    "SL-17": 31,
+    "SL-20": 14
+   }
+  },
+  {
+   "lat": 61.06,
+   "lon": 152.052,
+   "max_apariciones": 23,
+   "s_max": 1.0,
+   "objetivos": {
+    "SL-17": 26
+   }
+  },
+  {
+   "lat": 71.173,
+   "lon": 54.653,
+   "max_apariciones": 23,
+   "s_max": 1.0,
+   "objetivos": {
+    "SL-20": 33,
+    "SL-17": 14
+   }
+  },
+  {
+   "lat": 81.266,
+   "lon": -72.035,
+   "max_apariciones": 20,
+   "s_max": 1.0,
+   "objetivos": {
+    "SL-17": 21,
+    "SL-20": 5
+   }
+  },
+  {
+   "lat": 76.641,
+   "lon": -109.165,
+   "max_apariciones": 20,
+   "s_max": 1.0,
+   "objetivos": {
+    "SL-17": 27,
+    "SL-20": 11
+   }
+  },
+  {
+   "lat": 62.99,
+   "lon": 176.754,
+   "max_apariciones": 20,
+   "s_max": 1.0,
+   "objetivos": {
+    "SL-20": 24,
+    "SL-17": 4
+   }
+  },
+  {
+   "lat": 41.25,
+   "lon": 48.142,
+   "max_apariciones": 20,
+   "s_max": 1.0,
+   "objetivos": {
+    "SL-20": 22
+   }
+  },
+  {
+   "lat": 42.435,
+   "lon": 73.595,
+   "max_apariciones": 20,
+   "s_max": 0.9827122737734899,
+   "objetivos": {
+    "SL-20": 30,
+    "SL-17": 4
+   }
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "SL-20/caso_A-07": {
+  "objetivo": {
+   "slope_mean_deg": 0.3639,
+   "rug_rms_p90_m": 2.5257,
+   "dtr_k": 42.121,
+   "viento_frac_tau_gt_0p05": 0.25,
+   "polvo_frec_dod0p2_pct": 25.0,
+   "arena_movil_frac": 0.2
+  },
+  "tolerancia": {
+   "slope_mean_deg": 0.1812,
+   "rug_rms_p90_m": 1.2809,
+   "dtr_k": 5.9447,
+   "viento_frac_tau_gt_0p05": 0.15,
+   "polvo_frec_dod0p2_pct": 12.0,
+   "arena_movil_frac": 0.15
+  }
+ },
+ "SL-20/caso_A-07_mcd_umbral": {
+  "objetivo": {
+   "slope_mean_deg": 0.3639,
+   "rug_rms_p90_m": 2.5257,
+   "dtr_k": 42.121,
+   "viento_frac_tau_gt_0p05": 0.2431,
+   "polvo_frec_dod0p2_pct": 56.5965,
+   "arena_movil_frac": 0.2
+  },
+  "tolerancia": {
+   "slope_mean_deg": 0.1812,
+   "rug_rms_p90_m": 1.2809,
+   "dtr_k": 5.9447,
+   "viento_frac_tau_gt_0p05": 0.0382,
+   "polvo_frec_dod0p2_pct": 5.2597,
+   "arena_movil_frac": 0.15
+  },
+  "fuera_del_alcance_de_la_tierra": {
+   "dtr_k": {
+    "objetivo_real": 72.71,
+    "tope_tierra_p99.9": 42.12
+   },
+   "polvo_frec_dod0p2_pct": {
+    "objetivo_real": 100.0,
+    "tope_tierra_p99.9": 56.6
+   }
+  }
+ },
+ "SL-20/caso_A-07_mcd_percentil": {
+  "objetivo": {
+   "slope_mean_deg": 0.3639,
+   "rug_rms_p90_m": 2.5257,
+   "dtr_k": 42.121,
+   "viento_frac_tau_gt_0p05": 0.8423,
+   "polvo_frec_dod0p2_pct": 36.051,
+   "arena_movil_frac": 0.2
+  },
+  "tolerancia": {
+   "slope_mean_deg": 0.1812,
+   "rug_rms_p90_m": 1.2809,
+   "dtr_k": 5.9447,
+   "viento_frac_tau_gt_0p05": 0.0115,
+   "polvo_frec_dod0p2_pct": 1.096,
+   "arena_movil_frac": 0.15
+  },
+  "fuera_del_alcance_de_la_tierra": {
+   "dtr_k": {
+    "objetivo_real": 72.71,
+    "tope_tierra_p99.9": 42.12
+   }
+  }
+ }
+}

@@ -1,0 +1,24 @@
+[package]
+name = "pipeline"
+description = "Binario nativo del motor: lee la tabla maestra por mmap, filtra, puntúa con rayon y escribe metrics.json (ADR-010)."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+
+[[bin]]
+name = "pipeline"
+path = "src/main.rs"
+
+[dependencies]
+nucleo = { path = "../nucleo" }
+anyhow = "1"
+bytemuck = "1"
+cdshealpix = "0.10.1"
+memmap2 = "0.9"
+rayon = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[lints]
+workspace = true
