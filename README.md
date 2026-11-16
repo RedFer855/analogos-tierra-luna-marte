@@ -8,6 +8,8 @@ Busca en la Tierra los lugares que se parecen a los sitios donde NASA planea una
 
 Todo el cálculo corre en la PC del que evalúa. El demo no necesita internet, ni cuenta, ni instalar nada.
 
+**Demo listo para descargar (Windows):** [release v1.0.0 — ZIP sin instalar nada](https://github.com/RedFer855/analogos-tierra-luna-marte/releases/tag/v1.0.0). Descomprimir y doble clic en `ABRIR.bat`. Instrucciones completas en §2.1.
+
 ---
 
 ## 1. Qué hace el proyecto
