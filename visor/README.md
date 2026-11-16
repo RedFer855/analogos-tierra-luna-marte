@@ -6,8 +6,6 @@
 
 ---
 
-> **Cambios del 2026-11-10:** seguridad, mediciones sin datos inventados, imagen y terreno sin clave, y rendimiento. Detalle en [`CAMBIOS-2026-11-10.md`](CAMBIOS-2026-11-10.md).
-
 ## 🚀 ¿Cómo Ejecutar el Proyecto? (En 1 Clic)
 
 Tienes dos formas sencillas de correr el proyecto una vez descomprimido el archivo `.zip`:
